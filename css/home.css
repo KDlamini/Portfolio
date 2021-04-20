@@ -1,0 +1,400 @@
+:root {
+	--bg-color: #d2deef;
+	--inner-shadow: inset 5px 5px 10px #b3bdcb, inset -5px -5px 10px #f2ffff;
+	--outer-shadow: 5px 5px 10px #b3bdcb, -5px -5px 10px #f2ffff;
+	--linear-background: linear-gradient(145deg, #e1eeff, #a5b1c2);
+	--smaller-shadow: 1px 1px 2px #b3bdcb, -1px -1px 2px #f2ffff;
+}
+
+.banner {
+	background: var(--bg-color);
+	width: 100%;
+	height: 98vh;
+	padding: 1.5%;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	box-shadow: var(--inner-shadow);
+	border-radius: 10px;
+	display:flex;
+    align-items: center;
+	justify-content: space-between;
+}
+
+.profile {
+	flex: 1;
+	display:flex;
+    align-items: center;
+	justify-content: center;
+	width: 25vw;
+	height: 24vw;
+	border-radius: 50%;
+	background: var(--bg-color);
+	box-shadow: var(--inner-shadow);
+	z-index: 1;
+}
+
+.profile-img {
+	display: block;
+    object-fit: cover;
+    width: 22vw;
+    height: 22vw;
+	border-radius: 50%;
+}
+
+.name{
+	flex: 3;
+	font-family: calibri;
+	height: 65vh;
+	display:flex;
+	flex-direction: column;
+    align-items: center;
+	justify-content: space-evenly;
+}
+.name p:nth-child(1),
+.profile, .name .details{
+	color:#292929;
+	font-size: 1.3rem;
+	padding: 1%;
+}
+.name h1{
+	font-family:Poppins;
+	font-size: 40px;
+	margin:0px;
+	letter-spacing: 3px;
+	color:#292929;
+}
+.cv-btn {
+	width:15vw;
+	height: 3vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ff3773;
+	font-weight: bold;
+	box-shadow: 0 -15px 15px rgba(0, 195, 255, 0.05),
+				inset 0 -15px 15px rgba(0, 195, 255, 0.05),  
+				0 15px 15px rgba(0, 0, 0, 0.3),
+				inset 0 15px 15px rgba(0, 0, 0, 0.3);
+	backdrop-filter: blur( 10.0px );
+	-webkit-backdrop-filter: blur( 10.0px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.1);
+}
+
+.effect-wrap .effect {
+	position: absolute;
+	z-index: 0;
+}
+
+.effect-1 {
+	width: 2.5vw;
+	height: 2.5vw;
+	border: 2px solid rgba(231, 85, 129, 0.9);
+	right: 40%;
+	bottom: 25%;
+	animation: spin 10s linear infinite;
+}
+
+.effect-2 {
+	width: 7vw;
+	height: 7vw;
+	right: 55%;
+	top: 2%;
+	padding: 0;
+}
+
+.effect-2 div {
+	width: 40%;
+	height: 40%;
+	border-radius: 30%;
+	border: 2px solid rgb(90, 200, 204);
+	animation: round 10s cubic-bezier(0.12, 0.09, 0.32, 0.7) infinite forwards;
+}
+
+.effect-3 {
+	width: 2.5vw;
+	height: 2.5vw;
+	top: 15%;
+	left: 15%;
+}
+
+.effect-3-0, 
+.effect-3-1 {
+	width: 90%;
+	height: 90%;
+}
+
+.effect-3, 
+.effect-3-0, 
+.effect-3-1 {
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 5px;
+	border-left: 3px solid rgb(151, 109, 29);
+	border-bottom: 3px solid rgb(151, 109, 29);
+	animation: spin 10s linear infinite;
+}
+
+.effect-4 {
+	width: 15vw;
+	height: 15vw;
+	right: 25%;
+	top: 10%;
+	border: 4px solid rgba(50, 156, 135, 0.5);
+	border-top: 6px solid rgba(0, 204, 163, 0.6);
+	box-shadow: var(--inner-shadow), var(--outer-shadow);
+	border-radius: 50%;
+	animation: spin 10s linear infinite;
+}
+
+.effect-4-0 {
+	width: 10vw;
+	height: 10vw;
+	right: 5%;
+	bottom: 5%;
+	border: 4px solid rgba(76, 140, 170, 0.5);
+	border-right: 6px solid rgba(0, 98, 143, 0.6);
+	box-shadow: var(--inner-shadow), var(--outer-shadow);
+	border-radius: 50%;
+	animation: spin 10s linear infinite;
+}
+
+.effect-5 {
+	width: 10vw;
+	height: 10vw;
+	left: 15%;
+	bottom: 20%;
+	border: 4px solid rgba(145, 106, 118, 0.5);
+	border-left: 6px solid rgba(236, 83, 129, 0.6);
+	box-shadow: var(--inner-shadow), var(--outer-shadow);
+	border-radius: 50%;
+	animation: spin 10s linear infinite;
+}
+ 
+@keyframes spin {
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+@keyframes round {
+	0%{
+		transform:translateX(0);
+	}
+	25%{
+		border: 2px solid rgb(123, 223, 30);
+		transform:translateY(100%);
+	}
+	50%{
+		border: 2px solid rgb(111, 53, 145);
+		transform:translateX(100%) translateY(100%);
+	}
+	75%{
+		border: 2px solid rgb(182, 46, 46);
+		transform:translateX(100%);
+	}
+	100%{
+		transform:translateX(0);
+	}
+}
+
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+	.nav-list {
+		height: 40vw;
+        width: 10vw;
+	}
+
+	.profile {
+		width: 24vw;
+		height: 24vw;
+		position: absolute;
+		top: 4%;
+		left: 43%;
+		border-radius: 50%;
+	}
+
+	.profile-img {
+		width: 22vw;
+		height: 22vw;
+		border-radius: 50%;
+	}
+
+	.profile p {
+		display: none;
+	}
+
+	.name {
+		width: 100%;
+		height: 70vw;
+		text-align: center;
+		padding-right: 0;
+	}
+
+	.name p:nth-child(1),
+	.profile, .name .details{
+		font-size: 1.6rem;
+	}
+
+	.cv-btn {
+		font-size: 1.2rem;
+		text-align: center;
+		width: 18vw;
+		height: 6vw;
+	}
+
+	.effect-2 {
+		right: 5%;
+	}
+
+	.effect-4 {
+		right: 15%;
+	}
+}
+@media only screen and (max-width: 725px){
+	/*Big smartphones [426px -> 600px]*/
+	.nav-list {
+		height: 60vw;
+		width: 10vw;
+	}
+
+	.profile {
+		width: 24vw;
+		height: 24vw;
+		position: absolute;
+		top: 2%;
+		left: 43%;
+		border-radius: 50%;
+	}
+
+	.profile-img {
+		width: 22vw;
+		height: 22vw;
+		border-radius: 50%;
+	}
+
+	.profile p {
+		display: none;
+	}
+
+	.name {
+		width: 100%;
+		height: 70vw;
+		padding-right: 0;
+	}
+
+	.name h1 {
+		font-size: 1.5rem;
+	}
+
+	.name p:nth-child(1),
+	.profile, .name .details{
+		font-size: 0.9rem;
+	}
+
+	.cv-btn {
+		font-size: 0.8rem;
+		text-align: center;
+		width: 20vw;
+		height: 5vw;
+	}
+
+	.effect-2 {
+		right: 5%;
+	}
+}
+@media only screen and (max-width: 425px){
+	/*Small smartphones [325px -> 425px]*/
+	.nav-list {
+		height: 60vw;
+		width: 12vw;
+	}
+
+	.profile {
+		width: 27vw;
+		height: 27vw;
+		position: absolute;
+		top: 10%;
+		left: 43%;
+	}
+
+	.name h1 {
+		font-size: 1.2rem;
+	}
+
+	.name p:nth-child(1),
+	.profile, .name .details{
+		font-size: 0.8rem;
+	}
+
+	.profile p {
+		display: none;
+	}
+
+	.profile-img {
+		width: 25vw;
+		height: 25vw;
+	}
+
+	.cv-btn {
+		font-size: 0.8rem;
+		text-align: center;
+		width: 30vw;
+		height: 9vw;
+		font-size: 0.7rem;
+	}
+
+	.effect-2 {
+		right: 5%;
+	}
+}
+
+@media screen and (orientation:landscape) and
+(min-device-width: 320px) and (max-device-width: 1200px) {
+	.nav-list {
+		height: 40vw;
+	}
+	.profile {
+		width: 12vw;
+		height: 12vw;
+		top: 10%;
+		left: 48%;
+	}
+
+	.profile-img {
+		width: 10vw;
+		height: 10vw;
+	}
+
+	.name {
+		height: 50vh;
+		margin-top: 55px;
+	}
+
+	.name h1 {
+		font-size: 1.2rem;
+	}
+
+	.name p:nth-child(1),
+	.profile, .name .details{
+		font-size: 0.8rem;
+	}
+
+	.cv-btn {
+		font-size: 0.8rem;
+		text-align: center;
+		width: 13vw;
+		height: 3vw;
+		font-size: 0.7rem;
+	}
+
+	.effect-1 {
+		right: 30%;
+	}
+
+	.effect-5 {
+		bottom: 5%;
+	}
+}

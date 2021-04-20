@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+
+:root {
+	--bg-color: #d2deef;
+    --page-bg: #7aacc0;
+	--inner-shadow: inset 5px 5px 10px #b3bdcb, inset -5px -5px 10px #f2ffff;
+    --outer-shadow: 5px 5px 10px #b3bdcb, -5px -5px 10px #f2ffff;
+    --linear-background: linear-gradient(145deg, #e1eeff, #a5b1c2);
+	--smaller-shadow: 1px 1px 2px #b3bdcb, -1px -1px 2px #f2ffff;
+    --tab-shadow: 5px 5px 10px #6892a3, -5px -5px 10px #8cc6dd;
+    --inner-tab: inset 5px 5px 10px #6892a3, inset -5px -5px 10px #8cc6dd;
+    --active-color: #91c230;
+}
+
+*:not(i) {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgba(84, 106, 136, 0.8);
+}
+
+.container {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.navbar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    height: 30vw;
+    padding: 5%;
+    background: var(--bg-color);
+    box-shadow: var(--inner-shadow);
+    border-radius: 10px;
+}
+
+.nav-list .icon {
+    color: #00c3ff;
+}
+
+.nav-list .btn {
+    margin: 20% 0;
+    padding: 15%;
+    background: var(--linear-background);
+    box-shadow: var(--outer-shadow);
+    border-radius: 10px;
+}
+
+.about-scroll-btn {
+    background: rgba( 48, 45, 45, 0.50 );
+    box-shadow: 0 -15px 15px rgba(0, 195, 255, 0.05),
+                inset 0 -15px 15px rgba(0, 195, 255, 0.05),  
+                0 15px 15px rgba(0, 0, 0, 0.3),
+                inset 0 15px 15px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur( 10.0px );
+    -webkit-backdrop-filter: blur( 10.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.1 );
+}
+
+.project-buttons button:hover,
+.filter-item.active,
+.contact-tab .icon:hover,
+.social a:hover,
+.tab-item.active {
+    background: var(--bg-color);
+    color: var(--active-color);
+    box-shadow: var(--inner-shadow);
+}
+
+.nav-list .btn:hover,
+.about-scroll-btn:hover,
+.cv-btn:hover, .tab-item:hover,
+.filter-item:hover {
+    cursor: pointer;
+    color: var(--active-color);
+    box-shadow: 5px 5px 10px rgba(103, 228, 245, 0.5), 
+                -5px -5px 10px rgba(85, 125, 233, 0.4);
+    transition: all ease 0.1s;
+}
+.filter-item.active:hover,
+.tab-item.active:hover {
+    box-shadow: var(--inner-shadow);
+} 
+
+.btn.home:hover .icon,
+.btn.info:hover .icon,
+.btn.tasks:hover .icon,
+.btn.tty:hover .icon,
+#linkedin-btn:hover .icon,
+#facebook-btn:hover .icon,
+#twitter-btn:hover .icon,
+#github-btn:hover .icon,
+.about-scroll-btn:hover .icon {
+    color: var(--active-color);
+}
+
+.nav-list .icon.active  {
+    color: var(--active-color);
+}
+
+.nav-list .btn.active {
+	color: var(--active-color);
+    box-shadow: var(--inner-tab);
+}
+
+.contact-right button:active,
+.about-scroll-btn:active,
+.contact-tab .icon:active,
+.project-buttons button:active,
+.social a:active, .cv-btn:active {
+	transform: scale(1.08);
+    box-shadow: inset -7px -7px 20px 0 rgba(103, 228, 245, 0.5), 
+                inset 7px 7px 20px 0 rgba(85, 125, 233, 0.4);
+	transition: all ease 0.01s;
+}
+
+
+#technical_skills .about-tabs,
+#projects .portfolio-filter {
+	flex: 0 0 100%;
+	max-width: 100%;
+	text-align: center;
+	padding: 5px auto;
+}
+
+
+.tab-item,
+.filter-item {
+	color:#00c3ff;
+	font-weight: 500;
+	padding: 0.5% 2%;
+	margin: 5px 10px;
+	font-size: 1.1rem;
+}
+
+.all-pages {
+    flex: 12;
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+}
+
+.page {
+    padding: 0.2%;
+    margin: 5px 2px;
+    margin-right: 5px;
+    background: #7aacc0;
+	box-shadow:  1px 1px 1px #6892a3,
+             -1px -1px 1px #8cc6dd;
+    border-radius: 10px;
+}
+
+.transition-fade {
+    opacity: 1;
+    transition: 1000ms;
+    transform: translateX(0);
+    transform-origin: left;
+}
+
+html.is-animating .transition-fade  {
+    opacity: 1;
+    transform: translateX(100%);
+}
+
+html.is-leaving .transition-fade {
+    opacity: 0;
+    transform: translateX(0);
+}
+
+#home .profile,
+.card-wrapper,
+#contact-form form {
+    animation: slideIn 1s ease;
+}
+
+.portfolio-filter,
+.contact-info,
+#home .name {
+    animation: slideDown 1s ease;
+}
+
+.project-card.active,
+.expertise-section .tab-content.active  {
+    animation: tabSlideDown 1s ease;
+}
+
+@keyframes slideIn {
+    0%{
+		opacity: 0;
+		transform: translateX(100%);
+	}
+	100%{
+		opacity: 1;
+		transform: translateX(0px)
+	}
+}
+
+@keyframes slideDown {
+    0%{
+		opacity: 0;
+		transform: translateY(-100%);
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(0px)
+	}
+}
+
+@keyframes tabSlideDown {
+    0%{
+		opacity: 0;
+		transform: translateY(-30px);
+	}
+	100%{
+		opacity: 1;
+		transform: translateY(0px)
+	}
+}
