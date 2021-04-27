@@ -1,29 +1,39 @@
-const swup = new Swup();
-
 //-------------------Navbar buttons tab-------------------------
 
 (() => {
     const navList = document.querySelector('.nav-list');
+    const allPages = document.querySelector('.all-pages');
     
     navList.addEventListener('click', (event) => {
-        let targetClasses = event.target.classList
-        localStorage.setItem('navbtn', targetClasses);
+        let item = event.target;
+        
+        if(item.classList.contains('btn') || item.classList.contains('icon') && !item.classList.contains('active')) {
+            let targetMainClass = item.classList[0];
+
+            //deactivate existing active nav
+            navList.querySelector(".btn.active").classList.remove("active");
+            navList.querySelector(".icon.active").classList.remove("active");
+
+            //add active to the clicked nav
+            navList.querySelector("."+targetMainClass+".btn").classList.add("active");
+            navList.querySelector("."+targetMainClass+".icon").classList.add("active");
+
+            //deactivate existing page content
+            allPages.querySelector('.page.active').classList.remove("active");
+
+            if(allPages.querySelector('#technical_skills.page').classList.contains("active")) {
+                allPages.querySelector('#technical_skills.page').classList.remove("active");
+            }
+
+            //activate new page content
+            allPages.querySelector("#"+targetMainClass+ ".page").classList.add("active");
+
+            if(targetMainClass === "info") {
+                allPages.querySelector('#technical_skills.page').classList.add("active");
+            }
+        }
     })
 
-})();
-
-(() => {
-    let clickedNavBtn = localStorage.getItem('navbtn');
-    let previousActiveBtn = document.querySelector('.btn.active');
-    let previousActiveIcon = document.querySelector('.icon.active')
-
-    previousActiveBtn.classList.remove("active");
-    previousActiveIcon.classList.remove("active");
-
-    let clickedClasses = clickedNavBtn.split(" ");
-
-    document.querySelector("."+ clickedClasses[0] + ".btn").classList.add("active");
-    document.querySelector("."+ clickedClasses[0] + ".icon").classList.add("active");
 })();
 
 //-------------------About Section tabs-------------------------

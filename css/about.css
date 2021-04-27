@@ -70,7 +70,7 @@
 .about-scroll-btn {
 	position: absolute;
 	top: 2%;
-	right: 48%;
+	right: 50%;
 	border: none;
 }
 
@@ -81,11 +81,11 @@
 
 .arrow-line {
 	align-self: end;
-	width: 46%;
-	height: 8%;
+	width: 50%;
+	height: 12%;
 	margin-bottom: 4em;
 	position: absolute;
-	bottom:65%;
+	bottom: 35%;
 	left: -3%;
 	border-right: 1px solid  rgba(23, 209, 172, 0.5);
 }
@@ -104,8 +104,8 @@
 
 .social{
 	position: absolute;
-	right: 42%;
-	top: 43%;
+	right: 40%;
+	bottom: 5%;
 	display: flex;
 }
 
@@ -122,7 +122,7 @@
 	font-size: 1em;
 }
 
-#about.page,
+#info.page,
 #technical_skills.page {
 	min-height: 95vh;
 }
@@ -154,6 +154,24 @@
 	box-shadow: var(--tab-shadow);
 	border-radius: 10px;
 	font-weight: bold;
+}
+
+.programming-languages {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	border-radius: 10px;
+	padding: 30px;
+	margin: 20px auto;
+	box-shadow: var(--inner-shadow);
+}
+
+.language {
+	text-align: center;
+}
+
+.language .icon {
+	font-size: 3rem;
 }
 
 .skills.tab-content {
@@ -229,10 +247,9 @@
 .timeline::before {
 	content: '';
 	width: 1px;
-	height: 45%;
+	height: 100%;
 	position: absolute;
-	bottom: 4%;
-	left: 50%;
+	left: 53.8%;
 	background:rgba(151, 38, 72, 0.8);
 	z-index: 0;
 }
@@ -403,7 +420,7 @@
 		font-size: 0.9rem;
 	}
 
-	#about.page {
+	#info.page {
 		height: auto;
 	}
 
@@ -501,7 +518,7 @@
 		width: 30%;
 	}
 
-	#about.page {
+	#info.page {
 		height: auto;
 	}
 
@@ -557,7 +574,7 @@
 		height: 40vw;
 	}
 
-	#about.page,
+	#info.page,
 	.about-banner {
 		height: auto;
 	}

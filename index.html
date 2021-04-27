@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/home.css">
-    <script defer src="./node_modules/swup/dist/swup.min.js"></script>
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/projects.css">
+    <link rel="stylesheet" href="./css/contact.css">
     <script defer src="./js/script.js"></script>
     <title>Simo Dlamini</title>
 </head>
@@ -15,21 +17,23 @@
     <main class="container">
         <nav class="navbar">
             <div class="nav-list">
-                <a href="index.html" class="home btn active"><i class="home icon active"></i></a>
-                <a href="./public/about.html" class="info btn"><i class="info icon"></i></a>
-                <a href="./public/projects.html" class="tasks btn"><i class="tasks icon"></i></a>
-                <a href="./public/projects.html" class="tty btn"><i class="tty icon"></i></a>
+                <a href="#home" class="home btn active"><i class="home icon active"></i></a>
+                <a href="#info" class="info btn"><i class="info icon"></i></a>
+                <a href="#tasks" class="tasks btn"><i class="tasks icon"></i></a>
+                <a href="#tty" class="tty btn"><i class="tty icon"></i></a>
             </div>
         </nav>
-        <div id="swup" class="all-pages">
-            <!--Home Page with Banner-->
+
+        <!--Home Page with Banner Section-->
+
+        <div class="all-pages">
             <section id="home" class="page active">
                 <div class="banner">
                     <div class="name">
                         <p>Hello,</p>
                         <h1>I'm <font color="#ff3773">Simo</font> Dlamini</h1>
                         <p class="details">
-                            I'm a self-taught <strong>Web Developer</strong> . I am very excited 
+                            I'm a self-taught, commercially oriented <strong>Web Developer</strong> with a strong passion for digital innovation. I am very excited 
                             to work with you. Welcome to my world!
                         </p>
                         <a href="./public/documents/Simosakhe Dlamini Resume.pdf" target="_blank" class=" cv-btn"><div>Download Cv</div></a>
@@ -54,7 +58,497 @@
                     </div>
                 </div>
             </section>
+
+            <!--About Page with Skills Section-->
+
+            <section id="info" class="page">
+                <div class="about-banner">
+                    <a href="#skillstab">
+                        <div class="about-scroll-btn">
+                            <i class="caret down icon"></i>
+                        </div>
+                    </a>
+                    
+                    <div class=" social">
+                        <a id="linkedin-btn" href="#"><i class="linkedin icon"></i></a>
+                        <a id="facebook-btn" href="#"><i class="facebook f icon"></i></a>	
+                        <a id="twitter-btn" href="#"><i class="twitter icon"></i></a>
+                        <a id="github-btn" href="#"><i class="github icon"></i></a>	
+                    </div>
+
+                    <div class="about-profile">
+                        <img alt="model" src="./public/images/IMG_20191228_165031_419.jpg" class="about-img"/>	
+                    </div>
+                    <div class="about-text">
+                        <h1>About me</h1>
+                        <h2>Freelancing Front-end Developer</h2>
+                        <p>I specialize in JavaScript React, NodeJS, Express, Mongoose/MongoDB, Ruby, 
+                            Ruby-on-Rails and many more exciting technologies.
+                        </p>
+                        <p>My journey as as self-taught web developer has been full of excitement when I learn new things. 
+                            An experience of curiousity, wonder, and of course the weather of confusion. yup! 
+                            nevertheless, It has brought me a sense of joy, enligtenment and discovery of my untaped potential for creatively advanced design interfacing, 
+                            analytic problem solving skills and the passion for making the world a better place. 
+                        </p>
+                    </div>
+
+                    <div class=" arrow-line" ></div>
+                </div>
+            </section>
+
+            <section id="technical_skills" class="page">
+                <div class="row">
+                    <div class="about-tabs">
+                        <span class="tab-item active" data-target=".skills">skills</span>
+                        <span class="tab-item" data-target=".education">education</span>
+                        <span class="tab-item" data-target=".experience">experience</span>
+                    </div>
+                </div>
+
+                <!--skills tab content -->
+
+                <div class="expertise-section">
+                    
+                    <div id="skillstab" class="skills tab-content active">
+                        <div class="programming-languages">
+                            <div class="language">
+                                <i class="html5 icon"></i>
+                                <p>Html5</p>
+                            </div>
+
+                            <div class="language">
+                                <i class="css3 icon"></i>
+                                <p>CSS3</p>
+                            </div>
+
+                            <div class="language">
+                                <i class="js square icon"></i>
+                                <p>JavaScript</p>
+                            </div>
+
+                            <div class="language">
+                                <i class="react icon"></i>
+                                <p>ReactJS</p>
+                            </div>
+
+                            <div class="language">
+                                <i class="node js icon"></i>
+                                <p>NodeJS</p>
+                            </div>
+
+                            <div class="language">
+                                <i class="gem icon"></i>
+                                <p>Ruby</p>
+                            </div>
+                        </div>
+
+                        <div class="skill-item-wrapper">
+                            <!--skill start-->
+                            <div class="skill-item">
+                                <p>Html5 <span>50%</span></p>
+                                <div class="progress-bar" style="width: cal(50% - 10px)">
+                                    <div class="html-skill"></div>
+                                </div>
+                            </div>
+                            <!--skill end-->
+
+                            <!--skill start-->
+                            <div class="skill-item">
+                                <p>JavaScript <span>60%</span></p>
+                                <div class="progress-bar" style="width: cal(50% - 10px)">
+                                    <div class="javascript-skill"></div>
+                                </div>
+                            </div>
+                            <!--skill end-->
+
+                            <!--skill start-->
+                            <div class="skill-item">
+                                <p>Css3 <span>55%</span></p>
+                                <div class="progress-bar" style="width: cal(50% - 10px)">
+                                    <div class="css-skill"></div>
+                                </div>
+                            </div>
+                            <!--skill end-->
+
+                            <!--skill start-->
+                            <div class="skill-item">
+                                <p>ReactJS <span>65%</span></p>
+                                <div class="progress-bar" style="width: cal(50% - 10px)">
+                                    <div class="react-skill"></div>
+                                </div>
+                            </div>
+                            <!--skill end-->
+
+                            <!--skill start-->
+                            <div class="skill-item">
+                                <p>NodeJS <span>40%</span></p>
+                                <div class="progress-bar" style="width: cal(50% - 10px)">
+                                    <div class="node-skill"></div>
+                                </div>
+                            </div>
+                            <!--skill end-->
+
+                            <!--skill start-->
+                            <div class="skill-item">
+                                <p>Ruby <span>70%</span></p>
+                                <div class="progress-bar" style="width: cal(50% - 10px)">
+                                    <div class="ruby-skill"></div>
+                                </div>
+                            </div>
+                            <!--skill end-->
+                            
+                        </div>
+                    </div>
+
+                    <!--experience tab content -->
+
+                    <div class="experience tab-content">
+                        <div class="timeline">
+                            <!--timeline item start-->
+                            <div class="timeline-item">
+                                <div class="timeline-item-inner">
+                                    <i class="briefcase icon"></i>
+                                    <span>Mar, 2020 - present</span>
+                                    <h3>Freelance Developer</h3>
+                                    <h4>NKOSI Imperial Digital Solutions, SA</h4>
+                                    <p> • Interfaced with clients to identify business requirements for business proposals. <br/>
+                                        • Responsive design solutions with CSS media queries, Bootstrap, Material UI and Semantic UI. <br/>
+                                        • ReactJS, Express.js, NodeJS and MongoDB web applications. <br/>
+                                        • Microsoft Suite and Google services for publishing, SEO, advertising and analytics. <br/>
+                                        • Graphic Design services > logos, flyers, resumes, invitation cards, product branding and advertisements.
+                                    </p>
+                                </div>
+                            </div>
+                            <!--timeline item end-->
+
+                            <!--timeline item start-->
+                            <div class="timeline-item">
+                                <div class="timeline-item-inner">
+                                    <i class="briefcase icon"></i>
+                                    <span>Apr, 2018 - Feb, 2020</span>
+                                    <h3>Service Ambassador</h3>
+                                    <h4>CasaBella Woodlands, Pretoria</h4>
+                                    <p> • Demonstrated genuine hospitality while greeting and establishing rapport with guests. <br/>
+                                        • Maintained high standards of cleanliness and sanitation. <br/>
+                                        • Described menu items, special offerings, and appropriately identified wine pairings.
+                                </div>
+                            </div>
+                            <!--timeline item end-->
+
+                            <!--timeline item start-->
+                            <div class="timeline-item">
+                                <div class="timeline-item-inner">
+                                    <i class="briefcase icon"></i>
+                                    <span>Sep, 2015 - Mar, 2018</span>
+                                    <h3>Service Ambassador</h3>
+                                    <h4>KOI Asian Infused, Menlyn Maine</h4>
+                                    <p> • Handled +-R 20 000 cash on a daily basis, which built trustworthiness and loyalty with owners. <br/>
+                                        • Ensured superior service and efficiency at all times. <br/>
+                                        • Up sold daily specials and beverage promotions to exceed daily sales goals.
+                                    </p>
+                                </div>
+                            </div>
+                            <!--timeline item end-->
+                        </div>
+                    </div>
+
+                    <!--education tab content -->
+
+                    <div class="education tab-content">
+                        <div class="timeline">
+                            <!--timeline item start-->
+                            <div class="timeline-item">
+                                <div class="timeline-item-inner">
+                                    <i class="graduation cap icon"></i>
+                                    <span>May, 2021 - Jan, 2022</span>
+                                    <h3>Full-Stack Web Development</h3>
+                                    <h4>Microverse, CA</h4>
+                                    <p> ▪ Html5, CSS, JavaScript<br/>
+                                        ▪ ReactJS, Redux > Hooks and Context APIs<br/>
+                                        ▪ Ruby and Ruby-on-Rails<br/>
+                                        ▪ Data Structures and Algorithms<br/>
+                                        ▪ Databases<br/>
+                                    </p>
+                                </div>
+                            </div>
+                            <!--timeline item end-->
+
+                            <!--timeline item start-->
+                            <div class="timeline-item">
+                                <div class="timeline-item-inner">
+                                    <i class="graduation cap icon"></i>
+                                    <span>Apr, 2018 - Nov, 2020</span>
+                                    <h3>Full-Stack Web Development</h3>
+                                    <h4>FreeCodeCamp, CA</h4>
+                                    <p> ▪ Responsive Web Design (HTML, CSS, Flexbox, CSS Grid) <br/>
+                                        ▪ Front End Libraries (React, Redux, Sass, Bootstrap,
+                                        jQuery) <br/>
+                                        ▪ JavaScript Algorithms and Data Structures (JavaScript) <br/>
+                                        ▪ Data Visualization (D3.js) <br/>
+                                        ▪ APIs and Microservices (Node.js, Express.js, databases) <br/>
+                                        ▪ Information Security and Quality
+                                    </p>
+                                </div>
+                            </div>
+                            <!--timeline item end-->
+
+                            <!--timeline item start-->
+                            <div class="timeline-item">
+                                <div class="timeline-item-inner">
+                                    <i class="graduation cap icon"></i>
+                                    <span>Jan, 2010 - Nov, 2012</span>
+                                    <h3>National Senior Certificate</h3>
+                                    <h4>Mathews Phosa College, Nelspruit</h4>
+                                    <p> ▪ Information Technology (ICT)<br/>
+                                        ▪ Advanced Mathematics <br/>
+                                        ▪ Physics and Chemistry <br/>
+                                        ▪ English Literature <br/>
+                                        ▪ Biology <br/>
+                                        ▪ Life Orientation
+                                    </p>
+                                </div>
+                            </div>
+                            <!--timeline item end-->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--Projects Page Section-->
+
+            <section id="tasks" class="page">
+
+                <!--------Portfilio Navigation-->
+                <div class="portfolio-filter">
+                    <span class="filter-item active" data-target=".all">All</span>
+                    <span class="filter-item" data-target=".web-application">Web application</span>
+                    <span class="filter-item" data-target=".graphic-design">Graphic design</span>
+                    <span class="filter-item" data-target=".e-commerce">E-commerce</span>
+                </div>
+
+                <!--------Portfilio Container-->
+                <div class="portfolio-container">
+
+                    <div class="card-wrapper">
+
+                        <div class="all web-application project-card active">
+                            <div class="project-img-wrapper">
+                                <img src=" ./public/images/project_personal_portfolio.png" alt="">
+                            </div>
+
+                            <div class="inner-content">
+                                <h3 class="project-name">Personal Portfolio</h3>
+                                <div class="description">
+                                    <h4 class="description-title"><font>Tools: </font> Html, Css, JavaScript, Semantic UI</h4>
+                                    <p class="description-text">
+                                        • I applied neumorphism effects and css animations for the theme.<br/>
+                                        • Responsive design with media queries for smartphone and tablet compartibility. <br/>
+                                        • Vanilla javascript for functionality. <br/>
+                                        • Semantic UI for icons.
+                                    </p>
+                                </div>
+                                <div class="project-buttons">
+                                    <a href="https://github.com/KDlamini/Portfolio" target="_blank">
+                                        <button><i class="code icon"></i></button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="all web-application project-card active">
+                            <div class="project-img-wrapper">
+                                <img src=" ./public/images/music_player.png" alt="">
+                            </div>
+                            
+                            <div class="inner-content">
+                                <h3 class="project-name">Zemo Music Player</h3>
+                                <div class="description">
+                                    <h4 class="description-title"><font>Tools: </font> React, Css, Font Awesome</h4>
+                                    <p class="description-text">
+                                        A music player named after Marvel anti-hero Baron Zemo, inspired by the club dance scene/song that was released by Marvel as a troll
+                                        from the Falcon and Winter soldier Disney series. <br/>
+                                        • I used ReactJs hooks for handling state <br/>
+                                        • I applied neumorphism effects with css for the theme.
+                                    </p>
+                                </div>
+                                <div class="project-buttons">
+                                    <a href="https://zemoplayer.netlify.app/" target="_blank">
+                                        <button><i class="globe icon"></i></button>
+                                    </a>
+                                    <a href="https://github.com/KDlamini/zemo_music_player" target="_blank">
+                                        <button><i class="code icon"></i></button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="all web-application project-card active">
+                            <div class="project-img-wrapper">
+                                <img src=" ./public/images/image_02.jpg" alt="">
+                            </div>
+                            
+                            <div class="inner-content">
+                                <h3 class="project-name">Full Stack Project</h3>
+                                <div class="description">
+                                    <h4 class="description-title"><font>Tools: </font> React, Css, JavaScript</h4>
+                                    <p class="description-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                                        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                                        optio, eaque rerum! Provident similique accusantium nemo autem.
+                                    </p>
+                                </div>
+                                <div class="project-buttons">
+                                    <button><i class="globe icon"></i></button>
+                                    <button><i class="code icon"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="all web-application project-card active">
+                            <div class="project-img-wrapper">
+                                <img src=" ./public/images/image_03.png" alt="">
+                            </div>
+                            
+                            <div class="inner-content">
+                                <h3 class="project-name">MERN</h3>
+                                <div class="description">
+                                    <h4 class="description-title"><font>Tools: </font> Html, Css, JavaScript</h4>
+                                    <p class="description-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                                        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                                        optio, eaque rerum! Provident similique accusantium nemo autem.
+                                    </p>
+                                </div>
+                                <div class="project-buttons">
+                                    <button><i class="globe icon"></i></button>
+                                    <button><i class="code icon"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="all graphic-design project-card active">
+                            <div class="project-img-wrapper">
+                                <img src=" ./public/images/image_04.jpg" alt="">
+                            </div>
+                            
+                            <div class="inner-content">
+                                <h3 class="project-name">Express Project</h3>
+                                <div class="description">
+                                    <h4 class="description-title"><font>Tools: </font> Html, Css, JavaScript</h4>
+                                    <p class="description-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                                        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                                        optio, eaque rerum! Provident similique accusantium nemo autem.
+                                    </p>
+                                </div>
+                                <div class="project-buttons">
+                                    <button><i class="globe icon"></i></button>
+                                    <button><i class="code icon"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="all e-commerce project-card active">
+                            <div class="project-img-wrapper">
+                                <img src=" ./public/images/image_05.jpg" alt="">
+                            </div>
+                            
+                            <div class="inner-content">
+                                <h3 class="project-name">Full Stack Project</h3>
+                                <div class="description">
+                                    <h4 class="description-title"><font>Tools: </font> Html, Css, JavaScript</h4>
+                                    <p class="description-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                                        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                                        optio, eaque rerum! Provident similique accusantium nemo autem.
+                                    </p>
+                                </div>
+                                <div class="project-buttons">
+                                    <button><i class="globe icon"></i></button>
+                                    <button><i class="code icon"></i></button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="all e-commerce project-card active">
+                            <div class="project-img-wrapper">
+                                <img src=" ./public/images/image_06.jpg" alt="">
+                            </div>
+                            
+                            <div class="inner-content">
+                                <h3 class="project-name">Lastly</h3>
+                                <div class="description">
+                                    <h4 class="description-title"><font>Tools: </font> Html, Css, JavaScript</h4>
+                                    <p class="description-text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                                        molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                                        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                                        optio, eaque rerum! Provident similique accusantium nemo autem.
+                                    </p>
+                                </div>
+                                <div class="project-buttons">
+                                    <button><i class="globe icon"></i></button>
+                                    <button><i class="code icon"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!--Contacts Page Section-->
+
+            <section id="tty" class="page">
+                <div id="contact-form">
+                    <div class="contact-info">
+                        <div class="phone-tab contact-tab">
+                            <a href="tel:+27 67 0980 127"><i class="phone icon"></i></a>
+                            <h4>Phone</h4>
+                            <p>+27 67 0980 127</p>
+                        </div>
+                        <div class="email-tab contact-tab">
+                            <a href="mailto: simosakhenkosi@gmail.com"></a><i class="envelope icon"></i>
+                            <h4>Email</h4>
+                            <p>simosakhenkosi@gmail.com</p>
+                        </div>
+                        <div class="address-tab contact-tab">
+                            <a href="https://www.google.com/maps/place/17+Roux+St,+The+Reeds,+Centurion,+0061/@-25.895956,28.1248053,17z/data=!3m1!4b1!4m5!3m4!1s0x1e956539086d5e89:0xcd16eec19f21ae48!8m2!3d-25.895956!4d28.126994" target="_blank">
+                                <i class="map marker alternate icon"></i>
+                            </a>
+                            <h4>Address</h4>
+                            <p>17 Roux, The Reeds, Centurion</p>
+                        </div>
+                    </div>
+                    <form name="contact" method="POST" data-netlify="true">
+                        <div class="contact-left">
+                            <h1 class="c-l-heading"><font style="border-bottom: 3px solid #1ED98B;">Writ</font>e me</h1>
+                            <div class="f-name">
+                                <font >Name</font>
+                                <input type="text" placeholder="Full Name"/>
+                            </div>
+                            <div class="f-email">
+                                <font >Email</font>
+                                <input type="email" placeholder="Example@gmail.com"/>
+                            </div>
+                        </div>
+
+                        <div class="contact-right">
+                            <div class="message">
+                                <font >Message</font>
+                                <textarea name="message" rows="5" cols="20" placeholder="Write Message..."></textarea>
+                            </div>
+                            <button>submit</button>
+                        </div> 
+                    </form>
+                </div>
+            </section>
         </div>
+
     </main>
 </body>
 </html>
