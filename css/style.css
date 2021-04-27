@@ -47,7 +47,6 @@ body {
     justify-content: center;
     width: 95%;
     height: 30vw;
-    padding: 5%;
     background: var(--bg-color);
     box-shadow: var(--inner-shadow);
     border-radius: 10px;
