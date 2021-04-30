@@ -207,11 +207,6 @@
 
 @media only screen and (max-width: 1200px){
     /*Tablets [601px -> 1200px]*/
-	.nav-list {
-		height: 40vw;
-        width: 10vw;
-	}
-
 	.profile {
 		width: 24vw;
 		height: 24vw;
@@ -260,11 +255,6 @@
 }
 @media only screen and (max-width: 725px){
 	/*Big smartphones [426px -> 600px]*/
-	.nav-list {
-		height: 60vw;
-		width: 10vw;
-	}
-
 	.profile {
 		width: 24vw;
 		height: 24vw;
@@ -312,10 +302,6 @@
 }
 @media only screen and (max-width: 425px){
 	/*Small smartphones [325px -> 425px]*/
-	.nav-list {
-		height: 60vw;
-		width: 12vw;
-	}
 
 	.profile {
 		width: 27vw;
@@ -358,9 +344,6 @@
 
 @media screen and (orientation:landscape) and
 (min-device-width: 320px) and (max-device-width: 1200px) {
-	.nav-list {
-		height: 40vw;
-	}
 	.profile {
 		width: 12vw;
 		height: 12vw;
@@ -397,6 +380,7 @@
 
 	.effect-1 {
 		right: 30%;
+		bottom: 10%;
 	}
 
 	.effect-5 {

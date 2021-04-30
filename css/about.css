@@ -19,7 +19,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 10px 5% 0px 0;
+	padding: 10px 5% 0 0;
 }
 
 .about-profile {
@@ -130,9 +130,7 @@
 /* ----------------- Second About page -----------------*/
 
 #technical_skills.page {
-	margin-top: 20px;
-	margin-bottom: 20px;
-	min-height: 90vh;
+	margin-top: 10px;
 }
 /*------------------------- skills tab ----------------------*/
 
@@ -141,7 +139,7 @@
 	box-shadow: var(--inner-shadow);
 	border-radius: 10px;
 	margin-top: 20px;
-	min-height: 85vh;
+	min-height: 90vh;
 	padding: 20px;
 }
 
@@ -320,11 +318,6 @@
 
 @media only screen and (max-width: 1200px){
     /*Tablets [601px -> 1200px]*/
-	.nav-list {
-		height: 40vw;
-        width: 10vw;
-	}
-
 	.about-banner {
 		padding-left: 2%;
 	}
@@ -357,14 +350,10 @@
 }
 @media only screen and (max-width: 725px){
 	/*Big smartphones [426px -> 600px]*/
-	.nav-list {
-		height: 60vw;
-		width: 10vw;
-	}
-
 	.about-banner {
 		display: flex;
 		flex-direction: column;
+		justify-content: space-between;
 		height: auto;
 	}
 
@@ -469,15 +458,11 @@
 }
 
 @media only screen and (max-width: 425px) {
-	/*Small smartphones [326px -> 425px]*/
-	.nav-list {
-		height: 60vw;
-		width: 12vw;
-	}
-	
+	/*Small smartphones [326px -> 425px]*/	
 	.about-banner {
 		display: flex;
 		flex-direction: column;
+		justify-content: space-between;
 		height: auto;
 	}
 
@@ -605,10 +590,6 @@
 
 @media screen and (orientation:landscape) and
 (min-device-width: 320px) and (max-device-width: 1200px) {
-	.nav-list {
-		height: 32vw;
-	}
-
 	.about-banner { 
 		padding-top: 3%;
 	}
