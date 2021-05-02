@@ -224,12 +224,12 @@
 	border-radius: 5px;
 }
 
-.progress-bar .html-skill { width: 50%; }
+.progress-bar .html-skill { width: 80%; }
 .progress-bar .javascript-skill { width: 60%; }
-.progress-bar .css-skill { width: 55%; }
+.progress-bar .css-skill { width: 75%; }
 .progress-bar .react-skill { width: 65%; }
-.progress-bar .node-skill { width: 40%; }
-.progress-bar .ruby-skill { width: 70%; }
+.progress-bar .node-skill { width: 60%; }
+.progress-bar .ruby-skill { width: 60%; }
 
 /*-------------------- End of skills tab------------------*/
 
