@@ -99,7 +99,7 @@ body {
 .filter-item.active:hover,
 .tab-item.active:hover {
     box-shadow: var(--inner-shadow);
-} 
+}
 
 .btn.home:hover .icon,
 .btn.info:hover .icon,
