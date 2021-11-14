@@ -1,0 +1,22 @@
+*:not(i) {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+@import '../variables/variables.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+  background: $bg-color;
+}
+
+.App {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
