@@ -36,8 +36,8 @@
   width: 100%;
   height: 60%;
   background: #d2deef;
-  -webkit-box-shadow: inset 5px 5px 10px #b3bdcb, inset -5px -5px 10px #f2ffff;
-          box-shadow: inset 5px 5px 10px #b3bdcb, inset -5px -5px 10px #f2ffff;
+  -webkit-box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
+          box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
@@ -57,8 +57,8 @@
 
 .nav-btn:hover {
   background: #d2deef;
-  -webkit-box-shadow: inset 5px 5px 10px #b3bdcb, inset -5px -5px 10px #f2ffff;
-          box-shadow: inset 5px 5px 10px #b3bdcb, inset -5px -5px 10px #f2ffff;
+  -webkit-box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
+          box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
   -webkit-transition: all ease 0.1s;
   transition: all ease 0.1s;
 }
@@ -74,7 +74,7 @@
 }
 
 .active-navlink .icon {
-  color: #00c3ff;
+  color: #00abdf;
   font-size: 1rem;
 }
 /*# sourceMappingURL=Navbar.css.map */
