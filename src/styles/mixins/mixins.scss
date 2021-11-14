@@ -2,6 +2,22 @@
 
 @mixin button_hover {
   background: $bg-color;
-  color: $active-color;
   box-shadow: $inner-shadow;
+}
+
+@mixin page {
+  padding: 1px;
+  margin: 5px;
+  background: $page-bg;
+  box-shadow:
+    1px 1px 1px #6892a3,
+    -1px -1px 1px #8cc6dd;
+  border-radius: 5px;
+}
+
+@mixin inner_page {
+  width: 100%;
+  background: $bg-color;
+  box-shadow: $inner-shadow;
+  border-radius: 5px;
 }
