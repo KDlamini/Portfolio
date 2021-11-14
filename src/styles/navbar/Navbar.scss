@@ -40,15 +40,18 @@
 
 .nav-btn:hover {
   @include button_hover;
+
   transition: all ease 0.1s;
 }
 
 .active-navlink {
   @include nav_button;
-  box-shadow: inset -2px -2px 4px rgba(103, 228, 245, 0.5), 
-  inset 2px 2px 4px rgba(85, 125, 233, 0.4);
+
+  box-shadow:
+    inset -2px -2px 4px rgba(103, 228, 245, 0.5),
+    inset 2px 2px 4px rgba(85, 125, 233, 0.4);
 
   .icon {
-      color: $active-color;
+    color: $active-color;
   }
 }
