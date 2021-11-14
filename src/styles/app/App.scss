@@ -4,6 +4,7 @@
 }
 
 @import '../variables/variables.scss';
+@import '../mixins/mixins.scss';
 
 body {
   margin: 0;
@@ -15,4 +16,13 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
+}
+
+.homepage,
+.about,
+.projects,
+.contact {
+  flex: 14;
+
+  @include page;
 }

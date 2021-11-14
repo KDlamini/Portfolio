@@ -1,0 +1,32 @@
+*:not(i) {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #d2deef;
+}
+
+.App {
+  display: -webkit-box;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.homepage,
+.about,
+.projects,
+.contact {
+  -webkit-box-flex: 14;
+  -ms-flex: 14;
+  flex: 14;
+  padding: 0.2%;
+  margin: 5px;
+  background: #7aacc0;
+  -webkit-box-shadow: 1px 1px 1px #6892a3, -1px -1px 1px #8cc6dd;
+  box-shadow: 1px 1px 1px #6892a3, -1px -1px 1px #8cc6dd;
+  border-radius: 5px;
+}

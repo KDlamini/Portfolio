@@ -1,0 +1,5 @@
+@import '../mixins/mixins.scss';
+
+.banner {
+  @include inner_page;
+}

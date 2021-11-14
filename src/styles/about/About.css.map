@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,MAAM,CAAC;EACL,OAAO,EAAE,CAAC;CACX",
+    "sources": [
+        "About.scss",
+        "../mixins/mixins.scss",
+        "../variables/variables.scss"
+    ],
+    "names": [],
+    "file": "About.css"
+}
