@@ -41,10 +41,6 @@
 .nav-btn:hover {
   @include button_hover;
   transition: all ease 0.1s;
-
-  .icon {
-    color: $active-color;
-  }
 }
 
 .active-navlink {

@@ -60,10 +60,6 @@
   transition: all ease 0.1s;
 }
 
-.nav-btn:hover .icon {
-  color: #00c3ff;
-}
-
 .active-navlink {
   margin: 20% 0;
   padding: 15%;
