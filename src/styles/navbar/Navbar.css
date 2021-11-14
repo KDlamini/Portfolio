@@ -65,8 +65,13 @@
 }
 
 .active-navlink {
-  -webkit-box-shadow: inset 5px 5px 10px #6892a3, inset -5px -5px 10px #8cc6dd;
-          box-shadow: inset 5px 5px 10px #6892a3, inset -5px -5px 10px #8cc6dd;
+  margin: 20% 0;
+  padding: 15%;
+  -webkit-box-shadow: 5px 5px 10px #b3bdcb, -5px -5px 10px #f2ffff;
+          box-shadow: 5px 5px 10px #b3bdcb, -5px -5px 10px #f2ffff;
+  border-radius: 10px;
+  -webkit-box-shadow: inset -2px -2px 4px rgba(103, 228, 245, 0.5), inset 2px 2px 4px rgba(85, 125, 233, 0.4);
+          box-shadow: inset -2px -2px 4px rgba(103, 228, 245, 0.5), inset 2px 2px 4px rgba(85, 125, 233, 0.4);
 }
 
 .active-navlink .icon {

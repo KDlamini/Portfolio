@@ -5,11 +5,3 @@
     color: $active-color;
     box-shadow: $inner-shadow;
 }
-
-@mixin nav_active {
-    box-shadow: $inner-tab;
-
-    .icon {
-        color: $active-color;
-    }
-}

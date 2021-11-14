@@ -1,6 +1,13 @@
 @import '../variables/variables.scss';
 @import '../mixins/mixins.scss';
 
+@mixin nav_button {
+  margin: 20% 0;
+  padding: 15%;
+  box-shadow: $outer-shadow;
+  border-radius: 10px;
+}
+
 .navbar {
   display: flex;
   flex-direction: column;
@@ -24,10 +31,7 @@
 }
 
 .nav-btn {
-  margin: 20% 0;
-  padding: 15%;
-  box-shadow: $outer-shadow;
-  border-radius: 10px;
+  @include nav_button;
 }
 
 .nav-btn .icon {
@@ -44,5 +48,11 @@
 }
 
 .active-navlink {
-  @include nav_active;
+  @include nav_button;
+  box-shadow: inset -2px -2px 4px rgba(103, 228, 245, 0.5), 
+  inset 2px 2px 4px rgba(85, 125, 233, 0.4);
+
+  .icon {
+      color: $active-color;
+  }
 }
