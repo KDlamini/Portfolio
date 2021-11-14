@@ -17,7 +17,7 @@ function Home() {
               {' '}
               Nkosi
             </h1>
-            <p className="details">
+            <p>
               I’m a software developer!
               <br />
               I have a strong passion for digital innovation. I can help you build interactive web
