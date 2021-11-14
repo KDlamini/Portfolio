@@ -1,0 +1,7 @@
+@import '../variables/variables.scss';
+
+@mixin button_hover {
+  background: $bg-color;
+  color: $active-color;
+  box-shadow: $inner-shadow;
+}
