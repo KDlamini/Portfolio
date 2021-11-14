@@ -1,9 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
 .banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #0e0e0e;
   width: 100%;
   background: #d2deef;
   -webkit-box-shadow: inset 5px 5px 10px #b3bdcb, inset -5px -5px 10px #f2ffff;
           box-shadow: inset 5px 5px 10px #b3bdcb, inset -5px -5px 10px #f2ffff;
   border-radius: 5px;
   height: 100%;
+  padding: 1.5rem;
+}
+
+.banner-content {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: auto;
+  min-height: 50%;
+  z-index: 1;
+}
+
+.introduction {
+  text-align: center;
+  padding: 1rem;
+  min-height: 80%;
+}
+
+.introduction p {
+  font-weight: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+}
+
+.banner-actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 20%;
+}
+
+.profile {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 1;
+}
+
+.profile-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 25vw;
+  height: 25vw;
+  border-radius: 50%;
+  background: #d2deef;
+  -webkit-box-shadow: inset 5px 5px 10px #b3bdcb, inset -5px -5px 10px #f2ffff;
+          box-shadow: inset 5px 5px 10px #b3bdcb, inset -5px -5px 10px #f2ffff;
+}
+
+.profile-img {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 23vw;
+  height: 23vw;
+  border-radius: 50%;
+}
+
+.cv-btn {
+  width: 15vw;
+  min-width: 8.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ff3773;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 0.5rem;
+  margin: 1.5rem 0;
+  background: linear-gradient(145deg, #e1eeff, #a5b1c2);
+  -webkit-box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
+          box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
+  border: none;
+  border-radius: 5px;
+}
+
+.cv-btn:hover {
+  background: #d2deef;
+  -webkit-box-shadow: inset 5px 5px 10px #b3bdcb, inset -5px -5px 10px #f2ffff;
+          box-shadow: inset 5px 5px 10px #b3bdcb, inset -5px -5px 10px #f2ffff;
+}
+
+.effect-wrap {
+  position: absolute;
+  width: 90%;
+  height: 98%;
+  z-index: 0;
+  border: 1px solid #0e0e0e;
+}
+
+@media only screen and (max-width: 540px) {
+  .banner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    padding: 1rem;
+  }
 }
 /*# sourceMappingURL=Home.css.map */

@@ -2,12 +2,11 @@
 
 @mixin button_hover {
   background: $bg-color;
-  color: $active-color;
   box-shadow: $inner-shadow;
 }
 
 @mixin page {
-  padding: 0.2%;
+  padding: 1px;
   margin: 5px;
   background: $page-bg;
   box-shadow:
