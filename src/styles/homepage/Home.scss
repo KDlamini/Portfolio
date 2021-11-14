@@ -59,7 +59,7 @@
   height: 25vw;
   border-radius: 50%;
   background: $bg-color;
-  box-shadow: $inner-shadow;
+  box-shadow: inset 5px 5px 10px #b3bdcb, inset -5px -5px 10px #f2ffff;
 }
 
 .profile-img {
