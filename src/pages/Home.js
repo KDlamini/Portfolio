@@ -1,4 +1,6 @@
 import React from 'react';
+import profileImage from '../assets/profile2.png';
+import cv from '../assets/Simosakhe Dlamini Resume.pdf';
 import '../styles/homepage/Home.css';
 
 function Home() {
@@ -24,14 +26,14 @@ function Home() {
             </p>
           </div>
           <div className="banner-actions">
-            <a href="../assets/Simosakhe Dlamini Resume.pdf" target="_blank">
+            <a href={cv} target="_blank" rel="noreferrer">
               <button type="button" className="cv-btn">Download Cv</button>
             </a>
           </div>
         </div>
         <div className="profile">
           <div className="profile-image">
-            <img className=" profile-img" src="../assets/profile.jpg" alt="Simo Nkosi" />
+            <img className=" profile-img" src={profileImage} alt="Simo Nkosi" />
           </div>
         </div>
 

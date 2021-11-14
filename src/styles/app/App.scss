@@ -25,7 +25,9 @@ body {
 .projects,
 .contact {
   flex: 14;
+
   @include page;
+
   height: auto;
   min-height: 98vh;
 }
