@@ -31,52 +31,49 @@
 }
 
 .introduction p {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', 'Poppins', sans-serif;
   font-size: 1.2rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
-.banner-actions {
+.banner-actions,
+.profile,
+.cv-btn,
+.profile-image {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.banner-actions {
   height: 20%;
 }
 
 .profile {
   flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   z-index: 1;
 }
 
 .profile-image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 25vw;
   height: 25vw;
   border-radius: 50%;
   background: $bg-color;
-  box-shadow: $inner-shadow;
+  box-shadow: inset 5px 5px 10px #b3bdcb, inset -5px -5px 10px #f2ffff;
 }
 
 .profile-img {
   display: block;
   object-fit: cover;
-  width: 23vw;
-  height: 23vw;
+  width: 24vw;
+  height: 24vw;
   border-radius: 50%;
 }
 
 .cv-btn {
   width: 15vw;
   min-width: 8.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: $pink-color;
+  color: #b42852;
   font-size: 1.2rem;
   font-weight: 500;
   padding: 0.5rem;
@@ -89,6 +86,8 @@
 
 .cv-btn:hover {
   @include button_hover;
+
+  cursor: pointer;
 }
 
 .effect-wrap {
@@ -102,7 +101,7 @@
   position: absolute;
   width: 2.5vw;
   height: 2.5vw;
-  border: 2px solid rgba(231, 85, 129, 0.9);
+  border: 2px solid rgba(231, 85, 129, 0.5);
   right: 40%;
   bottom: 15%;
   animation: spin 10s linear infinite;
@@ -131,9 +130,9 @@
   height: 15vw;
   right: 20%;
   top: 5%;
-  border: 4px solid rgba(85, 141, 130, 0.5);
-  border-top: 6px solid rgba(72, 190, 167, 0.6);
-  box-shadow: var(--inner-shadow), var(--outer-shadow);
+  border: 4px solid rgba(85, 141, 130, 0.4);
+  border-top: 6px solid rgba(72, 190, 167, 0.5);
+  box-shadow: $inner-shadow, $outer-shadow;
   border-radius: 50%;
   animation: spin 10s linear infinite;
 }
@@ -144,9 +143,9 @@
   height: 10vw;
   right: 5%;
   bottom: 5%;
-  border: 4px solid rgba(76, 140, 170, 0.5);
-  border-right: 6px solid rgba(33, 102, 134, 0.6);
-  box-shadow: var(--inner-shadow), var(--outer-shadow);
+  border: 4px solid rgba(76, 140, 170, 0.4);
+  border-right: 6px solid rgba(33, 102, 134, 0.5);
+  box-shadow: $inner-shadow, $outer-shadow;
   border-radius: 50%;
   animation: spin 10s linear infinite;
 }
@@ -157,9 +156,9 @@
   height: 10vw;
   left: 5%;
   bottom: 5%;
-  border: 4px solid rgba(119, 119, 119, 0.5);
-  border-left: 6px solid rgba(109, 109, 109, 0.6);
-  box-shadow: var(--inner-shadow), var(--outer-shadow);
+  border: 4px solid rgba(119, 119, 119, 0.4);
+  border-left: 6px solid rgba(109, 109, 109, 0.5);
+  box-shadow: $inner-shadow, $outer-shadow;
   border-radius: 50%;
   animation: spin 10s linear infinite;
 }
@@ -180,17 +179,17 @@
   }
 
   25% {
-    border: 2px solid rgb(123, 223, 30);
+    border: 2px solid rgba(123, 223, 30, 0.5);
     transform: translateY(100%);
   }
 
   50% {
-    border: 2px solid rgb(111, 53, 145);
+    border: 2px solid rgba(111, 53, 145, 0.5);
     transform: translateX(100%) translateY(100%);
   }
 
   75% {
-    border: 2px solid rgb(182, 46, 46);
+    border: 2px solid rgba(182, 46, 46, 0.5);
     transform: translateX(100%);
   }
 
