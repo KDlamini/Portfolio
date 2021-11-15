@@ -20,10 +20,10 @@ function Home() {
             <p>
               I’m a software developer!
               <br />
-              I have a strong passion for digital innovation. I can help you build interactive web
-              applications. Take a look through some of my work and experience.
+              I have a strong passion for digital innovation, and I can help you build
+              interactive web applications. Take a look through some of my work and experience.
               If you like what you see and have a project you need coded,
-              don’t hesitate to contact me. I am very excited to work with you.
+              don’t hesitate to contact me. I am very excited to work with you!
             </p>
           </div>
           <div className="banner-actions">

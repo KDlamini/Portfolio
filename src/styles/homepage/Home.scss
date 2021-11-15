@@ -31,30 +31,30 @@
 }
 
 .introduction p {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', 'Poppins', sans-serif;
   font-size: 1.2rem;
-  font-weight: 300;
+  font-weight: 400;
 }
 
-.banner-actions {
+.banner-actions,
+.profile, 
+.cv-btn,
+.profile-image {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.banner-actions {
   height: 20%;
 }
 
 .profile {
   flex: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   z-index: 1;
 }
 
 .profile-image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   width: 25vw;
   height: 25vw;
   border-radius: 50%;
@@ -73,9 +73,6 @@
 .cv-btn {
   width: 15vw;
   min-width: 8.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: #b42852;
   font-size: 1.2rem;
   font-weight: 500;
