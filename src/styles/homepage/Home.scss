@@ -5,7 +5,6 @@
 .banner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   color: $dark-color;
 
   @include inner_page;
@@ -18,16 +17,12 @@
   flex: 3;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: auto;
-  min-height: 50%;
   z-index: 1;
 }
 
 .introduction {
   text-align: center;
   padding: 1rem;
-  min-height: 80%;
 }
 
 .introduction p {
@@ -43,10 +38,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.banner-actions {
-  height: 20%;
 }
 
 .profile {
