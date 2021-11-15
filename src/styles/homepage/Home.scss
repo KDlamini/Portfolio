@@ -37,7 +37,7 @@
 }
 
 .banner-actions,
-.profile, 
+.profile,
 .cv-btn,
 .profile-image {
   display: flex;
@@ -86,6 +86,7 @@
 
 .cv-btn:hover {
   @include button_hover;
+
   cursor: pointer;
 }
 

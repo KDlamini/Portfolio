@@ -49,18 +49,18 @@
   padding: 1rem 1rem 1rem 2rem;
 }
 
-.about-text h1{
+.about-text h1 {
   text-align: center;
   font-weight: 500;
-	font-size: 4rem;
-	color: $light-green-color;
+  font-size: 4rem;
+  color: $light-green-color;
 }
 
-.about-text h2{
+.about-text h2 {
   text-align: center;
   font-weight: 400;
-	font-size: 2rem;
-	color:$pink-color;
+  font-size: 2rem;
+  color: $pink-color;
   margin-top: 0;
 }
 
@@ -88,21 +88,22 @@
 }
 
 .social-links a {
-	margin: 0 12px;
-	padding: 0.2rem 0.2rem 0.2rem 0.5rem;
-	background: $linear-background;
-	box-shadow: $outer-shadow;
+  margin: 0 12px;
+  padding: 0.2rem 0.2rem 0.2rem 0.5rem;
+  background: $linear-background;
+  box-shadow: $outer-shadow;
   border-radius: 5px;
 }
 
 .social-links i {
-	color:#ff3773;
-	font-size: 1em;
+  color: #ff3773;
+  font-size: 1em;
 }
 
 .about-scroll-btn:hover,
 .social-links a:hover {
   @include button_hover;
+
   cursor: pointer;
 }
 
