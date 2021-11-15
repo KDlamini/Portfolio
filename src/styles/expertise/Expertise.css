@@ -13,7 +13,54 @@
   -webkit-box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
           box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
   border-radius: 5px;
-  min-height: 96%;
+  min-height: 92vh;
   padding: 1.5rem;
+}
+
+.about-tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 1rem;
+  height: 6.1vh;
+  border-radius: 5px;
+}
+
+.go-back,
+.tab-item {
+  font-weight: 600;
+  background: linear-gradient(145deg, #e1eeff, #a5b1c2);
+  -webkit-box-shadow: 5px 5px 10px #6892a3, -5px -5px 10px #8cc6dd;
+          box-shadow: 5px 5px 10px #6892a3, -5px -5px 10px #8cc6dd;
+  border-radius: 5px;
+}
+
+.go-back {
+  border: none;
+  padding: 0.4rem 1rem;
+  justify-self: flex-start;
+}
+
+.tab-item {
+  text-align: center;
+  color: #00366b;
+  width: 102px;
+  padding: 0.3rem 1rem;
+  margin: 0 1rem;
+}
+
+.go-back:hover,
+.tab-item:hover {
+  background: #d2deef;
+  -webkit-box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
+          box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
+  color: #1f73c8;
+  cursor: pointer;
 }
 /*# sourceMappingURL=Expertise.css.map */
