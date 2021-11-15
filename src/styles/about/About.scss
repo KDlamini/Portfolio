@@ -9,7 +9,7 @@
 
   @include inner_page;
 
-  min-height: 98vh;
+  min-height: 100%;
   padding: 1.5rem;
 }
 
@@ -72,7 +72,8 @@
   font-weight: 600;
   color: $dark-color;
   font-family: 'Raleway', 'Poppins', sans-serif;
-  padding: 0.3rem 1rem;
+  padding: 0.4rem 1rem;
+  border: none;
   background: $linear-background;
   box-shadow: $outer-shadow;
   border-radius: 5px;
@@ -103,6 +104,7 @@
 .about-scroll-btn:hover,
 .social-links a:hover {
   @include button_hover;
+  color: $active-color;
   
   cursor: pointer;
   .icon {

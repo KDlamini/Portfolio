@@ -49,7 +49,8 @@ body {
 }
 
 .banner-actions,
-.about-scroll-btn {
+.about-scroll-btn,
+.expertise {
   -webkit-animation: slideUp 1s ease;
           animation: slideUp 1s ease;
 }
