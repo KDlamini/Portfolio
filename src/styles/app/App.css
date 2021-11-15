@@ -35,17 +35,20 @@ body {
   min-height: 98vh;
 }
 
-.profile {
+.profile,
+.about-text {
   -webkit-animation: slideIn 1s ease;
           animation: slideIn 1s ease;
 }
 
-.introduction {
+.introduction,
+.social-links {
   -webkit-animation: slideDown 1s ease;
           animation: slideDown 1s ease;
 }
 
-.banner-actions {
+.banner-actions,
+.about-scroll-btn {
   -webkit-animation: slideUp 1s ease;
           animation: slideUp 1s ease;
 }
