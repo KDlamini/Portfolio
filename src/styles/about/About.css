@@ -1,19 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
 .about-banner {
   display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   color: #242424;
   width: 100%;
   background: #d2deef;
   -webkit-box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
-  box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
+          box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
   border-radius: 5px;
-  height: 100%;
+  min-height: 98vh;
   padding: 1.5rem;
 }
 
@@ -21,27 +21,29 @@
 .social-links,
 .about-img-wrapper {
   display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .about-profile {
   -webkit-box-flex: 10;
-  -ms-flex: 10;
-  flex: 10;
+      -ms-flex: 10;
+          flex: 10;
   display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .about-img-wrapper {
   -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   padding: 1rem;
 }
 
@@ -50,22 +52,23 @@
   height: 25vw;
   border-radius: 5px;
   -webkit-box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
-  box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
+          box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
 }
 
 .about-text {
   -webkit-box-flex: 2;
-  -ms-flex: 2;
-  flex: 2;
+      -ms-flex: 2;
+          flex: 2;
   display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-weight: 400;
   font-size: 1.1rem;
   font-family: 'Raleway', 'Poppins', sans-serif;
@@ -89,30 +92,30 @@
 
 .about-scroll-tab {
   -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .about-scroll-btn {
-  font-weight: 500;
+  font-weight: 600;
   color: #242424;
   font-family: 'Raleway', 'Poppins', sans-serif;
   padding: 0.3rem 1rem;
   background: linear-gradient(145deg, #e1eeff, #a5b1c2);
   -webkit-box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
-  box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
+          box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
   border-radius: 5px;
+  color: #00366b;
 }
 
 .about-scroll-btn .chevron.down.icon {
-  color: #00b893;
   margin-left: 0.3rem;
 }
 
 .social-links {
   -webkit-box-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .social-links a {
@@ -120,12 +123,12 @@
   padding: 0.2rem 0.2rem 0.2rem 0.5rem;
   background: linear-gradient(145deg, #e1eeff, #a5b1c2);
   -webkit-box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
-  box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
+          box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
   border-radius: 5px;
 }
 
 .social-links i {
-  color: #ff3773;
+  color: #00366b;
   font-size: 1em;
 }
 
@@ -133,16 +136,22 @@
 .social-links a:hover {
   background: #d2deef;
   -webkit-box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
-  box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
+          box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
   cursor: pointer;
+}
+
+.about-scroll-btn:hover .icon,
+.social-links a:hover .icon {
+  color: #1f73c8;
 }
 
 @media only screen and (max-width: 540px) {
   .about-profile {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding: 0;
   }
 }
+/*# sourceMappingURL=About.css.map */

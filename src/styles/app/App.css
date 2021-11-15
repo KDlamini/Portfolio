@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
 *:not(i) {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
@@ -13,6 +12,7 @@ body {
 
 .App {
   display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0;
   padding: 0;
@@ -21,15 +21,16 @@ body {
 .homepage,
 .about,
 .projects,
-.contact {
+.contact,
+.expertise {
   -webkit-box-flex: 14;
-  -ms-flex: 14;
-  flex: 14;
+      -ms-flex: 14;
+          flex: 14;
   padding: 1px;
   margin: 5px;
   background: #7aacc0;
   -webkit-box-shadow: 1px 1px 1px #6892a3, -1px -1px 1px #8cc6dd;
-  box-shadow: 1px 1px 1px #6892a3, -1px -1px 1px #8cc6dd;
+          box-shadow: 1px 1px 1px #6892a3, -1px -1px 1px #8cc6dd;
   border-radius: 5px;
   height: auto;
   min-height: 98vh;
@@ -37,33 +38,32 @@ body {
 
 .profile,
 .about-text {
-  -webkit-animation: slidein 1s ease;
-  animation: slideIn 1s ease;
+  -webkit-animation: slideIn 1s ease;
+          animation: slideIn 1s ease;
 }
 
 .introduction,
 .social-links {
-  -webkit-animation: slidedown 1s ease;
-  animation: slideDown 1s ease;
+  -webkit-animation: slideDown 1s ease;
+          animation: slideDown 1s ease;
 }
 
 .banner-actions,
 .about-scroll-btn {
-  -webkit-animation: slideup 1s ease;
-  animation: slideUp 1s ease;
+  -webkit-animation: slideUp 1s ease;
+          animation: slideUp 1s ease;
 }
 
 @-webkit-keyframes slideIn {
   0% {
     opacity: 0;
     -webkit-transform: translateX(100%);
-    transform: translateX(100%);
+            transform: translateX(100%);
   }
-
   100% {
     opacity: 1;
     -webkit-transform: translateX(0);
-    transform: translateX(0);
+            transform: translateX(0);
   }
 }
 
@@ -71,13 +71,12 @@ body {
   0% {
     opacity: 0;
     -webkit-transform: translateX(100%);
-    transform: translateX(100%);
+            transform: translateX(100%);
   }
-
   100% {
     opacity: 1;
     -webkit-transform: translateX(0);
-    transform: translateX(0);
+            transform: translateX(0);
   }
 }
 
@@ -85,13 +84,12 @@ body {
   0% {
     opacity: 0;
     -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
+            transform: translateY(-100%);
   }
-
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
-    transform: translateY(0);
+            transform: translateY(0);
   }
 }
 
@@ -99,13 +97,12 @@ body {
   0% {
     opacity: 0;
     -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
+            transform: translateY(-100%);
   }
-
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
-    transform: translateY(0);
+            transform: translateY(0);
   }
 }
 
@@ -113,13 +110,12 @@ body {
   0% {
     opacity: 0;
     -webkit-transform: translateY(100%);
-    transform: translateY(100%);
+            transform: translateY(100%);
   }
-
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
-    transform: translateY(0);
+            transform: translateY(0);
   }
 }
 
@@ -127,12 +123,12 @@ body {
   0% {
     opacity: 0;
     -webkit-transform: translateY(100%);
-    transform: translateY(100%);
+            transform: translateY(100%);
   }
-
   100% {
     opacity: 1;
     -webkit-transform: translateY(0);
-    transform: translateY(0);
+            transform: translateY(0);
   }
 }
+/*# sourceMappingURL=App.css.map */

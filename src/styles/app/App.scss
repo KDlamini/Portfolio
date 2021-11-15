@@ -23,7 +23,8 @@ body {
 .homepage,
 .about,
 .projects,
-.contact {
+.contact,
+.expertise {
   flex: 14;
 
   @include page;

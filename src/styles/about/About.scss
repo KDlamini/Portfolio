@@ -9,7 +9,7 @@
 
   @include inner_page;
 
-  height: 100%;
+  min-height: 98vh;
   padding: 1.5rem;
 }
 
@@ -53,7 +53,7 @@
   text-align: center;
   font-weight: 500;
   font-size: 4rem;
-  color: $light-green-color;
+  color: $green-color;
 }
 
 .about-text h2 {
@@ -69,16 +69,16 @@
 }
 
 .about-scroll-btn {
-  font-weight: 500;
+  font-weight: 600;
   color: $dark-color;
   font-family: 'Raleway', 'Poppins', sans-serif;
   padding: 0.3rem 1rem;
   background: $linear-background;
   box-shadow: $outer-shadow;
   border-radius: 5px;
+  color: $blue-color;
 
   .chevron.down.icon {
-    color: $light-green-color;
     margin-left: 0.3rem;
   }
 }
@@ -96,15 +96,18 @@
 }
 
 .social-links i {
-  color: #ff3773;
+  color: $blue-color;
   font-size: 1em;
 }
 
 .about-scroll-btn:hover,
 .social-links a:hover {
   @include button_hover;
-
+  
   cursor: pointer;
+  .icon {
+    color: $active-color;
+  }
 }
 
 @media only screen and (max-width: 540px) {
