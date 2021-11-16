@@ -70,7 +70,6 @@
 
 .about-scroll-btn {
   font-weight: 600;
-  color: $dark-color;
   font-family: 'Raleway', 'Poppins', sans-serif;
   padding: 0.4rem 1rem;
   border: none;
@@ -104,11 +103,13 @@
 .about-scroll-btn:hover,
 .social-links a:hover {
   @include button_hover;
+
   cursor: pointer;
 }
 
 .about-scroll-btn:hover {
   color: $pink-color;
+
   .icon {
     color: $active-color;
   }
