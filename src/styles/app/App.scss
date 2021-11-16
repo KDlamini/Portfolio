@@ -23,7 +23,8 @@ body {
 .homepage,
 .about,
 .projects,
-.contact {
+.contact,
+.expertise {
   flex: 14;
 
   @include page;
@@ -32,7 +33,17 @@ body {
   min-height: 98vh;
 }
 
-.profile,
+.buttonActive {
+  text-align: center;
+  font-weight: 600;
+  padding: 0.3rem 1rem;
+
+  @include button_hover;
+
+  color: $active-color;
+  border-radius: 5px;
+}
+
 .about-text {
   animation: slideIn 1s ease;
 }
@@ -43,7 +54,8 @@ body {
 }
 
 .banner-actions,
-.about-scroll-btn {
+.about-scroll-btn,
+.expertise {
   animation: slideUp 1s ease;
 }
 

@@ -5,7 +5,6 @@
 .banner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   color: $dark-color;
 
   @include inner_page;
@@ -18,16 +17,12 @@
   flex: 3;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: auto;
-  min-height: 50%;
   z-index: 1;
 }
 
 .introduction {
   text-align: center;
   padding: 1rem;
-  min-height: 80%;
 }
 
 .introduction p {
@@ -43,10 +38,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.banner-actions {
-  height: 20%;
 }
 
 .profile {
@@ -73,9 +64,9 @@
 .cv-btn {
   width: 15vw;
   min-width: 8.5rem;
-  color: #b42852;
-  font-size: 1.2rem;
-  font-weight: 500;
+  color: $blue-color;
+  font-family: 'Raleway', 'Poppins', sans-serif;
+  font-weight: 600;
   padding: 0.5rem;
   margin: 1.5rem 0;
   background: $linear-background;
@@ -87,6 +78,7 @@
 .cv-btn:hover {
   @include button_hover;
 
+  color: $active-color;
   cursor: pointer;
 }
 
@@ -202,5 +194,15 @@
   .banner {
     flex-direction: column-reverse;
     padding: 1rem;
+  }
+
+  .effect-4-0 {
+    right: 10%;
+    bottom: 2%;
+  }
+
+  .effect-5 {
+    left: 10%;
+    bottom: 2%;
   }
 }

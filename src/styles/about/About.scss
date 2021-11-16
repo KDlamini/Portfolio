@@ -9,7 +9,7 @@
 
   @include inner_page;
 
-  height: 100%;
+  min-height: 100%;
   padding: 1.5rem;
 }
 
@@ -53,7 +53,7 @@
   text-align: center;
   font-weight: 500;
   font-size: 4rem;
-  color: $light-green-color;
+  color: $green-color;
 }
 
 .about-text h2 {
@@ -69,16 +69,16 @@
 }
 
 .about-scroll-btn {
-  font-weight: 500;
-  color: $dark-color;
+  font-weight: 600;
   font-family: 'Raleway', 'Poppins', sans-serif;
-  padding: 0.3rem 1rem;
+  padding: 0.4rem 1rem;
+  border: none;
+  border-radius: 5px;
+  color: $blue-color;
   background: $linear-background;
   box-shadow: $outer-shadow;
-  border-radius: 5px;
 
   .chevron.down.icon {
-    color: $light-green-color;
     margin-left: 0.3rem;
   }
 }
@@ -96,7 +96,7 @@
 }
 
 .social-links i {
-  color: #ff3773;
+  color: $blue-color;
   font-size: 1em;
 }
 
@@ -105,6 +105,20 @@
   @include button_hover;
 
   cursor: pointer;
+}
+
+.about-scroll-btn:hover {
+  color: $pink-color;
+
+  .icon {
+    color: $active-color;
+  }
+}
+
+.social-links a:hover {
+  .icon {
+    color: $pink-color;
+  }
 }
 
 @media only screen and (max-width: 540px) {

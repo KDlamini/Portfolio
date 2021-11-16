@@ -6,9 +6,6 @@
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
   color: #242424;
   width: 100%;
   background: #d2deef;
@@ -29,18 +26,12 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  height: auto;
-  min-height: 50%;
   z-index: 1;
 }
 
 .introduction {
   text-align: center;
   padding: 1rem;
-  min-height: 80%;
 }
 
 .introduction p {
@@ -61,10 +52,6 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-}
-
-.banner-actions {
-  height: 20%;
 }
 
 .profile {
@@ -95,9 +82,9 @@
 .cv-btn {
   width: 15vw;
   min-width: 8.5rem;
-  color: #b42852;
-  font-size: 1.2rem;
-  font-weight: 500;
+  color: #00366b;
+  font-family: 'Raleway', 'Poppins', sans-serif;
+  font-weight: 600;
   padding: 0.5rem;
   margin: 1.5rem 0;
   background: linear-gradient(145deg, #e1eeff, #a5b1c2);
@@ -111,6 +98,7 @@
   background: #d2deef;
   -webkit-box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
   box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
+  color: #1f73c8;
   cursor: pointer;
 }
 
@@ -286,5 +274,15 @@
     -ms-flex-direction: column-reverse;
     flex-direction: column-reverse;
     padding: 1rem;
+  }
+
+  .effect-4-0 {
+    right: 10%;
+    bottom: 2%;
+  }
+
+  .effect-5 {
+    left: 10%;
+    bottom: 2%;
   }
 }

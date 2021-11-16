@@ -13,7 +13,7 @@
   -webkit-box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
   box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
   border-radius: 5px;
-  height: 100%;
+  min-height: 100%;
   padding: 1.5rem;
 }
 
@@ -94,18 +94,18 @@
 }
 
 .about-scroll-btn {
-  font-weight: 500;
-  color: #242424;
+  font-weight: 600;
   font-family: 'Raleway', 'Poppins', sans-serif;
-  padding: 0.3rem 1rem;
+  padding: 0.4rem 1rem;
+  border: none;
+  border-radius: 5px;
+  color: #00366b;
   background: linear-gradient(145deg, #e1eeff, #a5b1c2);
   -webkit-box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
   box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
-  border-radius: 5px;
 }
 
 .about-scroll-btn .chevron.down.icon {
-  color: #00b893;
   margin-left: 0.3rem;
 }
 
@@ -125,7 +125,7 @@
 }
 
 .social-links i {
-  color: #ff3773;
+  color: #00366b;
   font-size: 1em;
 }
 
@@ -135,6 +135,18 @@
   -webkit-box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
   box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
   cursor: pointer;
+}
+
+.about-scroll-btn:hover {
+  color: #ff3773;
+}
+
+.about-scroll-btn:hover .icon {
+  color: #1f73c8;
+}
+
+.social-links a:hover .icon {
+  color: #ff3773;
 }
 
 @media only screen and (max-width: 540px) {

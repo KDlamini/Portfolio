@@ -1,10 +1,13 @@
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import aboutImg from '../assets/about-pic.jpg';
 import '../styles/about/About.css';
 
-function About() {
+function About({ setIsOpen }) {
+  const navigate = useNavigate();
+
   return (
     <section className="about">
       <div className="about-banner">
@@ -52,15 +55,23 @@ function About() {
         </div>
 
         <div className="about-scroll-tab">
-          <Link to="skills" className="about-scroll-btn">
-            More
+          <button
+            type="button"
+            onClick={() => { navigate('/expertise'); setIsOpen(false); }}
+            className="about-scroll-btn"
+          >
+            Experience
             <i className="chevron down icon" />
-          </Link>
+          </button>
         </div>
 
       </div>
     </section>
   );
 }
+
+About.propTypes = {
+  setIsOpen: PropTypes.func.isRequired,
+};
 
 export default About;
