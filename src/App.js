@@ -13,13 +13,13 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
+      <Navbar isOpen={isOpen} />
       <Routes>
         <Route path="/" element={<Home />} />
         {
           isOpen
             ? <Route path="/about" element={<About setIsOpen={setIsOpen} />} />
-            : <Route path="/about" element={<Expertise setIsOpen={setIsOpen} />} />
+            : <Route path="/expertise/*" element={<Expertise isOpen={isOpen} setIsOpen={setIsOpen} />} />
         }
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />

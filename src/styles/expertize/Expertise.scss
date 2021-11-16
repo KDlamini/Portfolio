@@ -31,9 +31,10 @@
 }
 
 .go-back {
+    justify-self: flex-start;
     border: none;
     padding: 0.4rem 1rem;
-    justify-self: flex-start;
+    margin: 0 1rem;
 }
 
 .tab-item {

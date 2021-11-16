@@ -1,36 +1,58 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+/* eslint-disable jsx-a11y/anchor-is-valid */
+import React, { useEffect } from 'react';
+import {
+  Routes, Route, Link, useNavigate,
+} from 'react-router-dom';
 import PropTypes from 'prop-types';
-import '../styles/expertise/Expertise.css';
+import Skills from './Skills';
+import Experience from './Experience';
+import Education from './Education';
+import '../styles/expertize/Expertise.css';
 
-function Expertise({ setIsOpen }) {
+function Expertise({ isOpen, setIsOpen }) {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (isOpen) {
+      navigate('/about');
+    }
+    // console.log(isOpen);
+  });
+
+  console.log(isOpen);
+
   return (
     <section className="expertise">
       <div className="about-tabs">
 
         <button
           type="button"
-          onClick={() => setIsOpen(true)}
+          onClick={() => { navigate('/about'); setIsOpen(true); }}
           className="go-back"
         >
           <i className="chevron left icon" />
           Go Back
         </button>
 
-        <Link to="/skills" className="tab-item">skills</Link>
-        <Link to="/experience" className="tab-item">education</Link>
-        <Link to="/education" className="tab-item">experience</Link>
+        <Link to="" className="tab-item">skills</Link>
+        <Link to="experience" className="tab-item">education</Link>
+        <Link to="education" className="tab-item">experience</Link>
       </div>
 
       <div className="expertise-content">
-        Expertise Section.
+        <Routes>
+          <Route path="/" element={<Skills />} />
+          <Route path="experience" element={<Experience />} />
+          <Route path="education" element={<Education />} />
+        </Routes>
       </div>
     </section>
   );
 }
 
 Expertise.propTypes = {
-  setIsOpen: PropTypes.bool.isRequired,
+  isOpen: PropTypes.bool.isRequired,
+  setIsOpen: PropTypes.func.isRequired,
 };
 
 export default Expertise;
