@@ -66,6 +66,7 @@
 .programming-languages {
 	display: flex;
 	justify-content: space-between;
+    list-style: none;
 	width: 100%;
 	padding: 1.875rem;
 	margin: 20px 0;
@@ -75,6 +76,53 @@
 
 .language {
 	text-align: center;
-    font-weight: 400;
     font-size: 1.1rem;
+}
+
+.skill-item-wrapper {
+	display: flex;
+    flex-wrap: wrap;
+	padding: 1.875rem;
+	width: 100%;
+	min-height: 50vh;
+    box-shadow: $inner-shadow;
+	border-radius: 5px;
+}
+
+.skill-item {
+	flex: 0 0 50%;
+	max-width: 50%;
+	padding: 0 1%;
+	margin-top: 10px;
+	text-transform: capitalize;
+}
+
+.skill-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill-name p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.progress-bar{
+    text-align: justify;
+    width: 100%;
+	padding: 0.1875rem;
+	margin: 0.8rem 0;
+	background: $bg-color;
+	box-shadow: $inner-shadow;
+    border-radius: 10px;
+}
+
+.progress-level {
+	background-color: rgba(255, 55, 115, 0.6);
+	height: 0.3rem;
+	text-align: center;
+	z-index: -1;
+	border-radius: 10px;
 }
