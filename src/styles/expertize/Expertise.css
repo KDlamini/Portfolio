@@ -64,4 +64,9 @@
   color: #1f73c8;
   cursor: pointer;
 }
+
+.buttonActive {
+  width: 102px;
+  margin: 0 1rem;
+}
 /*# sourceMappingURL=Expertise.css.map */

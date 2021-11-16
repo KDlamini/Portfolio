@@ -33,6 +33,14 @@ body {
   min-height: 98vh;
 }
 
+.buttonActive {
+  text-align: center;
+  font-weight: 600;
+  padding: 0.3rem 1rem;
+  @include active_button;
+  border-radius: 5px;
+}
+
 .profile,
 .about-text {
   animation: slideIn 1s ease;
