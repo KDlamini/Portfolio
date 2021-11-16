@@ -16,6 +16,25 @@ function Skills() {
           );
         })}
       </div>
+
+      <div className="skill-item-wrapper">
+        { languages.map((language) => {
+          const { id, name, level } = language;
+
+          return (
+            <div key={id} className="skill-item">
+              <p>
+                {name}
+                {' '}
+                <span>{level}</span>
+              </p>
+              <div className="progress-bar" style={{ width: 'calc(50% - 10px)' }}>
+                <div className="html-skill" />
+              </div>
+            </div>
+          );
+        })}
+      </div>
     </>
   );
 }
