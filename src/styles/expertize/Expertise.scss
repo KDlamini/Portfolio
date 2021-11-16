@@ -52,6 +52,10 @@
     cursor: pointer;
 }
 
+.go-back:hover {
+    color: $pink-color;
+}
+
 .buttonActive {
     width: 102px;
     margin: 0 1rem;

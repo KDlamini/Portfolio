@@ -5,12 +5,6 @@
   box-shadow: $inner-shadow;
 }
 
-@mixin active_button {
-  background: $bg-color;
-  box-shadow: $inner-shadow2;
-  color: $active-color;
-}
-
 @mixin page {
   padding: 1px;
   margin: 5px;

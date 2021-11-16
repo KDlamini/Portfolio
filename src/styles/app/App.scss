@@ -37,7 +37,8 @@ body {
   text-align: center;
   font-weight: 600;
   padding: 0.3rem 1rem;
-  @include active_button;
+  @include button_hover;
+  color: $active-color;
   border-radius: 5px;
 }
 

@@ -65,6 +65,10 @@
   cursor: pointer;
 }
 
+.go-back:hover {
+  color: #ff3773;
+}
+
 .buttonActive {
   width: 102px;
   margin: 0 1rem;

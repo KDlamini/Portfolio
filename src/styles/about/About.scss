@@ -104,11 +104,19 @@
 .about-scroll-btn:hover,
 .social-links a:hover {
   @include button_hover;
-  color: $active-color;
-  
   cursor: pointer;
+}
+
+.about-scroll-btn:hover {
+  color: $pink-color;
   .icon {
     color: $active-color;
+  }
+}
+
+.social-links a:hover {
+  .icon {
+    color: $pink-color;
   }
 }
 
