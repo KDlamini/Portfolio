@@ -267,5 +267,13 @@
             flex-direction: column-reverse;
     padding: 1rem;
   }
+  .effect-4-0 {
+    right: 10%;
+    bottom: 2%;
+  }
+  .effect-5 {
+    left: 10%;
+    bottom: 2%;
+  }
 }
 /*# sourceMappingURL=Home.css.map */
