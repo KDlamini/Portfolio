@@ -47,7 +47,6 @@ body {
   border-radius: 5px;
 }
 
-.profile,
 .about-text {
   -webkit-animation: slideIn 1s ease;
           animation: slideIn 1s ease;

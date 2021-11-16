@@ -20,7 +20,7 @@ function App() {
 
   useEffect(() => {
     if (isOpen) {
-      navigate('/about');
+      navigate('/');
     }
   }, []);
 
