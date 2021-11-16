@@ -1,5 +1,7 @@
-import React, { useState } from 'react';
-import { Routes, Route, Navigate } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import {
+  Routes, Route, Navigate, useNavigate,
+} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Expertise from './components/Expertise';
 import Skills from './components/Skills';
@@ -13,6 +15,14 @@ import './styles/app/App.css';
 
 function App() {
   const [isOpen, setIsOpen] = useState(true);
+
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (isOpen) {
+      navigate('/about');
+    }
+  }, []);
 
   return (
     <div className="App">
