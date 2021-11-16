@@ -62,3 +62,19 @@
 }
 
 /*------------------------- skills tab ----------------------*/
+
+.programming-languages {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 1.875rem;
+	margin: 20px 0;
+	box-shadow: $inner-shadow;
+    border-radius: 5px;
+}
+
+.language {
+	text-align: center;
+    font-weight: 400;
+    font-size: 1.1rem;
+}

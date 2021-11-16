@@ -75,4 +75,24 @@
 }
 
 /*------------------------- skills tab ----------------------*/
+.programming-languages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  padding: 1.875rem;
+  margin: 20px 0;
+  -webkit-box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
+          box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
+  border-radius: 5px;
+}
+
+.language {
+  text-align: center;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
 /*# sourceMappingURL=Expertise.css.map */
