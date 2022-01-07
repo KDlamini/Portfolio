@@ -132,52 +132,52 @@
 
 .timeline {
   border-radius: 5px;
-	margin-top: 20px;
-	flex: 0 0 100%;
-	max-width: 100%;
-	padding: 0;
+  margin-top: 20px;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0;
 }
 
 .timeline-item {
   flex: 0 0 100%;
-	max-width: 100%;
+  max-width: 100%;
   border-radius: 5px;
 }
 
 .timeline-item:nth-child(odd) {
-	padding-right: calc(50% + 2vw);
-	text-align: right;
+  padding-right: calc(50% + 2vw);
+  text-align: right;
 }
 
 .timeline-item:nth-child(even) {
-	padding-left: calc(50% + 2vw);
+  padding-left: calc(50% + 2vw);
 }
 
 .timeline-item-inner {
-	background: $bg-color;
-	box-shadow: $outer-shadow;
+  background: $bg-color;
+  box-shadow: $outer-shadow;
   border-radius: 5px;
-	color: $dark-color;
-	padding: 1% 2%;
-	position: relative;
+  color: $dark-color;
+  padding: 1% 2%;
+  position: relative;
 }
 
 .timeline-item-inner span {
-	font-weight: 500;
-	color: $pink-color;
-	text-transform: capitalize;
+  font-weight: 500;
+  color: $pink-color;
+  text-transform: capitalize;
 }
 
 .timeline-item-inner h3 {
-	font-size: 1.4rem;
-	font-weight: 500;
-	text-transform: capitalize;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: capitalize;
 }
 
 .timeline-item-inner h4 {
-	font-style: italic;
-	color: $active-color;
-	font-weight: 500;
+  font-style: italic;
+  color: $active-color;
+  font-weight: 500;
 }
 
 /* ------------------------- Certification tab ---------------------- */
@@ -190,7 +190,7 @@
 .certificate h2 {
   color: $dark-color;
   font-size: 1.4rem;
-	font-weight: 500;
+  font-weight: 500;
   text-align: center;
 }
 
