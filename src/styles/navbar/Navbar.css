@@ -60,9 +60,9 @@
 .active-navlink {
   margin: 1.075rem;
   padding: 15%;
+  -webkit-box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
+  box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
   border-radius: 5px;
-  -webkit-box-shadow: inset -2px -2px 4px rgba(103, 228, 245, 0.5), inset 2px 2px 4px rgba(85, 125, 233, 0.4);
-  box-shadow: inset -2px -2px 4px rgba(103, 228, 245, 0.5), inset 2px 2px 4px rgba(85, 125, 233, 0.4);
 }
 
 .active-navlink .icon {

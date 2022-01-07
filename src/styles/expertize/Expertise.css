@@ -152,3 +152,84 @@
   z-index: -1;
   border-radius: 10px;
 }
+
+/* ------------------------- Experience tab ---------------------- */
+.timeline {
+  border-radius: 5px;
+  margin-top: 20px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0;
+}
+
+.timeline-item {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.timeline-item:nth-child(odd) {
+  padding-right: calc(50% + 2vw);
+  text-align: right;
+}
+
+.timeline-item:nth-child(even) {
+  padding-left: calc(50% + 2vw);
+}
+
+.timeline-item-inner {
+  background: #d2deef;
+  -webkit-box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
+  box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
+  border-radius: 5px;
+  color: #242424;
+  padding: 1% 2%;
+  position: relative;
+}
+
+.timeline-item-inner span {
+  font-weight: 500;
+  color: #ff3773;
+  text-transform: capitalize;
+}
+
+.timeline-item-inner h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.timeline-item-inner h4 {
+  font-style: italic;
+  color: #1f73c8;
+  font-weight: 500;
+}
+
+/* ------------------------- Certification tab ---------------------- */
+.certificate {
+  background: #d2deef;
+  margin: 20px 20px 60px 20px;
+}
+
+.certificate h2 {
+  color: #242424;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.certificate-wrapper {
+  -webkit-box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
+  box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
+  border: 1px solid #e9e8e8;
+}
+
+.certificate-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}

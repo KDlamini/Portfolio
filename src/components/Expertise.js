@@ -25,6 +25,7 @@ function Expertise({ setIsOpen }) {
         <NavLink to="skills" className={(nav) => (nav.isActive ? 'buttonActive' : 'tab-item')}>skills</NavLink>
         <NavLink to="experience" className={(nav) => (nav.isActive ? 'buttonActive' : 'tab-item')}>experience</NavLink>
         <NavLink to="education" className={(nav) => (nav.isActive ? 'buttonActive' : 'tab-item')}>education</NavLink>
+        <NavLink to="certification" className={(nav) => (nav.isActive ? 'buttonActive' : 'tab-item')}>certification</NavLink>
       </div>
 
       <div className="expertise-content">

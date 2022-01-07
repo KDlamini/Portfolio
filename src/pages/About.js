@@ -47,7 +47,7 @@ function About({ setIsOpen }) {
               <br />
               <br />
               I am very passionate about problem-solving, conceptualizing, analyzing,
-              and evaluating patterns in order to come up with the most effective output.
+              and evaluating patterns in order to come up with the most efficient outcome.
               Open to exploring exciting full-stack development opportunities
               in startups as well as companies with scale.
             </p>

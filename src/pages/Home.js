@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImage from '../assets/profile2.png';
+import profileImage from '../assets/profile.jpg';
 import cv from '../assets/Simosakhe Dlamini Resume.pdf';
 import '../styles/homepage/Home.css';
 
