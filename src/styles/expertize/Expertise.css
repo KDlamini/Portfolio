@@ -1,17 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 .expertise-content {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   color: #242424;
   width: 100%;
   background: #d2deef;
   -webkit-box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
-          box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
+  box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
   border-radius: 5px;
   min-height: 92vh;
   padding: 1.5rem;
@@ -19,14 +19,13 @@
 
 .about-tabs {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding: 0 1rem;
   height: 6.1vh;
   border-radius: 5px;
@@ -37,7 +36,7 @@
   font-weight: 600;
   background: linear-gradient(145deg, #e1eeff, #a5b1c2);
   -webkit-box-shadow: 5px 5px 10px #6892a3, -5px -5px 10px #8cc6dd;
-          box-shadow: 5px 5px 10px #6892a3, -5px -5px 10px #8cc6dd;
+  box-shadow: 5px 5px 10px #6892a3, -5px -5px 10px #8cc6dd;
   border-radius: 5px;
 }
 
@@ -60,7 +59,7 @@
 .tab-item:hover {
   background: #d2deef;
   -webkit-box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
-          box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
+  box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
   color: #1f73c8;
   cursor: pointer;
 }
@@ -77,17 +76,16 @@
 /* ------------------------- skills tab ---------------------- */
 .programming-languages {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   list-style: none;
   width: 100%;
   padding: 1.875rem;
   margin: 20px 0;
   -webkit-box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
-          box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
+  box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
   border-radius: 5px;
 }
 
@@ -98,22 +96,21 @@
 
 .skill-item-wrapper {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   padding: 1.875rem;
   width: 100%;
   min-height: 50vh;
   -webkit-box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
-          box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
+  box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
   border-radius: 5px;
 }
 
 .skill-item {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 50%;
-          flex: 0 0 50%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
   max-width: 50%;
   padding: 0 1%;
   margin-top: 10px;
@@ -122,14 +119,13 @@
 
 .skill-name {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .skill-name p {
@@ -145,7 +141,7 @@
   margin: 0.8rem 0;
   background: #d2deef;
   -webkit-box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
-          box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
+  box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
   border-radius: 10px;
 }
 
@@ -162,16 +158,16 @@
   border-radius: 5px;
   margin-top: 20px;
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 100%;
-          flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
   max-width: 100%;
   padding: 0;
 }
 
 .timeline-item {
   -webkit-box-flex: 0;
-      -ms-flex: 0 0 100%;
-          flex: 0 0 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
   max-width: 100%;
   border-radius: 5px;
 }
@@ -188,7 +184,7 @@
 .timeline-item-inner {
   background: #d2deef;
   -webkit-box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
-          box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
+  box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
   border-radius: 5px;
   color: #242424;
   padding: 1% 2%;
@@ -228,7 +224,7 @@
 
 .certificate-wrapper {
   -webkit-box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
-          box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
+  box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
   border: 1px solid #e9e8e8;
 }
 
@@ -237,4 +233,3 @@
   width: 100%;
   height: 100%;
 }
-/*# sourceMappingURL=Expertise.css.map */
