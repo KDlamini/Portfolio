@@ -5,7 +5,7 @@ import '../styles/contact/Contact.css';
 function Contact() {
   return (
     <section className="contact">
-      <div id="contact-form">
+      <div className="contact-container">
         <div className="contact-info">
           <div className="phone-tab contact-tab">
             <a href="tel:+27 67 0980 127"><i className="phone icon" /></a>
@@ -14,7 +14,6 @@ function Contact() {
           </div>
           <div className="email-tab contact-tab">
             <a href="mailto: simosakhenkosi@gmail.com"><i className="envelope icon" /></a>
-            <i className="envelope icon" />
             <h4>Email</h4>
             <p>simosakhenkosi@gmail.com</p>
           </div>
@@ -23,12 +22,18 @@ function Contact() {
               <i className="map marker alternate icon" />
             </a>
             <h4>Address</h4>
-            <p>17 Roux, The Reeds, Centurion</p>
+            <p>
+              17 Roux, The Reeds,
+              {' '}
+              <br />
+              {' '}
+              Centurion
+            </p>
           </div>
         </div>
         <form name="contact" method="POST" data-netlify="true">
-          <div className="contact-left">
-            <h1 className="c-l-heading">
+          <div className="form-left">
+            <h1 className="form-heading">
               <font style={{ borderBottom: '3px solid #1ED98B' }}>Writ</font>
               e me
             </h1>
@@ -42,7 +47,7 @@ function Contact() {
             </div>
           </div>
 
-          <div className="contact-right">
+          <div className="form-right">
             <div className="message">
               <font>Message</font>
               <textarea name="message" rows="5" cols="20" placeholder="Write Message..." />
