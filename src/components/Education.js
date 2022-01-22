@@ -45,7 +45,7 @@ function Education() {
               ▪ JavaScript Algorithms and Data Structures (JavaScript)
               {' '}
               <br />
-              ▪ APIs and Microservices (Node.js, Express.js, databases)
+              ▪ Back-End and APIs (Node.js, Express.js, MongoDB)
               {' '}
               <br />
               ▪ Information Security and Quality

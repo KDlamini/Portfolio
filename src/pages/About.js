@@ -34,8 +34,9 @@ function About({ setIsOpen }) {
             <h1>About me</h1>
             <h2>Full-Stack Web Developer</h2>
             <p>
-              I specialize in JavaScript, React, NodeJS, Express, Mongoose/MongoDB, Ruby,
-              Ruby-on-Rails and many more exciting technologies.
+              I specialize in vanilla JavaScript, React with Redux, NodeJS, Express,
+              Mongoose/MongoDB, Ruby, Ruby-on-Rails, PostgreSQL, and many more
+              exciting technologies.
             </p>
             <p>
               At Microverse, I have gained the experience to work remotely and
@@ -60,7 +61,7 @@ function About({ setIsOpen }) {
             onClick={() => { navigate('/expertise'); setIsOpen(false); }}
             className="about-scroll-btn"
           >
-            Experience
+            Expertise
             <i className="chevron down icon" />
           </button>
         </div>
