@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAEA,AAAA,QAAQ,CAAC;EACP,OAAO,EAAE,CAAC;CACX",
+    "mappings": "AAEA,AAAA,QAAQ,CAAC;EACP,OAAO,EAAE,CAAC;CACX;;AAED,AAAA,aAAa,CAAC;EACZ,MAAM,EAAE,IAAI;CACb",
     "sources": [
         "Contact.scss",
         "../mixins/mixins.scss",
