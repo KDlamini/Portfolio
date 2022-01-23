@@ -13,7 +13,7 @@
   padding: 1.5rem;
 }
 
-.about-tabs {
+.navigation-tab {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -58,7 +58,7 @@
 }
 
 .buttonActive {
-  width: 102px;
+  min-width: 120px;
   margin: 0 1rem;
 }
 

@@ -17,7 +17,7 @@
   padding: 1.5rem;
 }
 
-.about-tabs {
+.navigation-tab {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -70,7 +70,7 @@
 }
 
 .buttonActive {
-  width: 102px;
+  min-width: 120px;
   margin: 0 1rem;
 }
 
