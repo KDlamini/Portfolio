@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import '../mixins/mixins.scss';
 @import '../variables/variables.scss';
 
 .project-container {
   display: flex;
   flex-direction: column;
+  font-style: normal;
+  font-family: 'Poppins', sans-serif;
   color: $dark-color;
 
   @include inner_page;
@@ -20,14 +22,15 @@
 
 .project-card {
   display: flex;
+  gap: 1.5rem;
   list-style: none;
   color: $dark-color;
   margin: 0 0 2rem 0;
   padding: 1rem;
-  height: 396px;
-  background: $bg-color;
+  height: 346px;
+  background: $background-color;
   box-shadow: $outer-shadow;
-  border: 1px solid #dfe1e6;
+  border: 1px solid $border-color;
   border-radius: 5px;
 }
 
@@ -49,5 +52,121 @@
 
 .project-content {
   flex: 1.2;
-  border: 1px solid purple;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.project-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 72px;
+  padding: 0;
+}
+
+.project-name {
+  width: 100%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0;
+  letter-spacing: 0;
+  text-align: left;
+  color: $blue-color;
+}
+
+.project-info {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  padding: 0;
+  margin: 0;
+
+  img {
+    width: 8px;
+    height: 8px;
+    margin: 0 1rem;
+  }
+
+  p {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #454c58;
+    margin: 0;
+  }
+}
+
+.tools-wrapper {
+  margin: 1rem 0;
+}
+
+.tools {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+  height: 24px;
+
+  font {
+    color: $pink-color;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      font-weight: 500;
+      letter-spacing: 0.03em;
+      margin: 0 0.5rem;
+    }
+  }
+}
+
+.description {
+  width: 100%;
+  height: 76px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 72px;
+  padding: 0;
+
+  .action-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    width: 7rem;
+    height: 2.5rem;
+    margin: 0 1rem;
+    color: $blue-color;
+    border: none;
+    outline: none;
+    background: $linear-background;
+    box-shadow: $outer-shadow;
+    border-radius: 5px;
+
+    &:hover {
+      @include button_hover;
+
+      color: $active-color;
+      cursor: pointer;
+    }
+  }
 }

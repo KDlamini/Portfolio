@@ -17,31 +17,43 @@ function ProjectCard({ props }) {
         <div className="project-header">
           <h1 className="project-name">{name}</h1>
           <div className="project-info">
-            <p className="project-info-item">{type}</p>
+            <p>{type}</p>
             <img src={dotImg} alt="bullet point" />
-            <p className="project-info-item">{year}</p>
+            <p>{year}</p>
           </div>
         </div>
 
-        <ul className="tools">
-          <font>Built With: </font>
-          <ul>
-            {
-              builtWith.map((tool) => <li key={tool}>{tool}</li>)
-            }
+        <div className="tools-wrapper">
+          <ul className="tools">
+            <font>Built with: </font>
+            <ul>
+              {
+                builtWith.map((tool) => (
+                  <li key={tool}>
+                    {tool}
+                    ,
+                  </li>
+                ))
+              }
+            </ul>
           </ul>
-        </ul>
+
+          <ul className="tools">
+            <font>Additional Tools: </font>
+            <ul>
+              {
+                tools.map((tool) => (
+                  <li key={tool}>
+                    {tool}
+                    ,
+                  </li>
+                ))
+              }
+            </ul>
+          </ul>
+        </div>
 
         <p className="description">{description}</p>
-
-        <ul className="tools">
-          <font>Additional Tools: </font>
-          <ul>
-            {
-              tools.map((tool) => <li key={tool}>{tool}</li>)
-          }
-          </ul>
-        </ul>
 
         <div className="actions">
           <button

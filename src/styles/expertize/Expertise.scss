@@ -115,7 +115,7 @@
   width: 100%;
   padding: 0.1875rem;
   margin: 0.8rem 0;
-  background: $bg-color;
+  background: $background-color;
   box-shadow: $inner-shadow;
   border-radius: 10px;
 }
@@ -154,7 +154,7 @@
 }
 
 .timeline-item-inner {
-  background: $bg-color;
+  background: $background-color;
   box-shadow: $outer-shadow;
   border-radius: 5px;
   color: $dark-color;
@@ -183,7 +183,7 @@
 /* ------------------------- Certification tab ---------------------- */
 
 .certificate {
-  background: $bg-color;
+  background: $background-color;
   margin: 20px 20px 60px 20px;
 }
 

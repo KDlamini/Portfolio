@@ -1,14 +1,14 @@
 @import '../variables/variables.scss';
 
 @mixin button_hover {
-  background: $bg-color;
+  background: $background-color;
   box-shadow: $inner-shadow;
 }
 
 @mixin page {
   padding: 1px;
   margin: 5px;
-  background: $page-bg;
+  background: $page-background;
   box-shadow:
     1px 1px 1px #6892a3,
     -1px -1px 1px #8cc6dd;
@@ -17,7 +17,7 @@
 
 @mixin inner_page {
   width: 100%;
-  background: $bg-color;
+  background: $background-color;
   box-shadow: $inner-shadow;
   border-radius: 5px;
 }

@@ -23,7 +23,7 @@ export const projectsData = [
   {
     image: '../assets/marvel-moviecon.png',
     name: 'Marvel MovieCon',
-    type: 'Front End',
+    type: 'Front-End',
     year: '2021',
     category: 'Web Application',
     builtWith: ['Html', 'Css', 'JavaScript'],
@@ -36,7 +36,7 @@ export const projectsData = [
   {
     image: 'https://github.com/KDlamini/Portfolio/blob/main/public/images/coinvestbank.png',
     name: 'Coinvest Bank',
-    type: 'Front End',
+    type: 'Front-End',
     year: '2021',
     category: 'Web Application',
     builtWith: ['React', 'Hooks', 'Router', 'CSS'],
