@@ -1,55 +1,60 @@
 import React from 'react';
-import moviecon from '../assets/marvel-moviecon.png';
+import PropTypes from 'prop-types';
 import dotImg from '../assets/Counter.svg';
 
-function ProjectCard() {
+function ProjectCard({ props }) {
+  const {
+    image, name, type, year, builtWith, tools, description, live, code,
+  } = props;
+
   return (
     <ul className="project-card">
       <li className="project-img-wrapper">
-        <img className="project-img" src={moviecon} alt="project" />
+        <img className="project-img" src={image} alt="project" />
       </li>
 
       <li className="project-content">
         <div className="project-header">
-          <h1 className="project-name">Coinvest Bank</h1>
+          <h1 className="project-name">{name}</h1>
           <div className="project-info">
-            <p className="project-info-item">Front End</p>
+            <p className="project-info-item">{type}</p>
             <img src={dotImg} alt="bullet point" />
-            <p className="project-info-item">2021</p>
+            <p className="project-info-item">{year}</p>
           </div>
         </div>
 
         <ul className="tools">
-          <font>Tools: </font>
+          <font>Built With: </font>
           <ul>
-            <li>React</li>
-            <li>Hooks</li>
-            <li>Router</li>
+            {
+              builtWith.map((tool) => <li key={tool}>{tool}</li>)
+            }
           </ul>
         </ul>
 
-        <p className="description">
-          Coinvest Bank is a fictional bank resembling a real world bank design and functionality.
-          <br />
-          • I applied React hooks, BrowswerRouter, Route, Switch and Link using react-router-dom.
-          <br />
-          • Commercially focused responsive design.
-          <br />
-          • Semantic UI icons.
-        </p>
+        <p className="description">{description}</p>
+
+        <ul className="tools">
+          <font>Additional Tools: </font>
+          <ul>
+            {
+              tools.map((tool) => <li key={tool}>{tool}</li>)
+          }
+          </ul>
+        </ul>
 
         <div className="actions">
           <button
             type="button"
             className="action-btn"
-            onClick={() => window.open('https://coinvestbank.netlify.app/', '_blank')}
+            onClick={() => window.open(`${live}`, '_blank')}
           >
             <i className="globe icon" />
           </button>
           <button
             type="button"
             className="action-btn"
-            onClick={() => window.open('https://github.com/KDlamini/coinvest-bank', '_blank')}
+            onClick={() => window.open(`${code}`, '_blank')}
           >
             <i className="code icon" />
           </button>
@@ -58,5 +63,9 @@ function ProjectCard() {
     </ul>
   );
 }
+
+ProjectCard.propTypes = {
+  props: PropTypes.object,
+}.isRequired;
 
 export default ProjectCard;
