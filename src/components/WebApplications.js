@@ -2,7 +2,7 @@ import React from 'react';
 
 function WebApplications() {
   return (
-    <div>
+    <div className="projects-wrapper">
       Web
       Applications
     </div>

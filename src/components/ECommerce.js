@@ -2,7 +2,7 @@ import React from 'react';
 
 function ECommerce() {
   return (
-    <div>
+    <div className="projects-wrapper">
       ECommerce
       ECommerce
     </div>

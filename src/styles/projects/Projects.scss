@@ -2,7 +2,7 @@
 @import '../mixins/mixins.scss';
 @import '../variables/variables.scss';
 
-.project-content {
+.project-container {
   display: flex;
   flex-direction: column;
   color: $dark-color;
@@ -11,4 +11,43 @@
 
   min-height: 92vh;
   padding: 1.5rem;
+}
+
+.projects-wrapper {
+  padding: 0;
+  border-radius: 5px;
+}
+
+.project-card {
+  display: flex;
+  list-style: none;
+  color: $dark-color;
+  margin: 0 0 2rem 0;
+  padding: 1rem;
+  height: 396px;
+  background: $bg-color;
+  box-shadow: $outer-shadow;
+  border: 1px solid #dfe1e6;
+  border-radius: 5px;
+}
+
+.project-card:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.project-img-wrapper {
+  flex: 1;
+}
+
+.project-img {
+  display: block;
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.project-content {
+  flex: 1.2;
+  border: 1px solid purple;
 }

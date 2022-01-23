@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
-.project-content {
+.project-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -15,5 +15,55 @@
   border-radius: 5px;
   min-height: 92vh;
   padding: 1.5rem;
+}
+
+.projects-wrapper {
+  padding: 0;
+  border-radius: 5px;
+}
+
+.project-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  color: #242424;
+  margin: 0 0 2rem 0;
+  padding: 1rem;
+  height: 396px;
+  background: #d2deef;
+  -webkit-box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
+          box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
+  border: 1px solid #dfe1e6;
+  border-radius: 5px;
+}
+
+.project-card:nth-child(even) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.project-img-wrapper {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.project-img {
+  display: block;
+  -o-object-fit: fill;
+     object-fit: fill;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.project-content {
+  -webkit-box-flex: 1.2;
+      -ms-flex: 1.2;
+          flex: 1.2;
+  border: 1px solid purple;
 }
 /*# sourceMappingURL=Projects.css.map */

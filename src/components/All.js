@@ -1,10 +1,10 @@
 import React from 'react';
+import ProjectCard from './ProjectCard';
 
 function All() {
   return (
-    <div>
-      All
-      All
+    <div className="projects-wrapper">
+      <ProjectCard />
     </div>
   );
 }

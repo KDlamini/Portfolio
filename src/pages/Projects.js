@@ -12,7 +12,7 @@ function Projects() {
         <NavLink to="e-commerce" className={(nav) => (nav.isActive ? 'buttonActive' : 'tab-item')}>E-commerce</NavLink>
       </div>
 
-      <div className="project-content">
+      <div className="project-container">
         <Outlet />
       </div>
     </section>
