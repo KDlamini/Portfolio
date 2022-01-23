@@ -40,7 +40,7 @@
 .tab-item {
   text-align: center;
   color: $blue-color;
-  width: 102px;
+  min-width: 120px;
   padding: 0.3rem 1rem;
   margin: 0 1rem;
 }
