@@ -33,24 +33,24 @@
   background: linear-gradient(145deg, #83b8cd, #6e9bad);
   box-shadow: $outer-shadow;
   border-radius: 5px;
-}
 
-.contact-tab i {
-  width: 1.875rem;
-  height: 1.875rem;
-  padding-top: 5px;
-  border-radius: 10px;
-  color: $pink-color;
-}
+  i {
+    width: 1.875rem;
+    height: 1.875rem;
+    padding-top: 5px;
+    border-radius: 10px;
+    color: $pink-color;
+  }
 
-.contact-tab h4 {
-  font-weight: bold;
+  h4 {
+    font-weight: bold;
+  }
 }
 
 .contact-container form {
   flex: 2.3;
   display: flex;
-  background: $page-bg;
+  background: $page-background;
   box-shadow: $outer-shadow;
   border-radius: 5px;
 }
@@ -61,6 +61,46 @@
   align-items: center;
   width: 40%;
   height: 100%;
+}
+
+.form-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+  height: 100%;
+  box-sizing: border-box;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+
+  textarea::placeholder {
+    opacity: 0.8;
+    font-size: 1rem;
+    letter-spacing: 2px;
+  }
+
+  textarea {
+    width: 100% !important;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    box-sizing: border-box;
+    color: #3b3b3b;
+    font-size: 1.2rem;
+  }
+
+  button {
+    font-weight: bold;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 1.5rem 1.5rem 1.5rem;
+    background-color: #1ed98b;
+    box-shadow: $tab-shadow;
+    border-radius: 5px;
+  }
 }
 
 .form-heading {
@@ -110,16 +150,6 @@
   transition: all ease 0.5s;
 }
 
-.form-right {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 60%;
-  height: 100%;
-  box-sizing: border-box;
-  border-left: 1px solid rgba(255, 255, 255, 0.1);
-}
-
 .message font {
   font-size: 1.2rem;
   color: #3b3b3b;
@@ -131,36 +161,6 @@
   height: 100%;
   background: #75a5b8;
   box-shadow: $form-shadow;
-  border-radius: 5px;
-}
-
-.form-right textarea {
-  width: 100% !important;
-  height: 100%;
-  border: none;
-  outline: none;
-  background-color: transparent;
-  box-sizing: border-box;
-  color: #3b3b3b;
-  font-size: 1.2rem;
-}
-
-.form-right textarea::placeholder {
-  opacity: 0.8;
-  font-size: 1rem;
-  letter-spacing: 2px;
-}
-
-.form-right button {
-  font-weight: bold;
-  outline: none;
-  border: none;
-  font-size: 1rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin: 0 1.5rem 1.5rem 1.5rem;
-  background-color: #1ed98b;
-  box-shadow: $tab-shadow;
   border-radius: 5px;
 }
 

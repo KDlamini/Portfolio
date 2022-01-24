@@ -18,8 +18,8 @@ function About({ setIsOpen }) {
           <a id="github-btn" href="https://github.com/KDlamini" target="_blank" rel="noreferrer">
             <i className="github icon" />
           </a>
-          <a id="facebook-btn" href="https://www.facebook.com/wilson.dlamean" target="_blank" rel="noreferrer">
-            <i className="facebook f icon" />
+          <a id="angellist-btn" href="https://angel.co/u/simo-nkosi" target="_blank" rel="noreferrer">
+            <i className="angellist icon" />
           </a>
           <a id="twitter-btn" href="https://twitter.com/RealSimoNkosi" target="_blank" rel="noreferrer">
             <i className="twitter icon" />

@@ -11,7 +11,7 @@ function Expertise({ setIsOpen }) {
 
   return (
     <section className="expertise">
-      <div className="about-tabs">
+      <div className="navigation-tab">
 
         <button
           type="button"

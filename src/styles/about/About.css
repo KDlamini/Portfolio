@@ -1,7 +1,9 @@
+/* stylelint-disable csstree/validator */
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 .about-banner {
   display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -21,6 +23,7 @@
 .social-links,
 .about-img-wrapper {
   display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -35,6 +38,7 @@
   -ms-flex: 10;
   flex: 10;
   display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -58,6 +62,7 @@
   -ms-flex: 2;
   flex: 2;
   display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -99,7 +104,7 @@
   padding: 0.4rem 1rem;
   border: none;
   border-radius: 5px;
-  color: #00366b;
+  color: #172b4d;
   background: linear-gradient(145deg, #e1eeff, #a5b1c2);
   -webkit-box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
   box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
@@ -125,7 +130,7 @@
 }
 
 .social-links i {
-  color: #00366b;
+  color: #172b4d;
   font-size: 1em;
 }
 
