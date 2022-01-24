@@ -195,12 +195,15 @@
 }
 
 .certificate-wrapper {
-  box-shadow: $outer-shadow;
-  border: 1px solid $border-color;
+  box-shadow: $inner-shadow;
+  padding: 2px;
+  border-radius: 5px;
 }
 
 .certificate-img {
   display: block;
+  object-fit: fill;
   width: 100%;
   height: 100%;
+  border-radius: 5px;
 }
