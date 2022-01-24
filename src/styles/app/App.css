@@ -49,9 +49,17 @@ body {
   border-radius: 5px;
 }
 
-.about-text {
+.about-text,
+.projects-wrapper.all {
   -webkit-animation: slideIn 1s ease;
           animation: slideIn 1s ease;
+}
+
+.applications,
+.games,
+.e-commerce {
+  -webkit-animation: fade-in 0.1s ease-in-out both;
+          animation: fade-in 0.1s ease-in-out both;
 }
 
 .introduction,
@@ -91,6 +99,24 @@ body {
     opacity: 1;
     -webkit-transform: translateX(0);
             transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
