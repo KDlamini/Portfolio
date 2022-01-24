@@ -40,6 +40,9 @@
 
 .project-img-wrapper {
   flex: 1;
+  padding: 2px;
+  box-shadow: $inner-shadow;
+  border-radius: 5px;
 }
 
 .project-img {
@@ -47,6 +50,7 @@
   object-fit: fill;
   width: 100%;
   height: 100%;
+  border: 1px solid $border-color;
   border-radius: 5px;
 }
 
@@ -133,6 +137,7 @@
 }
 
 .description {
+  font-size: 1.1rem;
   width: 100%;
   height: 76px;
   line-height: 24px;
@@ -153,7 +158,7 @@
     justify-content: center;
     font-size: 1.2rem;
     width: 7rem;
-    height: 2.5rem;
+    height: 2.2rem;
     margin: 0 1rem;
     color: $blue-color;
     border: none;

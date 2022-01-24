@@ -102,7 +102,7 @@
   padding: 0.4rem 1rem;
   border: none;
   border-radius: 5px;
-  color: #00366b;
+  color: #172b4d;
   background: linear-gradient(145deg, #e1eeff, #a5b1c2);
   -webkit-box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
           box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
@@ -128,7 +128,7 @@
 }
 
 .social-links i {
-  color: #00366b;
+  color: #172b4d;
   font-size: 1em;
 }
 

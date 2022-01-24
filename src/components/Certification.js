@@ -15,16 +15,16 @@ function Certification() {
       </div>
 
       <div className="certificate">
-        <h2>JavaScript Algorithms and Data Structures</h2>
+        <h2>Front End Libraries</h2>
         <div className="certificate-wrapper">
-          <img className="certificate-img" src={JavaScriptAlgorithmsAndDataStructures} alt="Responsive Design" />
+          <img className="certificate-img" src={FrontEndLibraries} alt="Responsive Design" />
         </div>
       </div>
 
       <div className="certificate">
-        <h2>Front End Libraries</h2>
+        <h2>JavaScript Algorithms and Data Structures</h2>
         <div className="certificate-wrapper">
-          <img className="certificate-img" src={FrontEndLibraries} alt="Responsive Design" />
+          <img className="certificate-img" src={JavaScriptAlgorithmsAndDataStructures} alt="Responsive Design" />
         </div>
       </div>
 

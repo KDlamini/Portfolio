@@ -50,7 +50,7 @@
 
 .tab-item {
   text-align: center;
-  color: #00366b;
+  color: #172b4d;
   min-width: 120px;
   padding: 0.3rem 1rem;
   margin: 0 1rem;
@@ -222,14 +222,14 @@
 .certificate h2 {
   color: #242424;
   font-size: 1.4rem;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
 }
 
 .certificate-wrapper {
   -webkit-box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
           box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
-  border: 1px solid #e9e8e8;
+  border: 1px solid #dfe1e6;
 }
 
 .certificate-img {

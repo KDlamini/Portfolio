@@ -63,6 +63,7 @@ function ProjectCard({ props }) {
           >
             <i className="globe icon" />
           </button>
+
           <button
             type="button"
             className="action-btn"
