@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "swup": "^2.0.14"
-  },
-  "scripts": {
-    "start": "npm install"
-  }
-}
