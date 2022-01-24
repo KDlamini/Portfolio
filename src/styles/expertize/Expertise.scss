@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import '../mixins/mixins.scss';
+@import '../variables/variables.scss';
+
+.expertise-content {
+  display: flex;
+  flex-direction: column;
+  color: $dark-color;
+
+  @include inner_page;
+
+  min-height: 92vh;
+  padding: 1.5rem;
+}
+
+.about-tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  height: 6.1vh;
+  border-radius: 5px;
+}
+
+.go-back,
+.tab-item {
+  font-weight: 600;
+  background: $linear-background;
+  box-shadow: $tab-shadow;
+  border-radius: 5px;
+}
+
+.go-back {
+  justify-self: flex-start;
+  border: none;
+  padding: 0.4rem 1rem;
+  margin: 0 1rem;
+}
+
+.tab-item {
+  text-align: center;
+  color: $blue-color;
+  width: 102px;
+  padding: 0.3rem 1rem;
+  margin: 0 1rem;
+}
+
+.go-back:hover,
+.tab-item:hover {
+  @include button_hover;
+
+  color: $active-color;
+  cursor: pointer;
+}
+
+.go-back:hover {
+  color: $pink-color;
+}
+
+.buttonActive {
+  width: 102px;
+  margin: 0 1rem;
+}
+
+/* ------------------------- skills tab ---------------------- */
+
+.programming-languages {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 100%;
+  padding: 1.875rem;
+  margin: 20px 0;
+  box-shadow: $inner-shadow;
+  border-radius: 5px;
+}
+
+.language {
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.skill-item-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.875rem;
+  width: 100%;
+  min-height: 50vh;
+  box-shadow: $inner-shadow;
+  border-radius: 5px;
+}
+
+.skill-item {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 0 1%;
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+
+.skill-name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.skill-name p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.progress-bar {
+  text-align: justify;
+  width: 100%;
+  padding: 0.1875rem;
+  margin: 0.8rem 0;
+  background: $bg-color;
+  box-shadow: $inner-shadow;
+  border-radius: 10px;
+}
+
+.progress-level {
+  background-color: rgba(255, 55, 115, 0.6);
+  height: 0.3rem;
+  text-align: center;
+  z-index: -1;
+  border-radius: 10px;
+}
+
+/* ------------------------- Experience tab ---------------------- */
+
+.timeline {
+  border-radius: 5px;
+  margin-top: 20px;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 0;
+}
+
+.timeline-item {
+  flex: 0 0 100%;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.timeline-item:nth-child(odd) {
+  padding-right: calc(50% + 2vw);
+  text-align: right;
+}
+
+.timeline-item:nth-child(even) {
+  padding-left: calc(50% + 2vw);
+}
+
+.timeline-item-inner {
+  background: $bg-color;
+  box-shadow: $outer-shadow;
+  border-radius: 5px;
+  color: $dark-color;
+  padding: 1% 2%;
+  position: relative;
+}
+
+.timeline-item-inner span {
+  font-weight: 500;
+  color: $pink-color;
+  text-transform: capitalize;
+}
+
+.timeline-item-inner h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.timeline-item-inner h4 {
+  font-style: italic;
+  color: $active-color;
+  font-weight: 500;
+}
+
+/* ------------------------- Certification tab ---------------------- */
+
+.certificate {
+  background: $bg-color;
+  margin: 20px 20px 60px 20px;
+}
+
+.certificate h2 {
+  color: $dark-color;
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.certificate-wrapper {
+  box-shadow: $outer-shadow;
+  border: 1px solid #e9e8e8;
+}
+
+.certificate-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
