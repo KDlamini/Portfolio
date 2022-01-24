@@ -13,7 +13,7 @@
   padding: 1.5rem;
 }
 
-.about-tabs {
+.navigation-tab {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -40,7 +40,7 @@
 .tab-item {
   text-align: center;
   color: $blue-color;
-  width: 102px;
+  min-width: 120px;
   padding: 0.3rem 1rem;
   margin: 0 1rem;
 }
@@ -58,7 +58,7 @@
 }
 
 .buttonActive {
-  width: 102px;
+  min-width: 120px;
   margin: 0 1rem;
 }
 
@@ -115,7 +115,7 @@
   width: 100%;
   padding: 0.1875rem;
   margin: 0.8rem 0;
-  background: $bg-color;
+  background: $background-color;
   box-shadow: $inner-shadow;
   border-radius: 10px;
 }
@@ -154,7 +154,7 @@
 }
 
 .timeline-item-inner {
-  background: $bg-color;
+  background: $background-color;
   box-shadow: $outer-shadow;
   border-radius: 5px;
   color: $dark-color;
@@ -183,24 +183,27 @@
 /* ------------------------- Certification tab ---------------------- */
 
 .certificate {
-  background: $bg-color;
+  background: $background-color;
   margin: 20px 20px 60px 20px;
 }
 
 .certificate h2 {
   color: $dark-color;
   font-size: 1.4rem;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
 }
 
 .certificate-wrapper {
-  box-shadow: $outer-shadow;
-  border: 1px solid #e9e8e8;
+  box-shadow: $inner-shadow;
+  padding: 2px;
+  border-radius: 5px;
 }
 
 .certificate-img {
   display: block;
+  object-fit: fill;
   width: 100%;
   height: 100%;
+  border-radius: 5px;
 }

@@ -8,6 +8,10 @@ import Skills from './components/Skills';
 import Certification from './components/Certification';
 import Experience from './components/Experience';
 import Education from './components/Education';
+import All from './components/All';
+import WebApplications from './components/WebApplications';
+import Games from './components/Games';
+import ECommerce from './components/ECommerce';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
@@ -37,13 +41,19 @@ function App() {
               <Route path="/expertise/*" element={<Expertise setIsOpen={setIsOpen} />}>
                 <Route path="" element={<Navigate to="skills" />} />
                 <Route path="skills" element={<Skills />} />
-                <Route path="certification" element={<Certification />} />
                 <Route path="experience" element={<Experience />} />
                 <Route path="education" element={<Education />} />
+                <Route path="certification" element={<Certification />} />
               </Route>
             )
         }
-        <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/*" element={<Projects />}>
+          <Route path="" element={<Navigate to="all" />} />
+          <Route path="all" element={<All />} />
+          <Route path="web-applications" element={<WebApplications />} />
+          <Route path="games" element={<Games />} />
+          <Route path="e-commerce" element={<ECommerce />} />
+        </Route>
         <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>

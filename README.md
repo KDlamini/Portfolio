@@ -19,7 +19,7 @@ This is my personal portfolio. A portfolio website is a key job searching tool f
 
 - React
 - JavaScript
-- CSS
+- SASS
 
 ## Additional Tools
 

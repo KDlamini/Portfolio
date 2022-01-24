@@ -1,7 +1,9 @@
+/* stylelint-disable csstree/validator */
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 .expertise-content {
   display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -17,8 +19,9 @@
   padding: 1.5rem;
 }
 
-.about-tabs {
+.navigation-tab {
   display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -49,8 +52,8 @@
 
 .tab-item {
   text-align: center;
-  color: #00366b;
-  width: 102px;
+  color: #172b4d;
+  min-width: 120px;
   padding: 0.3rem 1rem;
   margin: 0 1rem;
 }
@@ -69,13 +72,14 @@
 }
 
 .buttonActive {
-  width: 102px;
+  min-width: 120px;
   margin: 0 1rem;
 }
 
 /* ------------------------- skills tab ---------------------- */
 .programming-languages {
   display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
@@ -96,6 +100,7 @@
 
 .skill-item-wrapper {
   display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -119,6 +124,7 @@
 
 .skill-name {
   display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -218,18 +224,22 @@
 .certificate h2 {
   color: #242424;
   font-size: 1.4rem;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
 }
 
 .certificate-wrapper {
-  -webkit-box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
-  box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
-  border: 1px solid #e9e8e8;
+  -webkit-box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
+  box-shadow: inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff;
+  padding: 2px;
+  border-radius: 5px;
 }
 
 .certificate-img {
   display: block;
+  -o-object-fit: fill;
+  object-fit: fill;
   width: 100%;
   height: 100%;
+  border-radius: 5px;
 }
