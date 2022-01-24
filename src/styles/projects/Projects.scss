@@ -175,3 +175,18 @@
     }
   }
 }
+
+.coming-soon {
+  width: 100%;
+  height: 85vh;
+  margin: 0;
+  padding: 0;
+
+  img {
+    display: block;
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+}

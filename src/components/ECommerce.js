@@ -1,9 +1,12 @@
 import React from 'react';
+import comingsoon from '../assets/coming_soon2.gif';
 
 function ECommerce() {
   return (
     <div className="projects-wrapper e-commerce">
-      E-commerce projects coming soon...
+      <div className="coming-soon">
+        <img src={comingsoon} alt="Coming soon gif" />
+      </div>
     </div>
   );
 }
