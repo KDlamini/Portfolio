@@ -39,11 +39,11 @@ function Contact() {
             </h1>
             <div className="f-name">
               <font>Name</font>
-              <input type="text" placeholder="Full Name" />
+              <input type="text" name="name" placeholder="Full Name" />
             </div>
             <div className="f-email">
               <font>Email</font>
-              <input type="email" placeholder="Example@gmail.com" />
+              <input type="email" name="email" placeholder="Example@gmail.com" />
             </div>
           </div>
 
