@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
+import ModalContext from '../context/ModalContext';
 import dotImg from '../assets/Counter.svg';
 
 function ProjectCard({ props }) {
   const {
     image, name, type, year, builtWith, tools, description, live, code,
   } = props;
+
+  const { setModalIsOpen } = useContext(ModalContext);
 
   return (
     <ul className="project-card">
@@ -71,6 +74,14 @@ function ProjectCard({ props }) {
             onClick={() => window.open(`${code}`, '_blank')}
           >
             <i className="code icon" />
+          </button>
+
+          <button
+            type="button"
+            className="action-btn"
+            onClick={() => setModalIsOpen(true)}
+          >
+            Details
           </button>
         </div>
       </li>
