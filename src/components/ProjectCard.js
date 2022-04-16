@@ -60,6 +60,7 @@ function ProjectCard({ props }) {
             type="button"
             className="action-btn"
             onClick={() => window.open(`${live}`, '_blank')}
+            disabled={name === 'Personal Portfolio'}
           >
             <i className="globe icon" />
           </button>

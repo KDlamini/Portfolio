@@ -1,10 +1,7 @@
-/* stylelint-disable csstree/validator */
-/* stylelint-disable no-descending-specificity */
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 .contact-container {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -25,13 +22,10 @@
   -ms-flex: 1;
   flex: 1;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
   justify-content: space-evenly;
   width: 100%;
   border-radius: 5px;
@@ -39,7 +33,6 @@
 
 .contact-tab {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -78,7 +71,6 @@
   -ms-flex: 2.3;
   flex: 2.3;
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background: #7aacc0;
   -webkit-box-shadow: 2px 2px 4px #b3bdcb, -2px -2px 4px #f2ffff;
@@ -88,7 +80,6 @@
 
 .form-left {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -103,7 +94,6 @@
 
 .form-right {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -119,6 +109,18 @@
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.form-right textarea {
+  width: 100% !important;
+  height: 100%;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #3b3b3b;
+  font-size: 1.2rem;
+}
+
 .form-right textarea::-webkit-input-placeholder {
   opacity: 0.8;
   font-size: 1rem;
@@ -131,28 +133,10 @@
   letter-spacing: 2px;
 }
 
-.form-right textarea::-ms-input-placeholder {
-  opacity: 0.8;
-  font-size: 1rem;
-  letter-spacing: 2px;
-}
-
 .form-right textarea::placeholder {
   opacity: 0.8;
   font-size: 1rem;
   letter-spacing: 2px;
-}
-
-.form-right textarea {
-  width: 100% !important;
-  height: 100%;
-  border: none;
-  outline: none;
-  background-color: transparent;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  color: #3b3b3b;
-  font-size: 1.2rem;
 }
 
 .form-right button {
@@ -178,7 +162,6 @@
 .f-name,
 .f-email {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -218,12 +201,6 @@
 
 .f-email input:-ms-input-placeholder,
 .f-name input:-ms-input-placeholder {
-  opacity: 0.8;
-  letter-spacing: 1px;
-}
-
-.f-email input::-ms-input-placeholder,
-.f-name input::-ms-input-placeholder {
   opacity: 0.8;
   letter-spacing: 1px;
 }
