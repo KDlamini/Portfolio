@@ -44,8 +44,9 @@
 }
 
 .active-navlink {
-  @include nav_button;
-
+  margin: 1.075rem;
+  padding: 15%;
+  border-radius: 5px;
   box-shadow:
     inset 2px 2px 4px #b3bdcb,
     inset -2px -2px 4px #f2ffff,

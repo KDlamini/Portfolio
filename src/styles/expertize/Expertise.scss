@@ -207,3 +207,51 @@
   height: 100%;
   border-radius: 5px;
 }
+
+@media (max-width: 818px) {
+  .navigation-tab {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .go-back {
+    min-width: 120px;
+  }
+
+  .go-back,
+  .tab-item,
+  .buttonActive {
+    margin: 0.5rem;
+  }
+
+  /* --- skills tab --- */
+  .programming-languages {
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .language {
+      min-width: 80px;
+      margin: 0.5rem 1rem;
+    }
+  }
+
+  .skill-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  /* --- Experience and education tab --- */
+  .timeline-item {
+    margin-bottom: 2rem;
+  }
+
+  .timeline-item:nth-child(odd) {
+    padding-right: 0;
+  }
+
+  .timeline-item:nth-child(even) {
+    padding-left: 0;
+  }
+}

@@ -143,7 +143,7 @@
   list-style: none;
   padding: 0;
   width: 100%;
-  height: 24px;
+  height: auto;
 }
 
 .tools font {
@@ -171,7 +171,7 @@
 .description {
   font-size: 1.1rem;
   width: 100%;
-  height: 76px;
+  height: 120px;
   line-height: 24px;
   margin: 0;
 }
@@ -242,4 +242,21 @@
   width: 100%;
   height: 100%;
   border-radius: 5px;
+}
+
+@media (max-width: 958px) {
+  .project-card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .project-card:nth-child(even) {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
 }
