@@ -9,6 +9,9 @@ import hangman from '../assets/hangman.png';
 import mastermind from '../assets/mastermind.png';
 import tictactoe from '../assets/tic-tac-toe.png';
 import nikestore from '../assets/nikestore.png';
+import Mindly from '../assets/Mindly.png';
+import Recipes from '../assets/Recipes.png';
+import Budget from '../assets/Budget.png';
 
 const languages = [
   {
@@ -33,6 +36,32 @@ const languages = [
 
 export const projectsData = [
   {
+    image: 'https://user-images.githubusercontent.com/63560332/163343421-7f80f067-c46d-4fc0-9d8d-ec92b4572e07.png',
+    name: 'VacayHome',
+    type: 'Full-Stack',
+    year: '2022',
+    category: 'Web Application',
+    builtWith: ['React', 'Rails API', 'PostgreSQL', 'React Bootstrap', 'CSS'],
+    tools: ['VScode', 'Linters', 'Rspec', 'Github Actions'],
+    description: 'VacayHome is place for the most luxurious listings. Book a vacation in one of our vocational houses and enjoy your stay in a comfortable and safe environment.',
+    live: 'https://vacay-home.netlify.app/',
+    code: 'https://github.com/ShoiraTa/Vacayhome-front-end',
+  },
+
+  {
+    image: `${Recipes}`,
+    name: 'Tasty Dishes',
+    type: 'Full-Stack',
+    year: '2022',
+    category: 'Web Application',
+    builtWith: ['Ruby on Rails', 'PostgreSQL', 'Bootstrap', 'CSS'],
+    tools: ['VScode', 'Linters', 'Rspec', 'Github Actions'],
+    description: 'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe.',
+    live: 'https://tasty-dishes-52422.herokuapp.com/',
+    code: 'https://github.com/KDlamini/Recipe-app',
+  },
+
+  {
     image: `${binger}`,
     name: 'Binger TV Shows',
     type: 'Front-End',
@@ -43,6 +72,32 @@ export const projectsData = [
     description: 'Binger website allows you to browse popular TV shows that air in different networks mainly in US, Canada, and the UK. Users can search, comment, like, and filter their favorite shows based on genre.',
     live: 'https://newhorizon-tech.github.io/tv-webapp/dist',
     code: 'https://github.com/newhorizon-tech/tv-webapp',
+  },
+
+  {
+    image: `${Mindly}`,
+    name: 'Mindly Blogs',
+    type: 'Full-Stack',
+    year: '2022',
+    category: 'Web Application',
+    builtWith: ['Ruby on Rails', 'PostgreSQL', 'Zerb Foundation', 'SCSS'],
+    tools: ['VScode', 'Linters', 'Rspec', 'Github Actions'],
+    description: 'The Mindly app is a classic example of a blog website. This will is a fully functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts.',
+    live: 'https://mindly-blogs.herokuapp.com/',
+    code: 'https://github.com/KDlamini/mindly',
+  },
+
+  {
+    image: `${Budget}`,
+    name: 'Go Save',
+    type: 'Full-Stack',
+    year: '2022',
+    category: 'Web Application',
+    builtWith: ['Ruby on Rails', 'PostgreSQL', 'Bootstrap', 'CSS'],
+    tools: ['VScode', 'Linters', 'Rspec', 'Github Actions'],
+    description: 'A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+    live: 'https://young-falls-16975.herokuapp.com/',
+    code: 'https://github.com/KDlamini/Budget-app',
   },
 
   {

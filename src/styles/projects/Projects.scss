@@ -176,6 +176,14 @@
   }
 }
 
+.actions .action-btn:disabled {
+  cursor: not-allowed;
+
+  @include button_hover;
+
+  color: #8f8f8f;
+}
+
 .coming-soon {
   width: 100%;
   height: 85vh;
