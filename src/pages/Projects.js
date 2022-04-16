@@ -6,6 +6,7 @@ import '../styles/projects/Projects.css';
 
 function Projects() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [project, setProject] = useState({});
 
   return (
     <section className="projects">
@@ -17,7 +18,10 @@ function Projects() {
       </div>
 
       <div className="project-container">
-        <ModalContext.Provider value={{ modalIsOpen, setModalIsOpen }}>
+        <ModalContext.Provider value={{
+          modalIsOpen, setModalIsOpen, project, setProject,
+        }}
+        >
           {
             modalIsOpen ? <Popup /> : null
           }

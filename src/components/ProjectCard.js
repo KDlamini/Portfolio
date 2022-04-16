@@ -5,10 +5,10 @@ import dotImg from '../assets/Counter.svg';
 
 function ProjectCard({ props }) {
   const {
-    image, name, type, year, builtWith, tools, description, live, code,
+    image, name, type, year, builtWith, tools, description,
   } = props;
 
-  const { setModalIsOpen } = useContext(ModalContext);
+  const { setModalIsOpen, setProject } = useContext(ModalContext);
 
   return (
     <ul className="project-card">
@@ -62,26 +62,9 @@ function ProjectCard({ props }) {
           <button
             type="button"
             className="action-btn"
-            onClick={() => window.open(`${live}`, '_blank')}
-            disabled={name === 'Personal Portfolio'}
+            onClick={() => { setModalIsOpen(true); setProject(props); }}
           >
-            <i className="globe icon" />
-          </button>
-
-          <button
-            type="button"
-            className="action-btn"
-            onClick={() => window.open(`${code}`, '_blank')}
-          >
-            <i className="code icon" />
-          </button>
-
-          <button
-            type="button"
-            className="action-btn"
-            onClick={() => setModalIsOpen(true)}
-          >
-            Details
+            Preview
           </button>
         </div>
       </li>
