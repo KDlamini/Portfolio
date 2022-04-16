@@ -208,7 +208,7 @@
   border-radius: 5px;
 }
 
-@media (max-width: 818px) { 
+@media (max-width: 818px) {
   .navigation-tab {
     flex-wrap: wrap;
     height: auto;
@@ -225,7 +225,7 @@
     margin: 0.5rem;
   }
 
-  /* --- skills tab ---*/
+  /* --- skills tab --- */
   .programming-languages {
     justify-content: center;
     align-items: center;
@@ -250,7 +250,7 @@
   .timeline-item:nth-child(odd) {
     padding-right: 0;
   }
-  
+
   .timeline-item:nth-child(even) {
     padding-left: 0;
   }

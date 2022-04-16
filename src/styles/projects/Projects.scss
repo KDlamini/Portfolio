@@ -112,7 +112,7 @@
   list-style: none;
   padding: 0;
   width: 100%;
-  height: 24px;
+  height: auto;
 
   font {
     color: $pink-color;
@@ -139,7 +139,7 @@
 .description {
   font-size: 1.1rem;
   width: 100%;
-  height: 76px;
+  height: 120px;
   line-height: 24px;
   margin: 0;
 }
@@ -196,5 +196,16 @@
     width: 100%;
     height: 100%;
     border-radius: 5px;
+  }
+}
+
+@media (max-width: 958px) {
+  .project-card {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .project-card:nth-child(even) {
+    flex-direction: column;
   }
 }
