@@ -69,6 +69,11 @@ body {
   animation: slideUp 1s ease;
 }
 
+.ReactModal__Body--open,
+.ReactModal__Html--open {
+  overflow: hidden;
+}
+
 @keyframes slideIn {
   0% {
     opacity: 0;
