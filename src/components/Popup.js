@@ -7,7 +7,7 @@ function Popup() {
   const { modalIsOpen, setModalIsOpen, project } = useContext(ModalContext);
 
   const {
-    image, name, type, year, builtWith, tools, description, live, code,
+    image, name, type, year, builtWith, tools, contributors, tasks, description, live, code,
   } = project;
 
   const styles = {
@@ -24,7 +24,7 @@ function Popup() {
       boxShadow: 'inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff',
       borderRadius: '5px',
       outline: 'none',
-      padding: '1rem',
+      padding: '0 1rem 1rem 0',
     },
   };
 
@@ -35,25 +35,40 @@ function Popup() {
       onRequestClose={() => setModalIsOpen(false)}
       style={styles}
     >
-      <ul className="works-modal">
+      <ul className="projects-modal">
         <li>
+          <div className="modal-close">
+            <button
+              type="button"
+              onClick={() => setModalIsOpen(false)}
+            >
+              <i className="times icon" />
+            </button>
+          </div>
           <div className="project-header">
-            <div className="modal-title-container">
-              <h1 className="project-title">{name}</h1>
-              <div className="modal-close">
-                <button
-                  type="button"
-                  onClick={() => setModalIsOpen(false)}
-                >
-                  <i className="times icon" />
-                </button>
-              </div>
-            </div>
+            <h1 className="project-name">{name}</h1>
             <div className="project-info">
               <p>{type}</p>
               <img src={dotImg} alt="bullet point" />
               <p>{year}</p>
             </div>
+          </div>
+
+          <div className="tools contributors">
+            <p>Contributors: </p>
+            <ul>
+              {
+                contributors.map((contributor) => {
+                  const { fullName, profile } = contributor;
+
+                  return (
+                    <li key={fullName}>
+                      <a href={profile} target="_blank" rel="noopener noreferrer">{fullName}</a>
+                    </li>
+                  );
+                })
+              }
+            </ul>
           </div>
         </li>
         <li className="project-img-wrapper">
@@ -89,8 +104,29 @@ function Popup() {
               </ul>
             </ul>
           </div>
-          <p className="description">{description}</p>
+          <p className="modal-description">{description}</p>
           <div className="divider" />
+          <div className="contributors tasks">
+            <font>Tasks: </font>
+            <ul>
+              {
+                tasks.map((role) => {
+                  const { assignee, task } = role;
+
+                  return (
+                    <li key={assignee}>
+                      <p>
+                        {assignee}
+                        :
+                        &nbsp;
+                      </p>
+                      <span className="modal-description">{task}</span>
+                    </li>
+                  );
+                })
+              }
+            </ul>
+          </div>
           <div className="actions">
             <button
               type="button"
