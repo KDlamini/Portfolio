@@ -10,10 +10,30 @@ function Popup() {
     image, name, type, year, builtWith, tools, description, live, code,
   } = project;
 
+  const styles = {
+    overlay: {
+      backgroundColor: '#7aacc0',
+    },
+    content: {
+      top: '3px',
+      left: '3px',
+      right: '3px',
+      bottom: '3px',
+      border: 'none',
+      background: '#d2deef',
+      boxShadow: 'inset 2px 2px 4px #b3bdcb, inset -2px -2px 4px #f2ffff',
+      borderRadius: '5px',
+      outline: 'none',
+      padding: '1rem',
+    },
+  };
+
   return (
     <Modal
       isOpen={modalIsOpen}
+      shouldCloseOnOverlayClick={false}
       onRequestClose={() => setModalIsOpen(false)}
+      style={styles}
     >
       <ul className="works-modal">
         <li>
