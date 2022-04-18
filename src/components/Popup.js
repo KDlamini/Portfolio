@@ -107,7 +107,7 @@ function Popup() {
           <p className="modal-description">{description}</p>
           <div className="divider" />
           <div className="contributors tasks">
-            <font>Tasks: </font>
+            <p>Tasks: </p>
             <ul>
               {
                 tasks.map((role) => {
