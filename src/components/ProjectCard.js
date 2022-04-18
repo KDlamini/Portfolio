@@ -5,7 +5,7 @@ import dotImg from '../assets/Counter.svg';
 
 function ProjectCard({ props }) {
   const {
-    image, name, type, year, builtWith, tools, description,
+    image, name, type, year, builtWith, description,
   } = props;
 
   const { setModalIsOpen, setProject } = useContext(ModalContext);
@@ -40,20 +40,6 @@ function ProjectCard({ props }) {
               }
             </ul>
           </ul>
-
-          <ul className="tools">
-            <font>Additional Tools: </font>
-            <ul>
-              {
-                tools.map((tool) => (
-                  <li key={tool}>
-                    {tool}
-                    ,
-                  </li>
-                ))
-              }
-            </ul>
-          </ul>
         </div>
 
         <p className="description">{description}</p>
@@ -64,7 +50,7 @@ function ProjectCard({ props }) {
             className="action-btn"
             onClick={() => { setModalIsOpen(true); setProject(props); }}
           >
-            Preview
+            <i className="eye icon" />
           </button>
         </div>
       </li>
