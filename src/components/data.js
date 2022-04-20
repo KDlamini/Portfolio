@@ -142,8 +142,17 @@ export const projectsData = [
       { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
-      { assignee: 'Simo Nkosi', task: 'Develop a full-stack web application using Rails, Devise, Cancancan, Bootstrap, and PostgreSQL.' },
+      { assignee: 'Simo Nkosi', task: 'Develop a full-stack budget web application using Rails, Devise, Cancancan, Bootstrap, and PostgreSQL.' },
     ],
+    requirements: {
+      info: 'Develop a Ruby on Rails application that allows the user to register and log in so that the data is private to them, introduce new transactions associated with a category, and see the money spent on each category. The design should be inspired by the original design idea by Gregoire Vella on Behance.',
+      details: [
+        'The application should be responsive and mobile-friendly',
+        'Splash screen: a simple page with the name of the app, and links to the sign up and log in pages.',
+        'Users: The user should be able to register in the app with full name, email and password. The user can log into the app using email and password. The user can create a new account, and can create, view, update, and delete new categories and transactions. If the user is not logged in, they can\'t access pages that require the user to be logged in.',
+        'Home page: When the user logs in, they are presented with the categories page. For each category, the user can see their name, icon and the total amount of all the transactions that belongs to that category. When the user clicks (or taps) on a category item, the application navigates to the transactions page for that category. There is a button "add a new category" at the bottom that brings the user to the page to create a new category.',
+      ],
+    },
     description: 'A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
     live: 'https://young-falls-16975.herokuapp.com/',
     code: 'https://github.com/KDlamini/Budget-app',
