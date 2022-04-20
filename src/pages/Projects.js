@@ -1,8 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Outlet, NavLink } from 'react-router-dom';
+import ModalContext from '../context/ModalContext';
+import Popup from '../components/Popup';
 import '../styles/projects/Projects.css';
 
 function Projects() {
+  const [modalIsOpen, setModalIsOpen] = useState(false);
+  const [project, setProject] = useState({});
+
   return (
     <section className="projects">
       <div className="navigation-tab">
@@ -13,7 +18,15 @@ function Projects() {
       </div>
 
       <div className="project-container">
-        <Outlet />
+        <ModalContext.Provider value={{
+          modalIsOpen, setModalIsOpen, project, setProject,
+        }}
+        >
+          {
+            modalIsOpen ? <Popup /> : null
+          }
+          <Outlet />
+        </ModalContext.Provider>
       </div>
     </section>
   );
