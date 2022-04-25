@@ -150,6 +150,10 @@ export const projectsData = [
       { assignee: 'Simo Nkosi', task: 'Setup application with Rails and PostgreSQL, web design, login page with authentication, users, posts, comments, likes, and unit tests with Rspec and Capybara.' },
       { assignee: 'Somdotta Sarkar', task: 'API and documentation, user authorization, unit tests with Rspec and Capybara.' },
     ],
+    requirements: {
+      info: '',
+      details: [],
+    },
     description: 'The Mindly app is a classic example of a blog website. This will is a fully functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts.',
     live: 'https://mindly-blogs.herokuapp.com/',
     code: 'https://github.com/KDlamini/mindly',
@@ -197,6 +201,10 @@ export const projectsData = [
     tasks: [
       { assignee: 'Simo Nkosi', task: 'Develop a front-end web application using React, Redux, React-Router, while consuming the Financial Modeling Prep API.' },
     ],
+    requirements: {
+      info: '',
+      details: [],
+    },
     description: 'This mobile first app displays a list of popular stock market prices. Users can click on selected categories including forex, majors, cryptocurrencies, stocks, and ETFs. Each category lists the latest prices update for the pair.',
     live: 'https://forex-metrics.netlify.app/',
     code: 'https://github.com/KDlamini/forex-metrics',
@@ -217,6 +225,10 @@ export const projectsData = [
       { assignee: 'Simo Nkosi', task: 'Setup application with Create-react-app, setup react-redux using duck pattern, rockets page with reserve and cancel rocket functionality, and my profile page.' },
       { assignee: 'Leandro Barreto', task: 'Navbar, missions page with join and cancel membership functionality.' },
     ],
+    requirements: {
+      info: '',
+      details: [],
+    },
     description: 'SpaceX Hub allows you to view all available SpaceX Rockets and Missions. My Profile section lists all reserved rockets for booked space missions.',
     live: 'spacexhub.netlify.app/',
     code: 'https://github.com/KDlamini/space-travellers-hub',
@@ -239,6 +251,10 @@ export const projectsData = [
       { assignee: 'Vishal Verma', task: 'Unit tests with Jest and React Testing Library.' },
       { assignee: 'Ajise Toluwase', task: 'Unit tests with Jest and React Testing Library.' },
     ],
+    requirements: {
+      info: '',
+      details: [],
+    },
     description: 'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.',
     live: 'https://math-magicians-05671.herokuapp.com/',
     code: 'https://github.com/KDlamini/math-magicians',
@@ -258,6 +274,10 @@ export const projectsData = [
     tasks: [
       { assignee: 'Simo Nkosi', task: 'Develop a front-end web application using React, Redux, and React-Router.' },
     ],
+    requirements: {
+      info: '',
+      details: [],
+    },
     description: 'Coinvest Bank is a fictional bank resembling a real world bank design and functionality.',
     live: 'https://coinvestbank.netlify.app/',
     code: 'https://github.com/KDlamini/coinvest-bank',
@@ -277,6 +297,10 @@ export const projectsData = [
     tasks: [
       { assignee: 'Simo Nkosi', task: 'Develop a front-end web application using React, React-Router, Context API, SCSS, and animations.' },
     ],
+    requirements: {
+      info: '',
+      details: [],
+    },
     description: 'My personal website depicts pages about me, my skills, highlighted projects, experience, education, certification, and contact information.',
     live: 'https://simonkosi.netlify.app/',
     code: 'https://github.com/KDlamini/Portfolio',
@@ -296,6 +320,10 @@ export const projectsData = [
     tasks: [
       { assignee: 'Simo Nkosi', task: 'Develop a front-end web application using Html, Css, and JavaScript that re-imagines the Nike store homepage.' },
     ],
+    requirements: {
+      info: '',
+      details: [],
+    },
     description: 'A recreation of Nike Store that allows users to shop, browse, get latest updates, and contact support. Change the theme color matching a product by clicking on any of the Nike products.',
     live: 'https://kdlamini.github.io/nike-store/',
     code: 'https://github.com/KDlamini/nike-store',
@@ -315,6 +343,10 @@ export const projectsData = [
     tasks: [
       { assignee: 'Simo Nkosi', task: 'Develop a Html, css, and JavaScript application from an existing design by Creatives Commons.' },
     ],
+    requirements: {
+      info: '',
+      details: [],
+    },
     description: 'Marvel Studios MovieCon conference event where the studio\'s president Kevin Feige will discuss with fans new feature films for theatres and series to release on Disney+.',
     live: 'https://kdlamini.github.io/marvel-moviecon-capstone1/',
     code: 'https://github.com/KDlamini/marvel-moviecon-capstone1',
@@ -334,6 +366,10 @@ export const projectsData = [
     tasks: [
       { assignee: 'Simo Nkosi', task: 'Develop a Ruby CLI game using classes, JSON, and read/write to File functionality.' },
     ],
+    requirements: {
+      info: '',
+      details: [],
+    },
     description: 'A Ruby code-breaking CLI game for two players. It resembles an earlier pencil and paper game called Bulls and Cows. A player has a number of tries to guess a secret code represented by a combination of colours.',
     live: 'https://repl.it/@SimoNkosi/Mastermind-Ruby#mastermind.rb',
     code: 'https://github.com/KDlamini/Mastermind-Ruby/blob/master/mastermind.rb',
@@ -353,6 +389,10 @@ export const projectsData = [
     tasks: [
       { assignee: 'Simo Nkosi', task: 'Develop a Ruby CLI game using classes, JSON, and read/write to File functionality.' },
     ],
+    requirements: {
+      info: '',
+      details: [],
+    },
     description: 'A Ruby guessing game for two or more players. One player thinks of a word, phrase or sentence and the other(s) tries to guess it by suggesting letters within a certain number of guesses.',
     live: 'https://repl.it/@SimoNkosi/Hangman-Ruby#lib/hangman.rb',
     code: 'https://github.com/KDlamini/Hangman-Ruby/blob/master/lib/hangman.rb',
@@ -372,6 +412,10 @@ export const projectsData = [
     tasks: [
       { assignee: 'Simo Nkosi', task: 'Develop a Ruby CLI game using classes, JSON, and read/write to File functionality.' },
     ],
+    requirements: {
+      info: '',
+      details: [],
+    },
     description: 'A Ruby game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row is the winner.',
     live: 'https://repl.it/@SimoNkosi/Tic-tac-toe#tic_tac_toe.rb',
     code: 'https://github.com/KDlamini/Tic-tac-toe/blob/master/tic_tac_toe.rb',
