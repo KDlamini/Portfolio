@@ -118,6 +118,18 @@ export const projectsData = [
       { assignee: 'Simo Nkosi', task: 'Web design, navbar, homepage, search, consume TV-Maze API.' },
       { assignee: 'Somdotta Sarkar', task: 'Project setup with Webpack, comments and likes modal, consume Involvement API.' },
     ],
+    requirements: {
+      info: 'Develop a Webpack application based on an external API. Apply the concepts of ES6 JavaScript, ES6 modules, callbacks and promises, and JSON. The following requirements must be be met:',
+      details: [
+        'A home page showing a list of TV shows fetched from the TV-Maze API. The TV show should display the name, image, and summary of each show.',
+        'When a user clicks on a TV show, a popup window with more details about the show. The show details page should display the name, image, description, and comments section of the show.',
+        'Utilize the Involvement API to record the different user interactions (likes,and comments).',
+        'Follow the layout of the wireframes provided and personalize the rest of the design including colors, typographies, spacings,',
+        'The navbar should indicate the number of shows displayed per page.',
+        'Add a search bar to the home page that allows users to search for a TV show by name.',
+        'Use AAA pattern for unit tests',
+      ],
+    },
     description: 'Binger website allows you to browse popular TV shows that air in different networks mainly in US, Canada, and the UK. Users can search, comment, like, and filter their favorite shows based on genre.',
     live: 'https://newhorizon-tech.github.io/tv-webapp/dist',
     code: 'https://github.com/newhorizon-tech/tv-webapp',
