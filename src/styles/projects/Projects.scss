@@ -150,7 +150,7 @@
     margin: 0;
   }
 
-  ul {
+  .tools-list {
     display: flex;
     list-style: none;
     padding: 0;
@@ -167,24 +167,17 @@
 .contributors {
   margin-bottom: 1rem;
 
-  p {
+  .task-item {
+    display: flex;
+  }
+
+  .task-name {
     font-weight: 600;
     font-size: 1rem;
     color: #454c58;
     margin: 0;
-  }
-}
-
-.tasks {
-  ul {
-    li {
-      display: flex;
-
-      p {
-        height: 24px;
-        width: auto;
-      }
-    }
+    height: 24px;
+    width: auto;
   }
 }
 

@@ -55,7 +55,7 @@ export const projectsData = [
       { assignee: 'You-Wei Chang', task: 'Back-end Rails API with Rswag documentation, and delete listing page.' },
     ],
     requirements: {
-      info: 'Develop a full-stack application using React and Rails that allows users to create, view, and reserve vacation homes. The design should be inspired by the design provided by Murat Korkmaz on Behance',
+      info: 'Develop a full-stack application using React and Rails that allows users to create, view, and reserve vacation homes. The design should be inspired by the design provided by Murat Korkmaz on Behance.',
       details: [
         'The application should be responsive and mobile-friendly',
         'The application should be able to handle multiple users. The user logs in to the website, only by typing the username. The user can create a new account, and can view all the vacation homes available on the website. The user can also view the details of the vacation home, and reserve it. The user can also view all the reservations made by the user. The user can also cancel a reservation made by the user.',
