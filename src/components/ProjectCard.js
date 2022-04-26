@@ -29,7 +29,7 @@ function ProjectCard({ props }) {
         <div className="tools-wrapper">
           <ul className="tools">
             <font>Built with: </font>
-            <ul>
+            <ul className="tools-list">
               {
                 builtWith.map((tool) => (
                   <li key={tool}>

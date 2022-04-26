@@ -7,8 +7,11 @@ function Popup() {
   const { modalIsOpen, setModalIsOpen, project } = useContext(ModalContext);
 
   const {
-    image, name, type, year, builtWith, tools, contributors, tasks, description, live, code,
+    image, name, type, year, builtWith, tools, contributors,
+    tasks, description, requirements, live, code,
   } = project;
+
+  const { info, details } = requirements;
 
   const styles = {
     overlay: {
@@ -55,8 +58,8 @@ function Popup() {
           </div>
 
           <div className="tools contributors">
-            <p>Contributors: </p>
-            <ul>
+            <p className="task-name">Contributors: </p>
+            <ul className="tools-list">
               {
                 contributors.map((contributor) => {
                   const { fullName, profile } = contributor;
@@ -78,7 +81,7 @@ function Popup() {
           <div className="tools-wrapper">
             <ul className="tools">
               <font>Built with: </font>
-              <ul>
+              <ul className="tools-list">
                 {
                 builtWith.map((tool) => (
                   <li key={tool}>
@@ -92,7 +95,7 @@ function Popup() {
 
             <ul className="tools">
               <font>Additional Tools: </font>
-              <ul>
+              <ul className="tools-list">
                 {
                 tools.map((tool) => (
                   <li key={tool}>
@@ -105,17 +108,32 @@ function Popup() {
             </ul>
           </div>
           <p className="modal-description">{description}</p>
+
           <div className="divider" />
-          <div className="contributors tasks">
-            <p>Tasks: </p>
+
+          <div className="contributors">
+            <p className="task-name">Project requirements: </p>
+            <p>{info}</p>
+            <ul>
+              {
+                details.map((requirement) => (
+                  <li key={requirement}>
+                    <p className="modal-description">{requirement}</p>
+                  </li>
+                ))
+              }
+            </ul>
+          </div>
+          <div className="contributors">
+            <p className="task-name">Tasks: </p>
             <ul>
               {
                 tasks.map((role) => {
                   const { assignee, task } = role;
 
                   return (
-                    <li key={assignee}>
-                      <p>
+                    <li key={assignee} className="task-item">
+                      <p className="task-name">
                         {assignee}
                         :
                         &nbsp;
