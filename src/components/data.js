@@ -49,7 +49,7 @@ export const projectsData = [
       { fullName: 'You-Wei Chang', profile: 'https://github.com/adamteddychang' },
     ],
     tasks: [
-      { assignee: 'Simo Nkosi', task: 'Login page with authentication, navbar, and add new listing page.' },
+      { assignee: 'Simo Dlamini', task: 'Login page with authentication, navbar, and add new listing page.' },
       { assignee: 'Ugboaja Uchechi', task: 'Home page and details page.' },
       { assignee: 'ShoiraTa', task: 'Add new reservation, and my reservations page.' },
       { assignee: 'You-Wei Chang', task: 'Back-end Rails API with Rswag documentation, and delete listing page.' },
@@ -82,7 +82,7 @@ export const projectsData = [
       { fullName: 'Okpara Tochukwu', profile: 'https://github.com/xtrahuman' },
     ],
     tasks: [
-      { assignee: 'Simo Nkosi', task: 'Setup application with Rails and PostgreSQL, Web Design, Login page with authentication, homepage, navbar, and recipes page.' },
+      { assignee: 'Simo Dlamini', task: 'Setup application with Rails and PostgreSQL, Web Design, Login page with authentication, homepage, navbar, and recipes page.' },
       { assignee: 'Okpara Tochukwu', task: 'Food list, shopping list, and public recipes.' },
     ],
     requirements: {
@@ -115,8 +115,8 @@ export const projectsData = [
       { fullName: 'Alaukik', profile: 'https://github.com/newhorizon-tech' },
     ],
     tasks: [
-      { assignee: 'Simo Nkosi', task: 'Web design, navbar, homepage, search, consume TV-Maze API.' },
-      { assignee: 'Somdotta Sarkar', task: 'Project setup with Webpack, comments and likes modal, consume Involvement API.' },
+      { assignee: 'Simo Dlamini', task: 'Web design, navbar, homepage, search, consume TV-Maze API.' },
+      { assignee: 'Alaukik', task: 'Project setup with Webpack, comments and likes modal, consume Involvement API.' },
     ],
     requirements: {
       info: 'Develop a Webpack application based on an external API. Apply the concepts of ES6 JavaScript, ES6 modules, callbacks and promises, and JSON. The following requirements must be be met:',
@@ -147,7 +147,7 @@ export const projectsData = [
       { fullName: 'Somdotta Sarkar', profile: 'https://github.com/Somdotta07' },
     ],
     tasks: [
-      { assignee: 'Simo Nkosi', task: 'Setup application with Rails and PostgreSQL, web design, login page with authentication, users, posts, comments, likes, and unit tests with Rspec and Capybara.' },
+      { assignee: 'Simo Dlamini', task: 'Setup application with Rails and PostgreSQL, web design, login page with authentication, users, posts, comments, likes, and unit tests with Rspec and Capybara.' },
       { assignee: 'Somdotta Sarkar', task: 'API and documentation, user authorization, unit tests with Rspec and Capybara.' },
     ],
     requirements: {
@@ -157,6 +157,29 @@ export const projectsData = [
     description: 'The Mindly app is a classic example of a blog website. This will is a fully functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts.',
     live: 'https://mindly-blogs.herokuapp.com/',
     code: 'https://github.com/KDlamini/mindly',
+  },
+
+  {
+    image: `${moviecon}`,
+    name: 'Marvel MovieCon',
+    type: 'Front-End',
+    year: '2021',
+    category: 'Web Application',
+    builtWith: ['Html', 'Css', 'JavaScript'],
+    tools: ['VScode', 'Linters', 'Github Actions'],
+    contributors: [
+      { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
+    ],
+    tasks: [
+      { assignee: 'Simo Dlamini', task: 'Develop a Html, css, and JavaScript application from an existing design by Creatives Commons.' },
+    ],
+    requirements: {
+      info: '',
+      details: [],
+    },
+    description: 'Marvel Studios MovieCon conference event where the studio\'s president Kevin Feige will discuss with fans new feature films for theatres and series to release on Disney+.',
+    live: 'https://kdlamini.github.io/marvel-moviecon-capstone1/',
+    code: 'https://github.com/KDlamini/marvel-moviecon-capstone1',
   },
 
   {
@@ -171,7 +194,7 @@ export const projectsData = [
       { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
-      { assignee: 'Simo Nkosi', task: 'Develop a full-stack budget web application using Rails, Devise, Cancancan, Bootstrap, and PostgreSQL.' },
+      { assignee: 'Simo Dlamini', task: 'Develop a full-stack budget web application using Rails, Devise, Cancancan, Bootstrap, and PostgreSQL.' },
     ],
     requirements: {
       info: 'Develop a Ruby on Rails application that allows the user to register and log in so that the data is private to them, introduce new transactions associated with a category, and see the money spent on each category. The design should be inspired by the original design idea by Gregoire Vella on Behance.',
@@ -199,7 +222,7 @@ export const projectsData = [
       { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
-      { assignee: 'Simo Nkosi', task: 'Develop a front-end web application using React, Redux, React-Router, while consuming the Financial Modeling Prep API.' },
+      { assignee: 'Simo Dlamini', task: 'Develop a front-end web application using React, Redux, React-Router, while consuming the Financial Modeling Prep API.' },
     ],
     requirements: {
       info: '',
@@ -222,7 +245,7 @@ export const projectsData = [
       { fullName: 'Leandro Barreto', profile: 'https://github.com/Leandro-Barretoo' },
     ],
     tasks: [
-      { assignee: 'Simo Nkosi', task: 'Setup application with Create-react-app, setup react-redux using duck pattern, rockets page with reserve and cancel rocket functionality, and my profile page.' },
+      { assignee: 'Simo Dlamini', task: 'Setup application with Create-react-app, setup react-redux using duck pattern, rockets page with reserve and cancel rocket functionality, and my profile page.' },
       { assignee: 'Leandro Barreto', task: 'Navbar, missions page with join and cancel membership functionality.' },
     ],
     requirements: {
@@ -247,7 +270,7 @@ export const projectsData = [
       { fullName: 'Ajise Toluwase', profile: 'https://github.com/Whoistolu' },
     ],
     tasks: [
-      { assignee: 'Simo Nkosi', task: 'Develop a front-end web application using React, Redux, React-Router, with arithmetic calculations algorithm.' },
+      { assignee: 'Simo Dlamini', task: 'Develop a front-end web application using React, Redux, React-Router, with arithmetic calculations algorithm.' },
       { assignee: 'Vishal Verma', task: 'Unit tests with Jest and React Testing Library.' },
       { assignee: 'Ajise Toluwase', task: 'Unit tests with Jest and React Testing Library.' },
     ],
@@ -272,7 +295,7 @@ export const projectsData = [
       { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
-      { assignee: 'Simo Nkosi', task: 'Develop a front-end web application using React, Redux, and React-Router.' },
+      { assignee: 'Simo Dlamini', task: 'Develop a front-end web application using React, Redux, and React-Router.' },
     ],
     requirements: {
       info: '',
@@ -295,7 +318,7 @@ export const projectsData = [
       { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
-      { assignee: 'Simo Nkosi', task: 'Develop a front-end web application using React, React-Router, Context API, SCSS, and animations.' },
+      { assignee: 'Simo Dlamini', task: 'Develop a front-end web application using React, React-Router, Context API, SCSS, and animations.' },
     ],
     requirements: {
       info: '',
@@ -318,7 +341,7 @@ export const projectsData = [
       { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
-      { assignee: 'Simo Nkosi', task: 'Develop a front-end web application using Html, Css, and JavaScript that re-imagines the Nike store homepage.' },
+      { assignee: 'Simo Dlamini', task: 'Develop a front-end web application using Html, Css, and JavaScript that re-imagines the Nike store homepage.' },
     ],
     requirements: {
       info: '',
@@ -327,29 +350,6 @@ export const projectsData = [
     description: 'A recreation of Nike Store that allows users to shop, browse, get latest updates, and contact support. Change the theme color matching a product by clicking on any of the Nike products.',
     live: 'https://kdlamini.github.io/nike-store/',
     code: 'https://github.com/KDlamini/nike-store',
-  },
-
-  {
-    image: `${moviecon}`,
-    name: 'Marvel MovieCon',
-    type: 'Front-End',
-    year: '2021',
-    category: 'Web Application',
-    builtWith: ['Html', 'Css', 'JavaScript'],
-    tools: ['VScode', 'Linters', 'Github Actions'],
-    contributors: [
-      { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
-    ],
-    tasks: [
-      { assignee: 'Simo Nkosi', task: 'Develop a Html, css, and JavaScript application from an existing design by Creatives Commons.' },
-    ],
-    requirements: {
-      info: '',
-      details: [],
-    },
-    description: 'Marvel Studios MovieCon conference event where the studio\'s president Kevin Feige will discuss with fans new feature films for theatres and series to release on Disney+.',
-    live: 'https://kdlamini.github.io/marvel-moviecon-capstone1/',
-    code: 'https://github.com/KDlamini/marvel-moviecon-capstone1',
   },
 
   {
@@ -364,7 +364,7 @@ export const projectsData = [
       { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
-      { assignee: 'Simo Nkosi', task: 'Develop a Ruby CLI game using classes, JSON, and read/write to File functionality.' },
+      { assignee: 'Simo Dlamini', task: 'Develop a Ruby CLI game using classes, JSON, and read/write to File functionality.' },
     ],
     requirements: {
       info: '',
@@ -387,7 +387,7 @@ export const projectsData = [
       { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
-      { assignee: 'Simo Nkosi', task: 'Develop a Ruby CLI game using classes, JSON, and read/write to File functionality.' },
+      { assignee: 'Simo Dlamini', task: 'Develop a Ruby CLI game using classes, JSON, and read/write to File functionality.' },
     ],
     requirements: {
       info: '',
@@ -410,7 +410,7 @@ export const projectsData = [
       { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
-      { assignee: 'Simo Nkosi', task: 'Develop a Ruby CLI game using classes, JSON, and read/write to File functionality.' },
+      { assignee: 'Simo Dlamini', task: 'Develop a Ruby CLI game using classes, JSON, and read/write to File functionality.' },
     ],
     requirements: {
       info: '',
