@@ -355,7 +355,7 @@ export const projectsData = [
   {
     image: `${mastermind}`,
     name: 'Mastermind',
-    type: 'Front-End',
+    type: 'Back-End',
     year: '2021',
     category: 'Game',
     builtWith: ['Ruby'],
@@ -378,7 +378,7 @@ export const projectsData = [
   {
     image: `${hangman}`,
     name: 'Hangman',
-    type: 'Front-End',
+    type: 'Back-End',
     year: '2021',
     category: 'Game',
     builtWith: ['Ruby'],
@@ -401,7 +401,7 @@ export const projectsData = [
   {
     image: `${tictactoe}`,
     name: 'Tic Tac Toe',
-    type: 'Front-End',
+    type: 'Back-End',
     year: '2021',
     category: 'Game',
     builtWith: ['Ruby'],
