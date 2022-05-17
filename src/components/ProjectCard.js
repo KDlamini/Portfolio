@@ -49,6 +49,7 @@ function ProjectCard({ props }) {
             type="button"
             className="action-btn"
             onClick={() => { setModalIsOpen(true); setProject(props); }}
+            disabled={name === 'Bamboo'}
           >
             <i className="eye icon" />
           </button>

@@ -12,7 +12,7 @@ import nikestore from '../assets/nikestore.png';
 import Mindly from '../assets/Mindly.png';
 import Recipes from '../assets/Recipes.png';
 import Budget from '../assets/Budget.png';
-import Bamboo from '../assets/BambooDetails.png';
+import Bamboo from '../assets/coming_soon.gif';
 
 const languages = [
   {
@@ -37,12 +37,35 @@ const languages = [
 
 export const projectsData = [
   {
+    image: `${Bamboo}`,
+    name: 'Bamboo',
+    type: 'MERN-Stack',
+    year: '2022',
+    category: 'E-commerce',
+    builtWith: ['React', 'NodeJS', 'ExpressJS', 'MongoDB Atlas', 'Bootstrap'],
+    tools: ['VScode', 'Linters', 'Github Actions'],
+    contributors: [
+      { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
+    ],
+    tasks: [
+      { assignee: 'Simo Dlamini', task: 'Develop a MERN stack e-commerce application that allows users to browse for available products, register and sign to their account, add items to cart, and process payments using Stripe.' },
+    ],
+    requirements: {
+      info: '',
+      details: [],
+    },
+    description: 'Bamboo is the perfect market for high quality products supplied worldwide. We provide a platform for buyers and sellers to connect and trade products and services.',
+    live: 'https://github.com/KDlamini/bamboo-client',
+    code: 'https://github.com/KDlamini/bamboo-server',
+  },
+
+  {
     image: 'https://user-images.githubusercontent.com/63560332/163343421-7f80f067-c46d-4fc0-9d8d-ec92b4572e07.png',
     name: 'VacayHome',
     type: 'Full-Stack',
     year: '2022',
     category: 'Web Application',
-    builtWith: ['React', 'Rails API', 'PostgreSQL', 'React Bootstrap', 'CSS'],
+    builtWith: ['React', 'Rails API', 'PostgreSQL', 'React Bootstrap'],
     tools: ['VScode', 'Linters', 'Rspec', 'Github Actions', 'Netlify', 'Heroku'],
     contributors: [
       { fullName: 'Ugboaja Uchechi', profile: 'https://github.com/Ugboaja-Uchechi' },
@@ -72,35 +95,12 @@ export const projectsData = [
   },
 
   {
-    image: `${Bamboo}`,
-    name: 'Bamboo',
-    type: 'MERN-Stack',
-    year: '2021',
-    category: 'E-commerce',
-    builtWith: ['React', 'NodeJS', 'ExpressJS', 'MongoDB Atlas', 'Bootstrap', 'CSS'],
-    tools: ['VScode', 'Linters', 'Github Actions'],
-    contributors: [
-      { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
-    ],
-    tasks: [
-      { assignee: 'Simo Dlamini', task: 'Develop a MERN stack e-commerce application that allows users to browse for available products, register and sign to their account, add items to cart, and process payments using Stripe.' },
-    ],
-    requirements: {
-      info: '',
-      details: [],
-    },
-    description: 'Bamboo is the perfect market for high quality products supplied worldwide. We provide a platform for buyers and sellers to connect and trade products and services.',
-    live: 'https://github.com/KDlamini/bamboo-client',
-    code: 'https://github.com/KDlamini/bamboo-server',
-  },
-
-  {
     image: `${Recipes}`,
     name: 'Tasty Dishes',
     type: 'Full-Stack',
     year: '2022',
     category: 'Web Application',
-    builtWith: ['Ruby on Rails', 'PostgreSQL', 'Bootstrap', 'CSS'],
+    builtWith: ['Ruby on Rails', 'PostgreSQL', 'Bootstrap'],
     tools: ['VScode', 'Linters', 'Rspec', 'Github Actions', 'Heroku'],
     contributors: [
       { fullName: 'Okpara Tochukwu', profile: 'https://github.com/xtrahuman' },
@@ -165,7 +165,7 @@ export const projectsData = [
     type: 'Full-Stack',
     year: '2022',
     category: 'Web Application',
-    builtWith: ['Ruby on Rails', 'PostgreSQL', 'Zerb Foundation', 'SCSS'],
+    builtWith: ['Ruby on Rails', 'PostgreSQL', 'Zerb Foundation', 'SCSS', 'Semantic-UI'],
     tools: ['VScode', 'Linters', 'Rspec', 'Github Actions', 'Heroku'],
     contributors: [
       { fullName: 'Somdotta Sarkar', profile: 'https://github.com/Somdotta07' },
@@ -212,7 +212,7 @@ export const projectsData = [
     type: 'Full-Stack',
     year: '2022',
     category: 'Web Application',
-    builtWith: ['Ruby on Rails', 'PostgreSQL', 'Bootstrap', 'CSS'],
+    builtWith: ['Ruby on Rails', 'PostgreSQL', 'Bootstrap'],
     tools: ['VScode', 'Linters', 'Rspec', 'Github Actions', 'Heroku'],
     contributors: [
       { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
@@ -336,7 +336,7 @@ export const projectsData = [
     type: 'Front-End',
     year: '2021',
     category: 'Web Application',
-    builtWith: ['React', 'Sass'],
+    builtWith: ['React', 'Sass', 'Semantic-UI'],
     tools: ['VScode', 'Linters', 'Github Actions', 'Netlify'],
     contributors: [
       { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
