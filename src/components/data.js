@@ -12,6 +12,7 @@ import nikestore from '../assets/nikestore.png';
 import Mindly from '../assets/Mindly.png';
 import Recipes from '../assets/Recipes.png';
 import Budget from '../assets/Budget.png';
+import Bamboo from '../assets/BambooDetails.png';
 
 const languages = [
   {
@@ -68,6 +69,29 @@ export const projectsData = [
     description: 'VacayHome is place for the most luxurious listings. Book a vacation in one of our vocational houses and enjoy your stay in a comfortable and safe environment.',
     live: 'https://vacay-home.netlify.app/',
     code: 'https://github.com/ShoiraTa/Vacayhome-front-end',
+  },
+
+  {
+    image: `${Bamboo}`,
+    name: 'Bamboo',
+    type: 'MERN-Stack',
+    year: '2021',
+    category: 'E-commerce',
+    builtWith: ['React', 'NodeJS', 'ExpressJS', 'MongoDB Atlas', 'Bootstrap', 'CSS'],
+    tools: ['VScode', 'Linters', 'Github Actions'],
+    contributors: [
+      { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
+    ],
+    tasks: [
+      { assignee: 'Simo Dlamini', task: 'Develop a MERN stack e-commerce application that allows users to browse for available products, register and sign to their account, add items to cart, and process payments using Stripe.' },
+    ],
+    requirements: {
+      info: '',
+      details: [],
+    },
+    description: 'Bamboo is the perfect market for high quality products supplied worldwide. We provide a platform for buyers and sellers to connect and trade products and services.',
+    live: 'https://github.com/KDlamini/bamboo-client',
+    code: 'https://github.com/KDlamini/bamboo-server',
   },
 
   {
