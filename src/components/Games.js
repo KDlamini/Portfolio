@@ -9,7 +9,7 @@ function Games() {
     <div className="projects-wrapper games">
       {
         gamesData.map((project) => <ProjectCard key={project.name} props={project} />)
-    }
+      }
     </div>
   );
 }
