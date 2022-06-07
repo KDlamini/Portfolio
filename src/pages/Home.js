@@ -1,6 +1,6 @@
 import React from 'react';
 import profileImage from '../assets/profile.jpg';
-import cv from '../assets/Simosakhe Dlamini Resume.pdf';
+import cv from '../assets/Simo_Wilson_Dlamini (Amster).pdf';
 import '../styles/homepage/Home.css';
 
 function Home() {
