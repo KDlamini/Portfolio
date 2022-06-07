@@ -1,12 +1,15 @@
 import React from 'react';
-import comingsoon from '../assets/coming_soon2.gif';
+import ProjectCard from './ProjectCard';
+import { projectsData } from './data';
 
 function ECommerce() {
+  const commerceData = projectsData.filter((project) => project.category === 'E-commerce');
+
   return (
     <div className="projects-wrapper e-commerce">
-      <div className="coming-soon">
-        <img src={comingsoon} alt="Coming soon gif" />
-      </div>
+      {
+        commerceData.map((project) => <ProjectCard key={project.name} props={project} />)
+    }
     </div>
   );
 }
