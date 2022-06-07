@@ -12,7 +12,7 @@ import nikestore from '../assets/nikestore.png';
 import Mindly from '../assets/Mindly.png';
 import Recipes from '../assets/Recipes.png';
 import Budget from '../assets/Budget.png';
-import Bamboo from '../assets/coming_soon.gif';
+import BoomStore from '../assets/coming_soon.gif';
 
 const languages = [
   {
@@ -37,8 +37,8 @@ const languages = [
 
 export const projectsData = [
   {
-    image: `${Bamboo}`,
-    name: 'Bamboo',
+    image: `${BoomStore}`,
+    name: 'BoomStore',
     type: 'MERN-Stack',
     year: '2022',
     category: 'E-commerce',
@@ -54,7 +54,7 @@ export const projectsData = [
       info: '',
       details: [],
     },
-    description: 'Bamboo is the perfect market for high quality products supplied worldwide. We provide a platform for buyers and sellers to connect and trade products and services.',
+    description: 'BoomStore is the perfect market for high quality products supplied worldwide. We provide a platform for buyers and sellers to connect and trade products and services.',
     live: 'https://github.com/KDlamini/bamboo-client',
     code: 'https://github.com/KDlamini/bamboo-server',
   },
