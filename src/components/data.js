@@ -12,7 +12,8 @@ import nikestore from '../assets/nikestore.png';
 import Mindly from '../assets/Mindly.png';
 import Recipes from '../assets/Recipes.png';
 import Budget from '../assets/Budget.png';
-import BoomStore from '../assets/coming_soon.gif';
+import comingSoon from '../assets/coming_soon.gif';
+import comingSoon2 from '../assets/coming-soon-banner.jpg';
 
 const languages = [
   {
@@ -37,7 +38,8 @@ const languages = [
 
 export const projectsData = [
   {
-    image: `${BoomStore}`,
+    image: `${comingSoon}`,
+    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
     name: 'BoomStore',
     type: 'MERN-Stack',
     year: '2022',
@@ -61,6 +63,7 @@ export const projectsData = [
 
   {
     image: 'https://user-images.githubusercontent.com/63560332/163343421-7f80f067-c46d-4fc0-9d8d-ec92b4572e07.png',
+    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
     name: 'VacayHome',
     type: 'Full-Stack',
     year: '2022',
@@ -96,6 +99,7 @@ export const projectsData = [
 
   {
     image: `${Recipes}`,
+    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
     name: 'Tasty Dishes',
     type: 'Full-Stack',
     year: '2022',
@@ -129,6 +133,7 @@ export const projectsData = [
 
   {
     image: `${binger}`,
+    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
     name: 'Binger TV Shows',
     type: 'Front-End',
     year: '2021',
@@ -161,6 +166,7 @@ export const projectsData = [
 
   {
     image: `${Mindly}`,
+    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
     name: 'Mindly Blogs',
     type: 'Full-Stack',
     year: '2022',
@@ -185,6 +191,7 @@ export const projectsData = [
 
   {
     image: `${moviecon}`,
+    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
     name: 'Marvel MovieCon',
     type: 'Front-End',
     year: '2021',
@@ -208,6 +215,7 @@ export const projectsData = [
 
   {
     image: `${Budget}`,
+    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
     name: 'Go Save',
     type: 'Full-Stack',
     year: '2022',
@@ -236,6 +244,7 @@ export const projectsData = [
 
   {
     image: `${forexmatrics}`,
+    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
     name: 'Forex Metrics',
     type: 'Front-End',
     year: '2021',
@@ -259,6 +268,7 @@ export const projectsData = [
 
   {
     image: `${spaceXhub}`,
+    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
     name: 'SpaceX Travellers\' Hub',
     type: 'Front-End',
     year: '2021',
@@ -283,6 +293,7 @@ export const projectsData = [
 
   {
     image: `${mathMagicians}`,
+    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
     name: 'React Calculator',
     type: 'Front-End',
     year: '2021',
@@ -309,6 +320,7 @@ export const projectsData = [
 
   {
     image: `${coinvestbank}`,
+    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
     name: 'Coinvest Bank',
     type: 'Front-End',
     year: '2021',
@@ -332,6 +344,7 @@ export const projectsData = [
 
   {
     image: `${myportfolio}`,
+    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
     name: 'Personal Portfolio',
     type: 'Front-End',
     year: '2021',
@@ -355,6 +368,7 @@ export const projectsData = [
 
   {
     image: `${nikestore}`,
+    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
     name: 'Nike Store',
     type: 'Front-End',
     year: '2021',
@@ -378,6 +392,7 @@ export const projectsData = [
 
   {
     image: `${mastermind}`,
+    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
     name: 'Mastermind',
     type: 'Back-End',
     year: '2021',
@@ -401,6 +416,7 @@ export const projectsData = [
 
   {
     image: `${hangman}`,
+    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
     name: 'Hangman',
     type: 'Back-End',
     year: '2021',
@@ -424,6 +440,7 @@ export const projectsData = [
 
   {
     image: `${tictactoe}`,
+    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
     name: 'Tic Tac Toe',
     type: 'Back-End',
     year: '2021',
