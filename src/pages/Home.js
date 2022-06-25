@@ -15,7 +15,7 @@ function Home() {
               {' '}
               <font color="#ff3773">Simo</font>
               {' '}
-              Nkosi
+              Dlamini
             </h1>
             <p>
               I’m a software developer!

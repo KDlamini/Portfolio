@@ -1,11 +1,14 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
+import ModalContext from '../context/ModalContext';
 import dotImg from '../assets/Counter.svg';
 
 function ProjectCard({ props }) {
   const {
-    image, name, type, year, builtWith, tools, description, live, code,
+    image, name, type, year, builtWith, description,
   } = props;
+
+  const { setModalIsOpen, setProject } = useContext(ModalContext);
 
   return (
     <ul className="project-card">
@@ -26,23 +29,9 @@ function ProjectCard({ props }) {
         <div className="tools-wrapper">
           <ul className="tools">
             <font>Built with: </font>
-            <ul>
+            <ul className="tools-list">
               {
                 builtWith.map((tool) => (
-                  <li key={tool}>
-                    {tool}
-                    ,
-                  </li>
-                ))
-              }
-            </ul>
-          </ul>
-
-          <ul className="tools">
-            <font>Additional Tools: </font>
-            <ul>
-              {
-                tools.map((tool) => (
                   <li key={tool}>
                     {tool}
                     ,
@@ -59,17 +48,10 @@ function ProjectCard({ props }) {
           <button
             type="button"
             className="action-btn"
-            onClick={() => window.open(`${live}`, '_blank')}
+            onClick={() => { setModalIsOpen(true); setProject(props); }}
+            disabled={name === 'Bamboo'}
           >
-            <i className="globe icon" />
-          </button>
-
-          <button
-            type="button"
-            className="action-btn"
-            onClick={() => window.open(`${code}`, '_blank')}
-          >
-            <i className="code icon" />
+            <i className="eye icon" />
           </button>
         </div>
       </li>

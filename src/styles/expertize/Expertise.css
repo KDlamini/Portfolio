@@ -1,9 +1,7 @@
-/* stylelint-disable csstree/validator */
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 .expertise-content {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -21,7 +19,6 @@
 
 .navigation-tab {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -79,7 +76,6 @@
 /* ------------------------- skills tab ---------------------- */
 .programming-languages {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
@@ -100,7 +96,6 @@
 
 .skill-item-wrapper {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -124,7 +119,6 @@
 
 .skill-name {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -242,4 +236,60 @@
   width: 100%;
   height: 100%;
   border-radius: 5px;
+}
+
+@media (max-width: 818px) {
+  .navigation-tab {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .go-back {
+    min-width: 120px;
+  }
+
+  .go-back,
+  .tab-item,
+  .buttonActive {
+    margin: 0.5rem;
+  }
+
+  /* --- skills tab --- */
+  .programming-languages {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .programming-languages .language {
+    min-width: 80px;
+    margin: 0.5rem 1rem;
+  }
+
+  .skill-item {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  /* --- Experience and education tab --- */
+  .timeline-item {
+    margin-bottom: 2rem;
+  }
+
+  .timeline-item:nth-child(odd) {
+    padding-right: 0;
+  }
+
+  .timeline-item:nth-child(even) {
+    padding-left: 0;
+  }
 }

@@ -103,6 +103,34 @@
   }
 }
 
+.projects-modal {
+  list-style: none;
+
+  .modal-close {
+    text-align: end;
+
+    button {
+      font-weight: 600;
+      font-size: 1.2rem;
+      width: 7rem;
+      height: 2.2rem;
+      color: $blue-color;
+      border: none;
+      outline: none;
+      background: $linear-background;
+      box-shadow: $outer-shadow;
+      border-radius: 5px;
+
+      &:hover {
+        @include button_hover;
+
+        color: $active-color;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
 .tools-wrapper {
   margin: 1rem 0;
 }
@@ -112,7 +140,7 @@
   list-style: none;
   padding: 0;
   width: 100%;
-  height: 24px;
+  height: auto;
 
   font {
     color: $pink-color;
@@ -122,7 +150,7 @@
     margin: 0;
   }
 
-  ul {
+  .tools-list {
     display: flex;
     list-style: none;
     padding: 0;
@@ -136,12 +164,33 @@
   }
 }
 
+.contributors {
+  margin-bottom: 1rem;
+
+  .task-item {
+    display: flex;
+  }
+
+  .task-name {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #454c58;
+    margin: 0;
+    height: 24px;
+    width: auto;
+  }
+}
+
 .description {
   font-size: 1.1rem;
   width: 100%;
-  height: 76px;
+  height: 120px;
   line-height: 24px;
   margin: 0;
+}
+
+.modal-description {
+  font-size: 1.1rem;
 }
 
 .actions {
@@ -156,6 +205,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 600;
     font-size: 1.2rem;
     width: 7rem;
     height: 2.2rem;
@@ -176,6 +226,14 @@
   }
 }
 
+.actions .action-btn:disabled {
+  cursor: not-allowed;
+
+  @include button_hover;
+
+  color: #8f8f8f;
+}
+
 .coming-soon {
   width: 100%;
   height: 85vh;
@@ -188,5 +246,16 @@
     width: 100%;
     height: 100%;
     border-radius: 5px;
+  }
+}
+
+@media (max-width: 958px) {
+  .project-card {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .project-card:nth-child(even) {
+    flex-direction: column;
   }
 }
