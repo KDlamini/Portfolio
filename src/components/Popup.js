@@ -2,14 +2,12 @@ import React, { useContext, useState } from 'react';
 import Modal from 'react-modal';
 import ModalContext from '../context/ModalContext';
 import dotImg from '../assets/Counter.svg';
-import comingSoon from '../assets/coming-soon-banner.jpg';
-import comingSoon2 from '../assets/coming_soon.gif';
 
 function Popup() {
   const { modalIsOpen, setModalIsOpen, project } = useContext(ModalContext);
 
   const {
-    image, name, type, year, builtWith, tools, contributors,
+    image, imageUrls, name, type, year, builtWith, tools, contributors,
     tasks, description, requirements, live, code,
   } = project;
 
@@ -86,18 +84,18 @@ function Popup() {
         </li>
         <li className="popup-image-wrapper">
           <div className="image-nav">
-            <button type="button" className="image-nav-item" onClick={(e) => handleImageSource(e)}>
-              <img className="project-img" src={comingSoon} alt="project" />
-            </button>
-            <button type="button" className="image-nav-item" onClick={(e) => handleImageSource(e)}>
-              <img className="project-img" src={comingSoon2} alt="project" />
-            </button>
-            <button type="button" className="image-nav-item" onClick={(e) => handleImageSource(e)}>
-              <img className="project-img" src={comingSoon} alt="project" />
-            </button>
-            <button type="button" className="image-nav-item" onClick={(e) => handleImageSource(e)}>
-              <img className="project-img" src={comingSoon2} alt="project" />
-            </button>
+            {
+              imageUrls.map((source) => (
+                <button
+                  key={source + (Math.floor(Math.random() * 10000) + 1)}
+                  type="button"
+                  className="image-nav-item"
+                  onClick={(e) => handleImageSource(e)}
+                >
+                  <img className="project-img" src={source} alt="project" />
+                </button>
+              ))
+            }
           </div>
           <div className="popup-image-container">
             <img className="project-img" src={imageSource} alt="project" />
