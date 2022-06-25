@@ -48,7 +48,7 @@ export const projectsData = [
       { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
-      { assignee: 'Simo Dlamini', task: 'Develop a MERN stack e-commerce application that allows users to browse for available products, register and sign to their account, add items to cart, and process payments using Stripe.' },
+      { assignee: 'Simo Dlamini', task: 'Develop a MERN stack e-commerce application that allows users to browse for available products, register and sign to their account using JWT authentication, add items to cart, and process payments using Stripe.' },
     ],
     requirements: {
       info: '',
