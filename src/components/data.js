@@ -1,7 +1,16 @@
+import Boomstore from '../assets/Boomstore.png';
+import Boomstore1 from '../assets/Boomstore1.png';
+import Boomstore2 from '../assets/Boomstore2.png';
+import vacay1 from '../assets/Vacay-details.png';
+import vacay2 from '../assets/Vacay-Add-Listing.png';
+import vacay3 from '../assets/Vacay-Add-Reservation.png';
 import moviecon from '../assets/marvel-moviecon.png';
 import coinvestbank from '../assets/coinvestbank2.png';
 import spaceXhub from '../assets/spaceXhub.png';
 import binger from '../assets/binger.png';
+import binger1 from '../assets/Binger-search.png';
+import binger2 from '../assets/Binger-Comments.png';
+import binger3 from '../assets/Binger3.png';
 import forexmatrics from '../assets/forexmatrics.png';
 import mathMagicians from '../assets/math-magicians.png';
 import myportfolio from '../assets/about.png';
@@ -10,7 +19,13 @@ import mastermind from '../assets/mastermind.png';
 import tictactoe from '../assets/tic-tac-toe.png';
 import nikestore from '../assets/nikestore.png';
 import Mindly from '../assets/Mindly.png';
+import Mindly1 from '../assets/Mindly-wireframe.png';
+import Mindly2 from '../assets/Mindly-Posts.png';
+import Mindly3 from '../assets/Mindly-Show.png';
 import Recipes from '../assets/Recipes.png';
+import Recipes1 from '../assets/Recipes-Dishes.png';
+import Recipes2 from '../assets/Recipes-Details.png';
+import Recipes3 from '../assets/recipe_app_erd.png';
 import Budget from '../assets/Budget.png';
 import comingSoon from '../assets/coming_soon.gif';
 import comingSoon2 from '../assets/coming-soon-banner.jpg';
@@ -39,7 +54,7 @@ const languages = [
 export const projectsData = [
   {
     image: `${comingSoon}`,
-    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
+    imageUrls: [`${Boomstore1}`, `${Boomstore2}`, `${Boomstore}`, `${comingSoon}`],
     name: 'BoomStore',
     type: 'MERN-Stack',
     year: '2022',
@@ -50,11 +65,19 @@ export const projectsData = [
       { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
-      { assignee: 'Simo Dlamini', task: 'Develop a MERN stack e-commerce application that allows users to browse for available products, register and sign to their account using JWT authentication, add items to cart, and process payments using Stripe.' },
+      { assignee: 'Simo Dlamini', task: 'Develop all features of an e-commerce application that allows users to browse for available products, register and sign to their account using JWT authentication, add items to cart, and process payments using Stripe.' },
     ],
     requirements: {
-      info: '',
-      details: [],
+      info: 'Develop a MERN-stack e-commerce application using React and NodeJS that allows users to view products, filter desired categories, register and sign to their account using JWT authentication, add items to cart, and process payments using Stripe, and track orders.',
+      details: [
+        'The application should be responsive and mobile-friendly',
+        'The application should be able to handle multiple users. Users can register and login with authentication using JWT.',
+        'In the navigation panel, the user can see links to "Login/Register", view "Orders", "My account", add view cart items.',
+        'On the main page, the user can see all products, and can filter items by category and price range',
+        'When the user selects a specific product, they can see the details page with its full description, and the user can add product to cart.',
+        'On the cart, the user can see all wish products reserved for checkout, and can increment or decrement quantity, delete items, and checkout for payment using Stripe',
+        'React UI is connected to MongoDB using NodeJS and Express urls.',
+      ],
     },
     description: 'BoomStore is the perfect market for high quality products supplied worldwide. We provide a platform for buyers and sellers to connect and trade products and services.',
     live: 'https://github.com/KDlamini/bamboo-client',
@@ -62,8 +85,8 @@ export const projectsData = [
   },
 
   {
-    image: 'https://user-images.githubusercontent.com/63560332/163343421-7f80f067-c46d-4fc0-9d8d-ec92b4572e07.png',
-    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
+    image: `${vacay1}`,
+    imageUrls: [`${vacay1}`, `${vacay3}`, `${vacay2}`, 'https://user-images.githubusercontent.com/63560332/163343421-7f80f067-c46d-4fc0-9d8d-ec92b4572e07.png'],
     name: 'VacayHome',
     type: 'Full-Stack',
     year: '2022',
@@ -84,6 +107,9 @@ export const projectsData = [
     requirements: {
       info: 'Develop a full-stack application using React and Rails that allows users to create, view, and reserve vacation homes. The design should be inspired by the design provided by Murat Korkmaz on Behance.',
       details: [
+        'Industry-standard best practices for JavaScript, React, and CSS should be followed using Linter Checks and GitHub Actions',
+        'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
+        'The README is documented in a professional way.',
         'The application should be responsive and mobile-friendly',
         'The application should be able to handle multiple users. The user logs in to the website, only by typing the username. The user can create a new account, and can view all the vacation homes available on the website. The user can also view the details of the vacation home, and reserve it. The user can also view all the reservations made by the user. The user can also cancel a reservation made by the user.',
         'In the navigation panel, the user can see links to all "Listings", "Reserve" form, "My reservations", add new listing, and delete listing.',
@@ -99,7 +125,7 @@ export const projectsData = [
 
   {
     image: `${Recipes}`,
-    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
+    imageUrls: [`${Recipes1}`, `${Recipes2}`, `${Recipes3}`, `${Recipes}`],
     name: 'Tasty Dishes',
     type: 'Full-Stack',
     year: '2022',
@@ -116,6 +142,9 @@ export const projectsData = [
     requirements: {
       info: 'Develop a full-stack application using Ruby on Rails that allows users to create recipes, ingredients, and generate a shopping list. The app should follow the data model (Entity Relationship Diagram) and predefined wireframes provided by the instructor. The following requirements must be be met:',
       details: [
+        'Industry-standard best practices for Ruby on Rails and CSS should be followed using Linter Checks and GitHub Actions',
+        'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
+        'The README is documented in a professional way.',
         'Login page and registration page: should be built with Devise.',
         'Food list: should display a list of food as in the wireframe. Should lead to the form that allows users to add new food.',
         'Recipes list: should display a list of recipes created by the logged-in user as in the wireframe. Should lead to recipe details. If the user is the owner of the recipe, should allow user to delete it.',
@@ -133,7 +162,7 @@ export const projectsData = [
 
   {
     image: `${binger}`,
-    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
+    imageUrls: [`${binger3}`, `${binger1}`, `${binger2}`, `${binger}`],
     name: 'Binger TV Shows',
     type: 'Front-End',
     year: '2021',
@@ -150,6 +179,9 @@ export const projectsData = [
     requirements: {
       info: 'Develop a Webpack application based on an external API. Apply the concepts of ES6 JavaScript, ES6 modules, callbacks and promises, and JSON. The following requirements must be be met:',
       details: [
+        'Industry-standard best practices for JavaScript and CSS should be followed using Linter Checks and GitHub Actions',
+        'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
+        'The README is documented in a professional way.',
         'A home page showing a list of TV shows fetched from the TV-Maze API. The TV show should display the name, image, and summary of each show.',
         'When a user clicks on a TV show, a popup window with more details about the show. The show details page should display the name, image, description, and comments section of the show.',
         'Utilize the Involvement API to record the different user interactions (likes,and comments).',
@@ -166,7 +198,7 @@ export const projectsData = [
 
   {
     image: `${Mindly}`,
-    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
+    imageUrls: [`${Mindly1}`, `${Mindly2}`, `${Mindly3}`, `${Mindly}`],
     name: 'Mindly Blogs',
     type: 'Full-Stack',
     year: '2022',
@@ -182,7 +214,20 @@ export const projectsData = [
     ],
     requirements: {
       info: '',
-      details: [],
+      details: [
+        'Industry-standard best practices for Ruby on Rails and CSS should be followed using Linter Checks and GitHub Actions',
+        'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
+        'The README is documented in a professional way.',
+        'Use controllers to create CRUD methods to find, update and delete entities for posts, and comments.',
+        'Create models that has all the relationships and associations.',
+        'Models should include some additional methods. User model has a method that returns the 3 most recent posts for a given user. Post model has a method that updates the posts counter for a user and a method which returns the 5 most recent comments for a given post. Comment model has a method that updates the comments counter for a post. Likes model has a method that updates the likes counter for a post.',
+        'Use validations for models.',
+        'Use Devise and CanCanCan gems for user authentication and authorization.',
+        'Users: The user should be able to register in the app with full name, email and password. The user can log into the app using email and password. The user can create a new account, and can create, view, update, and delete new posts and comments. If the user is not logged in, they can\'t access pages that require the user to be logged in.',
+        'Home page: When the user logs in, they are presented with the authors page. For each author, the user can see their image, name, bio, and the number of posts. When the user clicks (or taps) on the authors nam, the application navigates to the posts page.',
+        'Make sure that the N+1 problem is solved when fetching all posts and their comments for a user.',
+        'Use Rspec and Capybara for write integration tests for all views',
+      ],
     },
     description: 'The Mindly app is a classic example of a blog website. This will is a fully functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts.',
     live: 'https://mindly-blogs.herokuapp.com/',
@@ -206,7 +251,15 @@ export const projectsData = [
     ],
     requirements: {
       info: '',
-      details: [],
+      details: [
+        'Create a conference page inspired by an original design idea by Cindy Shin in Behance and use the Creative Commons license of the design',
+        'The pages should look almost identical to the original design following design specifications including Colors, Typography: font face, size and weight. Layout: composition and space between elements.',
+        'Each of these pages should have versions for 2 different screen sizes. Mobile: up to 768px wide, and Desktop: 768px or wider.',
+        'The section "Featured speakers" should be created dynamically in JavaScript using DOM manipulation.',
+        'Industry-standard best practices for HTML & CSS and JavaScript should be followed using Linter Checks and GitHub Actions',
+        'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
+        'The README is documented in a professional way.',
+      ],
     },
     description: 'Marvel Studios MovieCon conference event where the studio\'s president Kevin Feige will discuss with fans new feature films for theatres and series to release on Disney+.',
     live: 'https://kdlamini.github.io/marvel-moviecon-capstone1/',
@@ -231,6 +284,9 @@ export const projectsData = [
     requirements: {
       info: 'Develop a Ruby on Rails application that allows the user to register and log in so that the data is private to them, introduce new transactions associated with a category, and see the money spent on each category. The design should be inspired by the original design idea by Gregoire Vella on Behance.',
       details: [
+        'Industry-standard best practices for Ruby on Rails and CSS should be followed using Linter Checks and GitHub Actions',
+        'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
+        'The README is documented in a professional way.',
         'The application should be responsive and mobile-friendly',
         'Splash screen: a simple page with the name of the app, and links to the sign up and log in pages.',
         'Users: The user should be able to register in the app with full name, email and password. The user can log into the app using email and password. The user can create a new account, and can create, view, update, and delete new categories and transactions. If the user is not logged in, they can\'t access pages that require the user to be logged in.',
@@ -259,7 +315,11 @@ export const projectsData = [
     ],
     requirements: {
       info: '',
-      details: [],
+      details: [
+        'Industry-standard best practices for JavaScript, React, and CSS should be followed using Linter Checks and GitHub Actions',
+        'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
+        'The README is documented in a professional way.',
+      ],
     },
     description: 'This mobile first app displays a list of popular stock market prices. Users can click on selected categories including forex, majors, cryptocurrencies, stocks, and ETFs. Each category lists the latest prices update for the pair.',
     live: 'https://forex-metrics.netlify.app/',
@@ -284,7 +344,11 @@ export const projectsData = [
     ],
     requirements: {
       info: '',
-      details: [],
+      details: [
+        'Industry-standard best practices for JavaScript, React, and CSS should be followed using Linter Checks and GitHub Actions',
+        'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
+        'The README is documented in a professional way.',
+      ],
     },
     description: 'SpaceX Hub allows you to view all available SpaceX Rockets and Missions. My Profile section lists all reserved rockets for booked space missions.',
     live: 'spacexhub.netlify.app/',
@@ -311,7 +375,11 @@ export const projectsData = [
     ],
     requirements: {
       info: '',
-      details: [],
+      details: [
+        'Industry-standard best practices for JavaScript, React, and CSS should be followed using Linter Checks and GitHub Actions',
+        'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
+        'The README is documented in a professional way.',
+      ],
     },
     description: 'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.',
     live: 'https://math-magicians-05671.herokuapp.com/',
@@ -359,7 +427,11 @@ export const projectsData = [
     ],
     requirements: {
       info: '',
-      details: [],
+      details: [
+        'Industry-standard best practices for JavaScript, React, and CSS should be followed using Linter Checks and GitHub Actions',
+        'Correct use of Gitflow is practiced by using branches to introduce new features in development.',
+        'The README is documented in a professional way.',
+      ],
     },
     description: 'My personal website depicts pages about me, my skills, highlighted projects, experience, education, certification, and contact information.',
     live: 'https://simonkosi.netlify.app/',
