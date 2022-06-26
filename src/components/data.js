@@ -1,23 +1,42 @@
 import Boomstore from '../assets/Boomstore.png';
 import Boomstore1 from '../assets/Boomstore1.png';
 import Boomstore2 from '../assets/Boomstore2.png';
+import Boomstore3 from '../assets/Boomstore3.jpeg';
 import vacay1 from '../assets/Vacay-details.png';
 import vacay2 from '../assets/Vacay-Add-Listing.png';
 import vacay3 from '../assets/Vacay-Add-Reservation.png';
 import moviecon from '../assets/marvel-moviecon.png';
+import moviecon1 from '../assets/marvel-moviecon1.png';
+import moviecon2 from '../assets/marvel-moviecon2.png';
+import moviecon3 from '../assets/marvel-moviecon3.png';
 import coinvestbank from '../assets/coinvestbank2.png';
 import spaceXhub from '../assets/spaceXhub.png';
+import spaceXhub1 from '../assets/spaceXhub1.png';
+import spaceXhub2 from '../assets/spaceXhub2.png';
+import spaceXhub3 from '../assets/spaceXhub3.png';
 import binger from '../assets/binger.png';
 import binger1 from '../assets/Binger-search.png';
 import binger2 from '../assets/Binger-Comments.png';
 import binger3 from '../assets/Binger3.png';
 import forexmatrics from '../assets/forexmatrics.png';
+import forexmatrics1 from '../assets/forexmatrics1.png';
+import forexmatrics2 from '../assets/forexmatrics2.png';
+import forexmatrics3 from '../assets/forexmatrics3.png';
 import mathMagicians from '../assets/math-magicians.png';
+import mathMagicians1 from '../assets/math-magicians1.png';
+import mathMagicians2 from '../assets/math-magicians2.png';
+import mathMagicians3 from '../assets/math-magicians3.png';
 import myportfolio from '../assets/about.png';
+import myportfolio1 from '../assets/projects.png';
+import myportfolio2 from '../assets/skills2.png';
+import myportfolio3 from '../assets/contact.png';
 import hangman from '../assets/hangman.png';
 import mastermind from '../assets/mastermind.png';
 import tictactoe from '../assets/tic-tac-toe.png';
 import nikestore from '../assets/nikestore.png';
+import nikestore1 from '../assets/nikestore1.png';
+import nikestore2 from '../assets/nikestore2.png';
+import nikestore3 from '../assets/nikestore3.png';
 import Mindly from '../assets/Mindly.png';
 import Mindly1 from '../assets/Mindly-wireframe.png';
 import Mindly2 from '../assets/Mindly-Posts.png';
@@ -28,7 +47,6 @@ import Recipes2 from '../assets/Recipes-Details.png';
 import Recipes3 from '../assets/recipe_app_erd.png';
 import Budget from '../assets/Budget.png';
 import comingSoon from '../assets/coming_soon.gif';
-import comingSoon2 from '../assets/coming-soon-banner.jpg';
 
 const languages = [
   {
@@ -53,8 +71,8 @@ const languages = [
 
 export const projectsData = [
   {
-    image: `${comingSoon}`,
-    imageUrls: [`${Boomstore1}`, `${Boomstore2}`, `${Boomstore}`, `${comingSoon}`],
+    image: `${Boomstore3}`,
+    imageUrls: [`${Boomstore1}`, `${Boomstore2}`, `${Boomstore}`, `${Boomstore3}`],
     name: 'BoomStore',
     type: 'MERN-Stack',
     year: '2022',
@@ -62,7 +80,7 @@ export const projectsData = [
     builtWith: ['React', 'NodeJS', 'ExpressJS', 'MongoDB Atlas', 'Bootstrap'],
     tools: ['VScode', 'Linters', 'Github Actions'],
     contributors: [
-      { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
       { assignee: 'Simo Dlamini', task: 'Develop all features of an e-commerce application that allows users to browse for available products, register and sign to their account using JWT authentication, add items to cart, and process payments using Stripe.' },
@@ -97,6 +115,7 @@ export const projectsData = [
       { fullName: 'Ugboaja Uchechi', profile: 'https://github.com/Ugboaja-Uchechi' },
       { fullName: 'ShoiraTa', profile: 'https://github.com/ShoiraTa' },
       { fullName: 'You-Wei Chang', profile: 'https://github.com/adamteddychang' },
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
       { assignee: 'Simo Dlamini', task: 'Login page with authentication, navbar, and add new listing page.' },
@@ -134,6 +153,7 @@ export const projectsData = [
     tools: ['VScode', 'Linters', 'Rspec', 'Capybara', 'Github Actions', 'Heroku'],
     contributors: [
       { fullName: 'Okpara Tochukwu', profile: 'https://github.com/xtrahuman' },
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
       { assignee: 'Simo Dlamini', task: 'Setup application with Rails and PostgreSQL, Web Design, Login page with authentication, homepage, navbar, and recipes page.' },
@@ -171,6 +191,7 @@ export const projectsData = [
     tools: ['VScode', 'Linters', 'Jest', 'Github Actions'],
     contributors: [
       { fullName: 'Alaukik', profile: 'https://github.com/newhorizon-tech' },
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
       { assignee: 'Simo Dlamini', task: 'Web design, navbar, homepage, search, consume TV-Maze API.' },
@@ -207,6 +228,7 @@ export const projectsData = [
     tools: ['VScode', 'Linters', 'Rspec', 'Capybara', 'Github Actions', 'Heroku'],
     contributors: [
       { fullName: 'Somdotta Sarkar', profile: 'https://github.com/Somdotta07' },
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
       { assignee: 'Simo Dlamini', task: 'Setup application with Rails and PostgreSQL, web design, login page with authentication, users, posts, comments, likes, and unit tests with Rspec and Capybara.' },
@@ -236,7 +258,7 @@ export const projectsData = [
 
   {
     image: `${moviecon}`,
-    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
+    imageUrls: [`${moviecon1}`, `${moviecon2}`, `${moviecon3}`, `${moviecon}`],
     name: 'Marvel MovieCon',
     type: 'Front-End',
     year: '2021',
@@ -244,7 +266,7 @@ export const projectsData = [
     builtWith: ['Html', 'Css', 'JavaScript'],
     tools: ['VScode', 'Linters', 'Github Actions'],
     contributors: [
-      { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
       { assignee: 'Simo Dlamini', task: 'Develop a Html, css, and JavaScript application from an existing design by Creatives Commons.' },
@@ -267,40 +289,8 @@ export const projectsData = [
   },
 
   {
-    image: `${Budget}`,
-    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
-    name: 'Go Save',
-    type: 'Full-Stack',
-    year: '2022',
-    category: 'Web Application',
-    builtWith: ['Ruby on Rails', 'PostgreSQL', 'Bootstrap'],
-    tools: ['VScode', 'Linters', 'Rspec', 'Github Actions', 'Heroku'],
-    contributors: [
-      { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
-    ],
-    tasks: [
-      { assignee: 'Simo Dlamini', task: 'Develop a full-stack budget web application using Rails, Devise, Cancancan, Bootstrap, and PostgreSQL.' },
-    ],
-    requirements: {
-      info: 'Develop a Ruby on Rails application that allows the user to register and log in so that the data is private to them, introduce new transactions associated with a category, and see the money spent on each category. The design should be inspired by the original design idea by Gregoire Vella on Behance.',
-      details: [
-        'Industry-standard best practices for Ruby on Rails and CSS should be followed using Linter Checks and GitHub Actions',
-        'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
-        'The README is documented in a professional way.',
-        'The application should be responsive and mobile-friendly',
-        'Splash screen: a simple page with the name of the app, and links to the sign up and log in pages.',
-        'Users: The user should be able to register in the app with full name, email and password. The user can log into the app using email and password. The user can create a new account, and can create, view, update, and delete new categories and transactions. If the user is not logged in, they can\'t access pages that require the user to be logged in.',
-        'Home page: When the user logs in, they are presented with the categories page. For each category, the user can see their name, icon and the total amount of all the transactions that belongs to that category. When the user clicks (or taps) on a category item, the application navigates to the transactions page for that category. There is a button "add a new category" at the bottom that brings the user to the page to create a new category.',
-      ],
-    },
-    description: 'A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
-    live: 'https://young-falls-16975.herokuapp.com/',
-    code: 'https://github.com/KDlamini/Budget-app',
-  },
-
-  {
     image: `${forexmatrics}`,
-    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
+    imageUrls: [`${forexmatrics1}`, `${forexmatrics2}`, `${forexmatrics3}`, `${forexmatrics}`],
     name: 'Forex Metrics',
     type: 'Front-End',
     year: '2021',
@@ -308,7 +298,7 @@ export const projectsData = [
     builtWith: ['React', 'Redux', 'Financial Modeling Prep API', 'CSS'],
     tools: ['VScode', 'Linters', 'Jest', 'Github Actions', 'Netlify'],
     contributors: [
-      { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
       { assignee: 'Simo Dlamini', task: 'Develop a front-end web application using React, Redux, React-Router, while consuming the Financial Modeling Prep API.' },
@@ -335,7 +325,7 @@ export const projectsData = [
 
   {
     image: `${spaceXhub}`,
-    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
+    imageUrls: [`${spaceXhub1}`, `${spaceXhub2}`, `${spaceXhub3}`, `${spaceXhub}`],
     name: 'SpaceX Travellers\' Hub',
     type: 'Front-End',
     year: '2021',
@@ -344,6 +334,7 @@ export const projectsData = [
     tools: ['VScode', 'Linters', 'React Testing Library', 'Github Actions', 'Netlify'],
     contributors: [
       { fullName: 'Leandro Barreto', profile: 'https://github.com/Leandro-Barretoo' },
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
       { assignee: 'Simo Dlamini', task: 'Setup application with Create-react-app, setup react-redux using duck pattern, rockets page with reserve and cancel rocket functionality, and my profile page.' },
@@ -365,13 +356,37 @@ export const projectsData = [
       ],
     },
     description: 'SpaceX Hub allows you to view all available SpaceX Rockets and Missions. My Profile section lists all reserved rockets for booked space missions.',
-    live: 'spacexhub.netlify.app/',
+    live: 'https://spacexhub.netlify.app/',
     code: 'https://github.com/KDlamini/space-travellers-hub',
   },
 
   {
+    image: `${nikestore}`,
+    imageUrls: [`${nikestore1}`, `${nikestore2}`, `${nikestore3}`, `${nikestore}`],
+    name: 'Nike Store',
+    type: 'Front-End',
+    year: '2021',
+    category: 'Web Application',
+    builtWith: ['Html', 'Css', 'JavaScript'],
+    tools: ['VScode', 'Github'],
+    contributors: [
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
+    ],
+    tasks: [
+      { assignee: 'Simo Dlamini', task: 'Develop a front-end web application using Html, Css, and JavaScript that re-imagines the Nike store homepage.' },
+    ],
+    requirements: {
+      info: '',
+      details: [],
+    },
+    description: 'A recreation of Nike Store that allows users to shop, browse, get latest updates, and contact support. Change the theme color matching a product by clicking on any of the Nike products.',
+    live: 'https://kdlamini.github.io/nike-store/',
+    code: 'https://github.com/KDlamini/nike-store',
+  },
+
+  {
     image: `${mathMagicians}`,
-    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
+    imageUrls: [`${mathMagicians3}`, `${mathMagicians1}`, `${mathMagicians2}`, `${mathMagicians}`],
     name: 'React Calculator',
     type: 'Front-End',
     year: '2021',
@@ -381,6 +396,7 @@ export const projectsData = [
     contributors: [
       { fullName: 'Vishal Verma', profile: 'https://github.com/Hector096' },
       { fullName: 'Ajise Toluwase', profile: 'https://github.com/Whoistolu' },
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
       { assignee: 'Simo Dlamini', task: 'Develop a front-end web application using React, Redux, React-Router, with arithmetic calculations algorithm.' },
@@ -398,37 +414,13 @@ export const projectsData = [
       ],
     },
     description: 'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.',
-    live: 'https://math-magicians-05671.herokuapp.com/',
+    live: 'https://math-magicians-3551.netlify.app/',
     code: 'https://github.com/KDlamini/math-magicians',
   },
 
   {
-    image: `${coinvestbank}`,
-    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
-    name: 'Coinvest Bank',
-    type: 'Front-End',
-    year: '2021',
-    category: 'Web Application',
-    builtWith: ['React', 'Hooks', 'Router', 'CSS'],
-    tools: ['VScode', 'Github Actions', 'Netlify'],
-    contributors: [
-      { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
-    ],
-    tasks: [
-      { assignee: 'Simo Dlamini', task: 'Develop a front-end web application using React, Redux, and React-Router.' },
-    ],
-    requirements: {
-      info: '',
-      details: [],
-    },
-    description: 'Coinvest Bank is a fictional bank resembling a real world bank design and functionality.',
-    live: 'https://coinvestbank.netlify.app/',
-    code: 'https://github.com/KDlamini/coinvest-bank',
-  },
-
-  {
     image: `${myportfolio}`,
-    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
+    imageUrls: [`${myportfolio1}`, `${myportfolio2}`, `${myportfolio3}`, `${myportfolio}`],
     name: 'Personal Portfolio',
     type: 'Front-End',
     year: '2021',
@@ -436,7 +428,7 @@ export const projectsData = [
     builtWith: ['React', 'Sass', 'Semantic-UI icons'],
     tools: ['VScode', 'Linters', 'Github Actions', 'Netlify'],
     contributors: [
-      { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
       { assignee: 'Simo Dlamini', task: 'Develop a front-end web application using React, React-Router, Context API, SCSS, and animations.' },
@@ -455,32 +447,64 @@ export const projectsData = [
   },
 
   {
-    image: `${nikestore}`,
-    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
-    name: 'Nike Store',
+    image: `${Budget}`,
+    imageUrls: [`${comingSoon}`, `${comingSoon}`, `${comingSoon}`, `${Budget}`],
+    name: 'Go Save',
+    type: 'Full-Stack',
+    year: '2022',
+    category: 'Web Application',
+    builtWith: ['Ruby on Rails', 'PostgreSQL', 'Bootstrap'],
+    tools: ['VScode', 'Linters', 'Rspec', 'Github Actions', 'Heroku'],
+    contributors: [
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
+    ],
+    tasks: [
+      { assignee: 'Simo Dlamini', task: 'Develop a full-stack budget web application using Rails, Devise, Cancancan, Bootstrap, and PostgreSQL.' },
+    ],
+    requirements: {
+      info: 'Develop a Ruby on Rails application that allows the user to register and log in so that the data is private to them, introduce new transactions associated with a category, and see the money spent on each category. The design should be inspired by the original design idea by Gregoire Vella on Behance.',
+      details: [
+        'Industry-standard best practices for Ruby on Rails and CSS should be followed using Linter Checks and GitHub Actions',
+        'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
+        'The README is documented in a professional way.',
+        'The application should be responsive and mobile-friendly',
+        'Splash screen: a simple page with the name of the app, and links to the sign up and log in pages.',
+        'Users: The user should be able to register in the app with full name, email and password. The user can log into the app using email and password. The user can create a new account, and can create, view, update, and delete new categories and transactions. If the user is not logged in, they can\'t access pages that require the user to be logged in.',
+        'Home page: When the user logs in, they are presented with the categories page. For each category, the user can see their name, icon and the total amount of all the transactions that belongs to that category. When the user clicks (or taps) on a category item, the application navigates to the transactions page for that category. There is a button "add a new category" at the bottom that brings the user to the page to create a new category.',
+      ],
+    },
+    description: 'A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+    live: 'https://young-falls-16975.herokuapp.com/',
+    code: 'https://github.com/KDlamini/Budget-app',
+  },
+
+  {
+    image: `${coinvestbank}`,
+    imageUrls: [`${comingSoon}`, `${comingSoon}`, `${comingSoon}`, `${coinvestbank}`],
+    name: 'Coinvest Bank',
     type: 'Front-End',
     year: '2021',
     category: 'Web Application',
-    builtWith: ['Html', 'Css', 'JavaScript'],
-    tools: ['VScode', 'Github'],
+    builtWith: ['React', 'Hooks', 'Router', 'CSS'],
+    tools: ['VScode', 'Github Actions', 'Netlify'],
     contributors: [
-      { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
-      { assignee: 'Simo Dlamini', task: 'Develop a front-end web application using Html, Css, and JavaScript that re-imagines the Nike store homepage.' },
+      { assignee: 'Simo Dlamini', task: 'Develop a front-end web application using React, Redux, and React-Router.' },
     ],
     requirements: {
       info: '',
       details: [],
     },
-    description: 'A recreation of Nike Store that allows users to shop, browse, get latest updates, and contact support. Change the theme color matching a product by clicking on any of the Nike products.',
-    live: 'https://kdlamini.github.io/nike-store/',
-    code: 'https://github.com/KDlamini/nike-store',
+    description: 'Coinvest Bank is a fictional bank resembling a real world bank design and functionality.',
+    live: 'https://coinvestbank.netlify.app/',
+    code: 'https://github.com/KDlamini/coinvest-bank',
   },
 
   {
     image: `${mastermind}`,
-    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
+    imageUrls: [`${comingSoon}`, `${comingSoon}`, `${comingSoon}`, `${mastermind}`],
     name: 'Mastermind',
     type: 'Back-End',
     year: '2021',
@@ -488,7 +512,7 @@ export const projectsData = [
     builtWith: ['Ruby'],
     tools: ['VScode', 'Command Line Interface', 'Git'],
     contributors: [
-      { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
       { assignee: 'Simo Dlamini', task: 'Develop a Ruby CLI game using classes, JSON, and read/write to File functionality.' },
@@ -504,7 +528,7 @@ export const projectsData = [
 
   {
     image: `${hangman}`,
-    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
+    imageUrls: [`${comingSoon}`, `${comingSoon}`, `${comingSoon}`, `${hangman}`],
     name: 'Hangman',
     type: 'Back-End',
     year: '2021',
@@ -512,7 +536,7 @@ export const projectsData = [
     builtWith: ['Ruby'],
     tools: ['VScode', 'Command Line Interface', 'Git'],
     contributors: [
-      { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
       { assignee: 'Simo Dlamini', task: 'Develop a Ruby CLI game using classes, JSON, and read/write to File functionality.' },
@@ -528,7 +552,7 @@ export const projectsData = [
 
   {
     image: `${tictactoe}`,
-    imageUrls: [`${comingSoon}`, `${comingSoon2}`, `${comingSoon}`, `${comingSoon2}`],
+    imageUrls: [`${comingSoon}`, `${comingSoon}`, `${comingSoon}`, `${tictactoe}`],
     name: 'Tic Tac Toe',
     type: 'Back-End',
     year: '2021',
@@ -536,7 +560,7 @@ export const projectsData = [
     builtWith: ['Ruby'],
     tools: ['VScode', 'Command Line Interface', 'Git'],
     contributors: [
-      { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
       { assignee: 'Simo Dlamini', task: 'Develop a Ruby CLI game using classes, JSON, and read/write to File functionality.' },
