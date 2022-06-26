@@ -131,7 +131,7 @@ export const projectsData = [
     year: '2022',
     category: 'Web Application',
     builtWith: ['Ruby on Rails', 'PostgreSQL', 'Bootstrap'],
-    tools: ['VScode', 'Linters', 'Rspec', 'Github Actions', 'Heroku'],
+    tools: ['VScode', 'Linters', 'Rspec', 'Capybara', 'Github Actions', 'Heroku'],
     contributors: [
       { fullName: 'Okpara Tochukwu', profile: 'https://github.com/xtrahuman' },
     ],
@@ -204,7 +204,7 @@ export const projectsData = [
     year: '2022',
     category: 'Web Application',
     builtWith: ['Ruby on Rails', 'PostgreSQL', 'Zerb Foundation', 'SCSS', 'Semantic-UI'],
-    tools: ['VScode', 'Linters', 'Rspec', 'Github Actions', 'Heroku'],
+    tools: ['VScode', 'Linters', 'Rspec', 'Capybara', 'Github Actions', 'Heroku'],
     contributors: [
       { fullName: 'Somdotta Sarkar', profile: 'https://github.com/Somdotta07' },
     ],
@@ -316,9 +316,16 @@ export const projectsData = [
     requirements: {
       info: '',
       details: [
-        'Industry-standard best practices for JavaScript, React, and CSS should be followed using Linter Checks and GitHub Actions',
+        'Industry-standard best practices for JavaScript, React, and CSS are followed using Linter Checks and GitHub Actions',
         'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
         'The README is documented in a professional way.',
+        'Follows an original design idea by Nelson Sakwa on Behance using the Creative Commons license of the design.',
+        'Home page: When the page loads, the webapp shows the list of categories of the FOREX market i.e Majors, Crypto, Stocks, and Futures. When the user clicks (or taps) on a category item, the application navigates to the details page listing all current prices',
+        'Details page: the webapp retrieves data from the API to show detailed data in the category. When the user clicks on the "Back" button (<), the user navigates to the home page.',
+        'React Testing Library is used for integration tests for Redux pure functions. Mocks the access to the API and connection to the Redux Store.',
+        'The project is a single-page application (SPA) built with React and Redux. The data is retrieved from the API and stored in the Redux store. A Filter stateless component is used to filter the data retrieved from the API. React Routing is used to make sure that every page has a unique route within the SPA',
+        'The application is responsive and mobile-friendly',
+        'The application is deployed on Netlify',
       ],
     },
     description: 'This mobile first app displays a list of popular stock market prices. Users can click on selected categories including forex, majors, cryptocurrencies, stocks, and ETFs. Each category lists the latest prices update for the pair.',
@@ -345,9 +352,16 @@ export const projectsData = [
     requirements: {
       info: '',
       details: [
-        'Industry-standard best practices for JavaScript, React, and CSS should be followed using Linter Checks and GitHub Actions',
+        'Industry-standard best practices for JavaScript, React, and CSS are followed using Linter Checks and GitHub Actions',
         'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
+        'The Space Travelers\' Hub consists of Rockets, Missions, and the My Profile section.',
+        'The Rockets section displays a list of all available SpaceX rockets. Users can book each rocket by clicking the reservation button or cancel the previously made booking',
+        'The Missions section displays a list of current missions along with their brief description and participation status. There is also a button next to each mission that allows users to join the selected mission or leave the mission the user joined earlier.',
+        'The My Profile section displays all reserved rockets and space missions.',
+        'Routing is used for routes and view components (Rockets, Missions, My Profile).The NavLink component for the page navigation links and styled active class to indicate which section/page user is currently on',
+        'The SpaceX API is used to fetch data for the rockets and missions. The data is stored in the Redux store.',
         'The README is documented in a professional way.',
+        'Testing libraries(React Testing Library and Jest) are used for integrated tests.',
       ],
     },
     description: 'SpaceX Hub allows you to view all available SpaceX Rockets and Missions. My Profile section lists all reserved rockets for booked space missions.',
@@ -363,7 +377,7 @@ export const projectsData = [
     year: '2021',
     category: 'Web Application',
     builtWith: ['React', 'Router', 'CSS', 'Heroku'],
-    tools: ['VScode', 'Linters', 'Github Actions', 'Heroku'],
+    tools: ['VScode', 'Linters', 'Jest', 'React Testing Library', 'Github Actions', 'Heroku'],
     contributors: [
       { fullName: 'Vishal Verma', profile: 'https://github.com/Hector096' },
       { fullName: 'Ajise Toluwase', profile: 'https://github.com/Whoistolu' },
@@ -376,8 +390,10 @@ export const projectsData = [
     requirements: {
       info: '',
       details: [
-        'Industry-standard best practices for JavaScript, React, and CSS should be followed using Linter Checks and GitHub Actions',
+        'Industry-standard best practices for JavaScript, React, and CSS are followed using Linter Checks and GitHub Actions',
         'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
+        'Implements event handlers to use the math logic from calculate.js and operate.js in Calculator.js React component.',
+        'Uses React Routing, Hooks, props to lift state up, and lifecycle methods to implement the calculator logic.',
         'The README is documented in a professional way.',
       ],
     },
@@ -417,7 +433,7 @@ export const projectsData = [
     type: 'Front-End',
     year: '2021',
     category: 'Web Application',
-    builtWith: ['React', 'Sass', 'Semantic-UI'],
+    builtWith: ['React', 'Sass', 'Semantic-UI icons'],
     tools: ['VScode', 'Linters', 'Github Actions', 'Netlify'],
     contributors: [
       { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
@@ -428,7 +444,7 @@ export const projectsData = [
     requirements: {
       info: '',
       details: [
-        'Industry-standard best practices for JavaScript, React, and CSS should be followed using Linter Checks and GitHub Actions',
+        'Industry-standard best practices for JavaScript, React, and CSS are followed using Linter Checks and GitHub Actions',
         'Correct use of Gitflow is practiced by using branches to introduce new features in development.',
         'The README is documented in a professional way.',
       ],
