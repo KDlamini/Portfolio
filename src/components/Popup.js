@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import Modal from 'react-modal';
 import ModalContext from '../context/ModalContext';
 import dotImg from '../assets/Counter.svg';
@@ -7,11 +7,19 @@ function Popup() {
   const { modalIsOpen, setModalIsOpen, project } = useContext(ModalContext);
 
   const {
-    image, name, type, year, builtWith, tools, contributors,
+    image, imageUrls, name, type, year, builtWith, tools, contributors,
     tasks, description, requirements, live, code,
   } = project;
 
+  const [imageSource, setImageSource] = useState(image);
+
   const { info, details } = requirements;
+
+  const handleImageSource = (e) => {
+    const url = e.target.src;
+
+    setImageSource(url);
+  };
 
   const styles = {
     overlay: {
@@ -74,8 +82,24 @@ function Popup() {
             </ul>
           </div>
         </li>
-        <li className="project-img-wrapper">
-          <img className="project-img" src={image} alt="project" />
+        <li className="popup-image-wrapper">
+          <div className="image-nav">
+            {
+              imageUrls.map((source) => (
+                <button
+                  key={source + (Math.floor(Math.random() * 10000) + 1)}
+                  type="button"
+                  className="image-nav-item"
+                  onClick={(e) => handleImageSource(e)}
+                >
+                  <img className="project-img" src={source} alt="project" />
+                </button>
+              ))
+            }
+          </div>
+          <div className="popup-image-container">
+            <img className="project-img" src={imageSource} alt="project" />
+          </div>
         </li>
         <li className="modal-body">
           <div className="tools-wrapper">

@@ -1,18 +1,52 @@
+import Boomstore from '../assets/Boomstore.png';
+import Boomstore1 from '../assets/Boomstore1.png';
+import Boomstore2 from '../assets/Boomstore2.png';
+import Boomstore3 from '../assets/Boomstore3.jpeg';
+import vacay1 from '../assets/Vacay-details.png';
+import vacay2 from '../assets/Vacay-Add-Listing.png';
+import vacay3 from '../assets/Vacay-Add-Reservation.png';
 import moviecon from '../assets/marvel-moviecon.png';
+import moviecon1 from '../assets/marvel-moviecon1.png';
+import moviecon2 from '../assets/marvel-moviecon2.png';
+import moviecon3 from '../assets/marvel-moviecon3.png';
 import coinvestbank from '../assets/coinvestbank2.png';
 import spaceXhub from '../assets/spaceXhub.png';
+import spaceXhub1 from '../assets/spaceXhub1.png';
+import spaceXhub2 from '../assets/spaceXhub2.png';
+import spaceXhub3 from '../assets/spaceXhub3.png';
 import binger from '../assets/binger.png';
+import binger1 from '../assets/Binger-search.png';
+import binger2 from '../assets/Binger-Comments.png';
+import binger3 from '../assets/Binger3.png';
 import forexmatrics from '../assets/forexmatrics.png';
+import forexmatrics1 from '../assets/forexmatrics1.png';
+import forexmatrics2 from '../assets/forexmatrics2.png';
+import forexmatrics3 from '../assets/forexmatrics3.png';
 import mathMagicians from '../assets/math-magicians.png';
+import mathMagicians1 from '../assets/math-magicians1.png';
+import mathMagicians2 from '../assets/math-magicians2.png';
+import mathMagicians3 from '../assets/math-magicians3.png';
 import myportfolio from '../assets/about.png';
+import myportfolio1 from '../assets/projects.png';
+import myportfolio2 from '../assets/skills2.png';
+import myportfolio3 from '../assets/contact.png';
 import hangman from '../assets/hangman.png';
 import mastermind from '../assets/mastermind.png';
 import tictactoe from '../assets/tic-tac-toe.png';
 import nikestore from '../assets/nikestore.png';
+import nikestore1 from '../assets/nikestore1.png';
+import nikestore2 from '../assets/nikestore2.png';
+import nikestore3 from '../assets/nikestore3.png';
 import Mindly from '../assets/Mindly.png';
+import Mindly1 from '../assets/Mindly-wireframe.png';
+import Mindly2 from '../assets/Mindly-Posts.png';
+import Mindly3 from '../assets/Mindly-Show.png';
 import Recipes from '../assets/Recipes.png';
+import Recipes1 from '../assets/Recipes-Dishes.png';
+import Recipes2 from '../assets/Recipes-Details.png';
+import Recipes3 from '../assets/recipe_app_erd.png';
 import Budget from '../assets/Budget.png';
-import BoomStore from '../assets/coming_soon.gif';
+import comingSoon from '../assets/coming_soon.gif';
 
 const languages = [
   {
@@ -37,7 +71,8 @@ const languages = [
 
 export const projectsData = [
   {
-    image: `${BoomStore}`,
+    image: `${Boomstore3}`,
+    imageUrls: [`${Boomstore1}`, `${Boomstore2}`, `${Boomstore}`, `${Boomstore3}`],
     name: 'BoomStore',
     type: 'MERN-Stack',
     year: '2022',
@@ -45,14 +80,22 @@ export const projectsData = [
     builtWith: ['React', 'NodeJS', 'ExpressJS', 'MongoDB Atlas', 'Bootstrap'],
     tools: ['VScode', 'Linters', 'Github Actions'],
     contributors: [
-      { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
-      { assignee: 'Simo Dlamini', task: 'Develop a MERN stack e-commerce application that allows users to browse for available products, register and sign to their account using JWT authentication, add items to cart, and process payments using Stripe.' },
+      { assignee: 'Simo Dlamini', task: 'Develop all features of an e-commerce application that allows users to browse for available products, register and sign to their account using JWT authentication, add items to cart, and process payments using Stripe.' },
     ],
     requirements: {
-      info: '',
-      details: [],
+      info: 'Develop a MERN-stack e-commerce application using React and NodeJS that allows users to view products, filter desired categories, register and sign to their account using JWT authentication, add items to cart, and process payments using Stripe, and track orders.',
+      details: [
+        'The application is responsive and mobile-friendly',
+        'The application handles multiple users. Users can register and login with authentication using JWT.',
+        'In the navigation panel, the user can see links to "Login/Register", view "Orders", "My account", add view cart items.',
+        'On the main page, the user can see all products, and can filter items by category and price range',
+        'When the user selects a specific product, they can see the details page with its full description, and the user can add product to cart.',
+        'On the cart, the user can see all wish products reserved for checkout, and can increment or decrement quantity, delete items, and checkout for payment using Stripe',
+        'React UI is connected to MongoDB using NodeJS and Express urls.',
+      ],
     },
     description: 'BoomStore is the perfect market for high quality products supplied worldwide. We provide a platform for buyers and sellers to connect and trade products and services.',
     live: 'https://github.com/KDlamini/bamboo-client',
@@ -60,7 +103,8 @@ export const projectsData = [
   },
 
   {
-    image: 'https://user-images.githubusercontent.com/63560332/163343421-7f80f067-c46d-4fc0-9d8d-ec92b4572e07.png',
+    image: `${vacay1}`,
+    imageUrls: [`${vacay1}`, `${vacay3}`, `${vacay2}`, 'https://user-images.githubusercontent.com/63560332/163343421-7f80f067-c46d-4fc0-9d8d-ec92b4572e07.png'],
     name: 'VacayHome',
     type: 'Full-Stack',
     year: '2022',
@@ -71,6 +115,7 @@ export const projectsData = [
       { fullName: 'Ugboaja Uchechi', profile: 'https://github.com/Ugboaja-Uchechi' },
       { fullName: 'ShoiraTa', profile: 'https://github.com/ShoiraTa' },
       { fullName: 'You-Wei Chang', profile: 'https://github.com/adamteddychang' },
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
       { assignee: 'Simo Dlamini', task: 'Login page with authentication, navbar, and add new listing page.' },
@@ -81,12 +126,15 @@ export const projectsData = [
     requirements: {
       info: 'Develop a full-stack application using React and Rails that allows users to create, view, and reserve vacation homes. The design should be inspired by the design provided by Murat Korkmaz on Behance.',
       details: [
-        'The application should be responsive and mobile-friendly',
-        'The application should be able to handle multiple users. The user logs in to the website, only by typing the username. The user can create a new account, and can view all the vacation homes available on the website. The user can also view the details of the vacation home, and reserve it. The user can also view all the reservations made by the user. The user can also cancel a reservation made by the user.',
+        'Industry-standard best practices for JavaScript, React, and CSS are followed using Linter Checks and GitHub Actions',
+        'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
+        'The README is documented in a professional way.',
+        'The application is responsive and mobile-friendly',
+        'The application handles multiple users. The user logs in to the website, only by typing the username. The user can create a new account, and can view all the vacation homes available on the website. The user can also view the details of the vacation home, and reserve it. The user can also view all the reservations made by the user. The user can also cancel a reservation made by the user.',
         'In the navigation panel, the user can see links to all "Listings", "Reserve" form, "My reservations", add new listing, and delete listing.',
         'On the main page, the user can see a list of listings',
         'When the user selects a specific item, they can see the details page with its full description, and the user can reserve it.',
-        'Add full documentation for the API, and use Swagger to document the API.',
+        'The API is fully documented, and uses Swagger to document the API.',
       ],
     },
     description: 'VacayHome is place for the most luxurious listings. Book a vacation in one of our vocational houses and enjoy your stay in a comfortable and safe environment.',
@@ -96,14 +144,16 @@ export const projectsData = [
 
   {
     image: `${Recipes}`,
+    imageUrls: [`${Recipes1}`, `${Recipes2}`, `${Recipes3}`, `${Recipes}`],
     name: 'Tasty Dishes',
     type: 'Full-Stack',
     year: '2022',
     category: 'Web Application',
     builtWith: ['Ruby on Rails', 'PostgreSQL', 'Bootstrap'],
-    tools: ['VScode', 'Linters', 'Rspec', 'Github Actions', 'Heroku'],
+    tools: ['VScode', 'Linters', 'Rspec', 'Capybara', 'Github Actions', 'Heroku'],
     contributors: [
       { fullName: 'Okpara Tochukwu', profile: 'https://github.com/xtrahuman' },
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
       { assignee: 'Simo Dlamini', task: 'Setup application with Rails and PostgreSQL, Web Design, Login page with authentication, homepage, navbar, and recipes page.' },
@@ -112,14 +162,17 @@ export const projectsData = [
     requirements: {
       info: 'Develop a full-stack application using Ruby on Rails that allows users to create recipes, ingredients, and generate a shopping list. The app should follow the data model (Entity Relationship Diagram) and predefined wireframes provided by the instructor. The following requirements must be be met:',
       details: [
-        'Login page and registration page: should be built with Devise.',
-        'Food list: should display a list of food as in the wireframe. Should lead to the form that allows users to add new food.',
-        'Recipes list: should display a list of recipes created by the logged-in user as in the wireframe. Should lead to recipe details. If the user is the owner of the recipe, should allow user to delete it.',
-        'Public recipe list: should display a list of all public recipes ordered by newest as in the wireframe. Should lead to recipe details.',
+        'Industry-standard best practices for Ruby on Rails and CSS are followed using Linter Checks and GitHub Actions',
+        'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
+        'The README is documented in a professional way.',
+        'Login page and registration page: built with Devise.',
+        'Food list: displays a list of food as in the wireframe. Should lead to the form that allows users to add new food.',
+        'Recipes list: displays a list of recipes created by the logged-in user as in the wireframe. Should lead to recipe details. If the user is the owner of the recipe, should allow user to delete it.',
+        'Public recipe list: displays a list of all public recipes ordered by newest as in the wireframe. Should lead to recipe details.',
         'Recipe details: If the recipe is public or the user is the owner of the recipe, should display the recipe details as in the wireframe. If the user is the owner of the recipe, should lead to the form that allows user to add new food.',
-        'General shopping list view: should show the list of food that is missing for all recipes of the logged-in user. Should count the total food items and total price of the missing food.',
-        'Set up RSpec and Capybara testing libraries.',
-        'Set up associations between models and use validations for models. Secure app from n+1 problems.',
+        'General shopping list view: shows the list of food that is missing for all recipes of the logged-in user. Should count the total food items and total price of the missing food.',
+        'RSpec and Capybara testing libraries are used for integrated tests.',
+        'Associations between models and validations for models are set up. App is secure from n+1 problems.',
       ],
     },
     description: 'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe.',
@@ -129,6 +182,7 @@ export const projectsData = [
 
   {
     image: `${binger}`,
+    imageUrls: [`${binger3}`, `${binger1}`, `${binger2}`, `${binger}`],
     name: 'Binger TV Shows',
     type: 'Front-End',
     year: '2021',
@@ -137,6 +191,7 @@ export const projectsData = [
     tools: ['VScode', 'Linters', 'Jest', 'Github Actions'],
     contributors: [
       { fullName: 'Alaukik', profile: 'https://github.com/newhorizon-tech' },
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
       { assignee: 'Simo Dlamini', task: 'Web design, navbar, homepage, search, consume TV-Maze API.' },
@@ -145,13 +200,16 @@ export const projectsData = [
     requirements: {
       info: 'Develop a Webpack application based on an external API. Apply the concepts of ES6 JavaScript, ES6 modules, callbacks and promises, and JSON. The following requirements must be be met:',
       details: [
+        'Industry-standard best practices for JavaScript and CSS are followed using Linter Checks and GitHub Actions',
+        'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
+        'The README is documented in a professional way.',
         'A home page showing a list of TV shows fetched from the TV-Maze API. The TV show should display the name, image, and summary of each show.',
         'When a user clicks on a TV show, a popup window with more details about the show. The show details page should display the name, image, description, and comments section of the show.',
-        'Utilize the Involvement API to record the different user interactions (likes,and comments).',
-        'Follow the layout of the wireframes provided and personalize the rest of the design including colors, typographies, spacings,',
-        'The navbar should indicate the number of shows displayed per page.',
-        'Add a search bar to the home page that allows users to search for a TV show by name.',
-        'Use AAA pattern for unit tests',
+        'The Involvement API is integrated to record the different user interactions (likes,and comments).',
+        'The wireframes provided are utilized for the layout and the rest of the design including colors, typographies, spacings is personalized.',
+        'The navbar indicates the number of shows displayed per page.',
+        'There\'s a search bar to the home page that allows users to search for a TV show by name.',
+        'The AAA pattern is used for unit tests',
       ],
     },
     description: 'Binger website allows you to browse popular TV shows that air in different networks mainly in US, Canada, and the UK. Users can search, comment, like, and filter their favorite shows based on genre.',
@@ -161,14 +219,16 @@ export const projectsData = [
 
   {
     image: `${Mindly}`,
+    imageUrls: [`${Mindly1}`, `${Mindly2}`, `${Mindly3}`, `${Mindly}`],
     name: 'Mindly Blogs',
     type: 'Full-Stack',
     year: '2022',
     category: 'Web Application',
     builtWith: ['Ruby on Rails', 'PostgreSQL', 'Zerb Foundation', 'SCSS', 'Semantic-UI'],
-    tools: ['VScode', 'Linters', 'Rspec', 'Github Actions', 'Heroku'],
+    tools: ['VScode', 'Linters', 'Rspec', 'Capybara', 'Github Actions', 'Heroku'],
     contributors: [
       { fullName: 'Somdotta Sarkar', profile: 'https://github.com/Somdotta07' },
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
       { assignee: 'Simo Dlamini', task: 'Setup application with Rails and PostgreSQL, web design, login page with authentication, users, posts, comments, likes, and unit tests with Rspec and Capybara.' },
@@ -176,7 +236,20 @@ export const projectsData = [
     ],
     requirements: {
       info: '',
-      details: [],
+      details: [
+        'Industry-standard best practices for Ruby on Rails and CSS are followed using Linter Checks and GitHub Actions',
+        'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
+        'The README is documented in a professional way.',
+        'Controllers are used to create CRUD methods to find, update and delete entities for posts, and comments.',
+        'Models that have all the relationships and associations between entities are used.',
+        'Models include some additional methods. User model has a method that returns the 3 most recent posts for a given user. Post model has a method that updates the posts counter for a user and a method which returns the 5 most recent comments for a given post. Comment model has a method that updates the comments counter for a post. Likes model has a method that updates the likes counter for a post.',
+        'Validations for models are implemented to make sure important attributes are not null.',
+        'Devise and CanCanCan gems for user authentication and authorization are used.',
+        'Users: The user should be able to register in the app with full name, email and password. The user can log into the app using email and password. The user can create a new account, and can create, view, update, and delete new posts and comments. If the user is not logged in, they can\'t access pages that require the user to be logged in.',
+        'Home page: When the user logs in, they are presented with the authors page. For each author, the user can see their image, name, bio, and the number of posts. When the user clicks (or taps) on the authors nam, the application navigates to the posts page.',
+        'The N+1 problem is solved when fetching all posts and their comments for a user.',
+        'Rspec and Capybara gems are used for integration tests for all views',
+      ],
     },
     description: 'The Mindly app is a classic example of a blog website. This will is a fully functional website that will show the list of posts and empower readers to interact with them by adding comments and liking posts.',
     live: 'https://mindly-blogs.herokuapp.com/',
@@ -185,6 +258,7 @@ export const projectsData = [
 
   {
     image: `${moviecon}`,
+    imageUrls: [`${moviecon1}`, `${moviecon2}`, `${moviecon3}`, `${moviecon}`],
     name: 'Marvel MovieCon',
     type: 'Front-End',
     year: '2021',
@@ -192,14 +266,22 @@ export const projectsData = [
     builtWith: ['Html', 'Css', 'JavaScript'],
     tools: ['VScode', 'Linters', 'Github Actions'],
     contributors: [
-      { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
       { assignee: 'Simo Dlamini', task: 'Develop a Html, css, and JavaScript application from an existing design by Creatives Commons.' },
     ],
     requirements: {
       info: '',
-      details: [],
+      details: [
+        'A conference page inspired by an original design idea by Cindy Shin in Behance and uses the Creative Commons license of the design',
+        'The pages look almost identical to the original design following design specifications including Colors, Typography: font face, size and weight. Layout: composition and space between elements.',
+        'Each of these pages have versions for 2 different screen sizes. Mobile: up to 768px wide, and Desktop: 768px or wider.',
+        'The section "Featured speakers" is created dynamically in JavaScript using DOM manipulation.',
+        'Industry-standard best practices for HTML & CSS and JavaScript are followed using Linter Checks and GitHub Actions',
+        'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
+        'The README is documented in a professional way.',
+      ],
     },
     description: 'Marvel Studios MovieCon conference event where the studio\'s president Kevin Feige will discuss with fans new feature films for theatres and series to release on Disney+.',
     live: 'https://kdlamini.github.io/marvel-moviecon-capstone1/',
@@ -207,35 +289,8 @@ export const projectsData = [
   },
 
   {
-    image: `${Budget}`,
-    name: 'Go Save',
-    type: 'Full-Stack',
-    year: '2022',
-    category: 'Web Application',
-    builtWith: ['Ruby on Rails', 'PostgreSQL', 'Bootstrap'],
-    tools: ['VScode', 'Linters', 'Rspec', 'Github Actions', 'Heroku'],
-    contributors: [
-      { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
-    ],
-    tasks: [
-      { assignee: 'Simo Dlamini', task: 'Develop a full-stack budget web application using Rails, Devise, Cancancan, Bootstrap, and PostgreSQL.' },
-    ],
-    requirements: {
-      info: 'Develop a Ruby on Rails application that allows the user to register and log in so that the data is private to them, introduce new transactions associated with a category, and see the money spent on each category. The design should be inspired by the original design idea by Gregoire Vella on Behance.',
-      details: [
-        'The application should be responsive and mobile-friendly',
-        'Splash screen: a simple page with the name of the app, and links to the sign up and log in pages.',
-        'Users: The user should be able to register in the app with full name, email and password. The user can log into the app using email and password. The user can create a new account, and can create, view, update, and delete new categories and transactions. If the user is not logged in, they can\'t access pages that require the user to be logged in.',
-        'Home page: When the user logs in, they are presented with the categories page. For each category, the user can see their name, icon and the total amount of all the transactions that belongs to that category. When the user clicks (or taps) on a category item, the application navigates to the transactions page for that category. There is a button "add a new category" at the bottom that brings the user to the page to create a new category.',
-      ],
-    },
-    description: 'A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
-    live: 'https://young-falls-16975.herokuapp.com/',
-    code: 'https://github.com/KDlamini/Budget-app',
-  },
-
-  {
     image: `${forexmatrics}`,
+    imageUrls: [`${forexmatrics1}`, `${forexmatrics2}`, `${forexmatrics3}`, `${forexmatrics}`],
     name: 'Forex Metrics',
     type: 'Front-End',
     year: '2021',
@@ -243,14 +298,25 @@ export const projectsData = [
     builtWith: ['React', 'Redux', 'Financial Modeling Prep API', 'CSS'],
     tools: ['VScode', 'Linters', 'Jest', 'Github Actions', 'Netlify'],
     contributors: [
-      { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
       { assignee: 'Simo Dlamini', task: 'Develop a front-end web application using React, Redux, React-Router, while consuming the Financial Modeling Prep API.' },
     ],
     requirements: {
       info: '',
-      details: [],
+      details: [
+        'Industry-standard best practices for JavaScript, React, and CSS are followed using Linter Checks and GitHub Actions',
+        'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
+        'The README is documented in a professional way.',
+        'Follows an original design idea by Nelson Sakwa on Behance using the Creative Commons license of the design.',
+        'Home page: When the page loads, the webapp shows the list of categories of the FOREX market i.e Majors, Crypto, Stocks, and Futures. When the user clicks (or taps) on a category item, the application navigates to the details page listing all current prices',
+        'Details page: the webapp retrieves data from the API to show detailed data in the category. When the user clicks on the "Back" button (<), the user navigates to the home page.',
+        'React Testing Library is used for integration tests for Redux pure functions. Mocks the access to the API and connection to the Redux Store.',
+        'The project is a single-page application (SPA) built with React and Redux. The data is retrieved from the API and stored in the Redux store. A Filter stateless component is used to filter the data retrieved from the API. React Routing is used to make sure that every page has a unique route within the SPA',
+        'The application is responsive and mobile-friendly',
+        'The application is deployed on Netlify',
+      ],
     },
     description: 'This mobile first app displays a list of popular stock market prices. Users can click on selected categories including forex, majors, cryptocurrencies, stocks, and ETFs. Each category lists the latest prices update for the pair.',
     live: 'https://forex-metrics.netlify.app/',
@@ -259,6 +325,7 @@ export const projectsData = [
 
   {
     image: `${spaceXhub}`,
+    imageUrls: [`${spaceXhub1}`, `${spaceXhub2}`, `${spaceXhub3}`, `${spaceXhub}`],
     name: 'SpaceX Travellers\' Hub',
     type: 'Front-End',
     year: '2021',
@@ -267,6 +334,7 @@ export const projectsData = [
     tools: ['VScode', 'Linters', 'React Testing Library', 'Github Actions', 'Netlify'],
     contributors: [
       { fullName: 'Leandro Barreto', profile: 'https://github.com/Leandro-Barretoo' },
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
       { assignee: 'Simo Dlamini', task: 'Setup application with Create-react-app, setup react-redux using duck pattern, rockets page with reserve and cancel rocket functionality, and my profile page.' },
@@ -274,87 +342,27 @@ export const projectsData = [
     ],
     requirements: {
       info: '',
-      details: [],
+      details: [
+        'Industry-standard best practices for JavaScript, React, and CSS are followed using Linter Checks and GitHub Actions',
+        'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
+        'The Space Travelers\' Hub consists of Rockets, Missions, and the My Profile section.',
+        'The Rockets section displays a list of all available SpaceX rockets. Users can book each rocket by clicking the reservation button or cancel the previously made booking',
+        'The Missions section displays a list of current missions along with their brief description and participation status. There is also a button next to each mission that allows users to join the selected mission or leave the mission the user joined earlier.',
+        'The My Profile section displays all reserved rockets and space missions.',
+        'Routing is used for routes and view components (Rockets, Missions, My Profile).The NavLink component for the page navigation links and styled active class to indicate which section/page user is currently on',
+        'The SpaceX API is used to fetch data for the rockets and missions. The data is stored in the Redux store.',
+        'The README is documented in a professional way.',
+        'Testing libraries(React Testing Library and Jest) are used for integrated tests.',
+      ],
     },
     description: 'SpaceX Hub allows you to view all available SpaceX Rockets and Missions. My Profile section lists all reserved rockets for booked space missions.',
-    live: 'spacexhub.netlify.app/',
+    live: 'https://spacexhub.netlify.app/',
     code: 'https://github.com/KDlamini/space-travellers-hub',
   },
 
   {
-    image: `${mathMagicians}`,
-    name: 'React Calculator',
-    type: 'Front-End',
-    year: '2021',
-    category: 'Web Application',
-    builtWith: ['React', 'Router', 'CSS', 'Heroku'],
-    tools: ['VScode', 'Linters', 'Github Actions', 'Heroku'],
-    contributors: [
-      { fullName: 'Vishal Verma', profile: 'https://github.com/Hector096' },
-      { fullName: 'Ajise Toluwase', profile: 'https://github.com/Whoistolu' },
-    ],
-    tasks: [
-      { assignee: 'Simo Dlamini', task: 'Develop a front-end web application using React, Redux, React-Router, with arithmetic calculations algorithm.' },
-      { assignee: 'Vishal Verma', task: 'Unit tests with Jest and React Testing Library.' },
-      { assignee: 'Ajise Toluwase', task: 'Unit tests with Jest and React Testing Library.' },
-    ],
-    requirements: {
-      info: '',
-      details: [],
-    },
-    description: 'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.',
-    live: 'https://math-magicians-05671.herokuapp.com/',
-    code: 'https://github.com/KDlamini/math-magicians',
-  },
-
-  {
-    image: `${coinvestbank}`,
-    name: 'Coinvest Bank',
-    type: 'Front-End',
-    year: '2021',
-    category: 'Web Application',
-    builtWith: ['React', 'Hooks', 'Router', 'CSS'],
-    tools: ['VScode', 'Github Actions', 'Netlify'],
-    contributors: [
-      { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
-    ],
-    tasks: [
-      { assignee: 'Simo Dlamini', task: 'Develop a front-end web application using React, Redux, and React-Router.' },
-    ],
-    requirements: {
-      info: '',
-      details: [],
-    },
-    description: 'Coinvest Bank is a fictional bank resembling a real world bank design and functionality.',
-    live: 'https://coinvestbank.netlify.app/',
-    code: 'https://github.com/KDlamini/coinvest-bank',
-  },
-
-  {
-    image: `${myportfolio}`,
-    name: 'Personal Portfolio',
-    type: 'Front-End',
-    year: '2021',
-    category: 'Web Application',
-    builtWith: ['React', 'Sass', 'Semantic-UI'],
-    tools: ['VScode', 'Linters', 'Github Actions', 'Netlify'],
-    contributors: [
-      { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
-    ],
-    tasks: [
-      { assignee: 'Simo Dlamini', task: 'Develop a front-end web application using React, React-Router, Context API, SCSS, and animations.' },
-    ],
-    requirements: {
-      info: '',
-      details: [],
-    },
-    description: 'My personal website depicts pages about me, my skills, highlighted projects, experience, education, certification, and contact information.',
-    live: 'https://simonkosi.netlify.app/',
-    code: 'https://github.com/KDlamini/Portfolio',
-  },
-
-  {
     image: `${nikestore}`,
+    imageUrls: [`${nikestore1}`, `${nikestore2}`, `${nikestore3}`, `${nikestore}`],
     name: 'Nike Store',
     type: 'Front-End',
     year: '2021',
@@ -362,7 +370,7 @@ export const projectsData = [
     builtWith: ['Html', 'Css', 'JavaScript'],
     tools: ['VScode', 'Github'],
     contributors: [
-      { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
       { assignee: 'Simo Dlamini', task: 'Develop a front-end web application using Html, Css, and JavaScript that re-imagines the Nike store homepage.' },
@@ -377,7 +385,126 @@ export const projectsData = [
   },
 
   {
+    image: `${mathMagicians}`,
+    imageUrls: [`${mathMagicians3}`, `${mathMagicians1}`, `${mathMagicians2}`, `${mathMagicians}`],
+    name: 'React Calculator',
+    type: 'Front-End',
+    year: '2021',
+    category: 'Web Application',
+    builtWith: ['React', 'Router', 'CSS', 'Heroku'],
+    tools: ['VScode', 'Linters', 'Jest', 'React Testing Library', 'Github Actions', 'Heroku'],
+    contributors: [
+      { fullName: 'Vishal Verma', profile: 'https://github.com/Hector096' },
+      { fullName: 'Ajise Toluwase', profile: 'https://github.com/Whoistolu' },
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
+    ],
+    tasks: [
+      { assignee: 'Simo Dlamini', task: 'Develop a front-end web application using React, Redux, React-Router, with arithmetic calculations algorithm.' },
+      { assignee: 'Vishal Verma', task: 'Unit tests with Jest and React Testing Library.' },
+      { assignee: 'Ajise Toluwase', task: 'Unit tests with Jest and React Testing Library.' },
+    ],
+    requirements: {
+      info: '',
+      details: [
+        'Industry-standard best practices for JavaScript, React, and CSS are followed using Linter Checks and GitHub Actions',
+        'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
+        'Implements event handlers to use the math logic from calculate.js and operate.js in Calculator.js React component.',
+        'Uses React Routing, Hooks, props to lift state up, and lifecycle methods to implement the calculator logic.',
+        'The README is documented in a professional way.',
+      ],
+    },
+    description: 'Math magicians is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote.',
+    live: 'https://math-magicians-3551.netlify.app/',
+    code: 'https://github.com/KDlamini/math-magicians',
+  },
+
+  {
+    image: `${myportfolio}`,
+    imageUrls: [`${myportfolio1}`, `${myportfolio2}`, `${myportfolio3}`, `${myportfolio}`],
+    name: 'Personal Portfolio',
+    type: 'Front-End',
+    year: '2021',
+    category: 'Web Application',
+    builtWith: ['React', 'Sass', 'Semantic-UI icons'],
+    tools: ['VScode', 'Linters', 'Github Actions', 'Netlify'],
+    contributors: [
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
+    ],
+    tasks: [
+      { assignee: 'Simo Dlamini', task: 'Develop a front-end web application using React, React-Router, Context API, SCSS, and animations.' },
+    ],
+    requirements: {
+      info: '',
+      details: [
+        'Industry-standard best practices for JavaScript, React, and CSS are followed using Linter Checks and GitHub Actions',
+        'Correct use of Gitflow is practiced by using branches to introduce new features in development.',
+        'The README is documented in a professional way.',
+      ],
+    },
+    description: 'My personal website depicts pages about me, my skills, highlighted projects, experience, education, certification, and contact information.',
+    live: 'https://simonkosi.netlify.app/',
+    code: 'https://github.com/KDlamini/Portfolio',
+  },
+
+  {
+    image: `${Budget}`,
+    imageUrls: [`${comingSoon}`, `${comingSoon}`, `${comingSoon}`, `${Budget}`],
+    name: 'Go Save',
+    type: 'Full-Stack',
+    year: '2022',
+    category: 'Web Application',
+    builtWith: ['Ruby on Rails', 'PostgreSQL', 'Bootstrap'],
+    tools: ['VScode', 'Linters', 'Rspec', 'Github Actions', 'Heroku'],
+    contributors: [
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
+    ],
+    tasks: [
+      { assignee: 'Simo Dlamini', task: 'Develop a full-stack budget web application using Rails, Devise, Cancancan, Bootstrap, and PostgreSQL.' },
+    ],
+    requirements: {
+      info: 'Develop a Ruby on Rails application that allows the user to register and log in so that the data is private to them, introduce new transactions associated with a category, and see the money spent on each category. The design should be inspired by the original design idea by Gregoire Vella on Behance.',
+      details: [
+        'Industry-standard best practices for Ruby on Rails and CSS should be followed using Linter Checks and GitHub Actions',
+        'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
+        'The README is documented in a professional way.',
+        'The application should be responsive and mobile-friendly',
+        'Splash screen: a simple page with the name of the app, and links to the sign up and log in pages.',
+        'Users: The user should be able to register in the app with full name, email and password. The user can log into the app using email and password. The user can create a new account, and can create, view, update, and delete new categories and transactions. If the user is not logged in, they can\'t access pages that require the user to be logged in.',
+        'Home page: When the user logs in, they are presented with the categories page. For each category, the user can see their name, icon and the total amount of all the transactions that belongs to that category. When the user clicks (or taps) on a category item, the application navigates to the transactions page for that category. There is a button "add a new category" at the bottom that brings the user to the page to create a new category.',
+      ],
+    },
+    description: 'A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+    live: 'https://young-falls-16975.herokuapp.com/',
+    code: 'https://github.com/KDlamini/Budget-app',
+  },
+
+  {
+    image: `${coinvestbank}`,
+    imageUrls: [`${comingSoon}`, `${comingSoon}`, `${comingSoon}`, `${coinvestbank}`],
+    name: 'Coinvest Bank',
+    type: 'Front-End',
+    year: '2021',
+    category: 'Web Application',
+    builtWith: ['React', 'Hooks', 'Router', 'CSS'],
+    tools: ['VScode', 'Github Actions', 'Netlify'],
+    contributors: [
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
+    ],
+    tasks: [
+      { assignee: 'Simo Dlamini', task: 'Develop a front-end web application using React, Redux, and React-Router.' },
+    ],
+    requirements: {
+      info: '',
+      details: [],
+    },
+    description: 'Coinvest Bank is a fictional bank resembling a real world bank design and functionality.',
+    live: 'https://coinvestbank.netlify.app/',
+    code: 'https://github.com/KDlamini/coinvest-bank',
+  },
+
+  {
     image: `${mastermind}`,
+    imageUrls: [`${comingSoon}`, `${comingSoon}`, `${comingSoon}`, `${mastermind}`],
     name: 'Mastermind',
     type: 'Back-End',
     year: '2021',
@@ -385,7 +512,7 @@ export const projectsData = [
     builtWith: ['Ruby'],
     tools: ['VScode', 'Command Line Interface', 'Git'],
     contributors: [
-      { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
       { assignee: 'Simo Dlamini', task: 'Develop a Ruby CLI game using classes, JSON, and read/write to File functionality.' },
@@ -401,6 +528,7 @@ export const projectsData = [
 
   {
     image: `${hangman}`,
+    imageUrls: [`${comingSoon}`, `${comingSoon}`, `${comingSoon}`, `${hangman}`],
     name: 'Hangman',
     type: 'Back-End',
     year: '2021',
@@ -408,7 +536,7 @@ export const projectsData = [
     builtWith: ['Ruby'],
     tools: ['VScode', 'Command Line Interface', 'Git'],
     contributors: [
-      { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
       { assignee: 'Simo Dlamini', task: 'Develop a Ruby CLI game using classes, JSON, and read/write to File functionality.' },
@@ -424,6 +552,7 @@ export const projectsData = [
 
   {
     image: `${tictactoe}`,
+    imageUrls: [`${comingSoon}`, `${comingSoon}`, `${comingSoon}`, `${tictactoe}`],
     name: 'Tic Tac Toe',
     type: 'Back-End',
     year: '2021',
@@ -431,7 +560,7 @@ export const projectsData = [
     builtWith: ['Ruby'],
     tools: ['VScode', 'Command Line Interface', 'Git'],
     contributors: [
-      { fullName: 'Solo', profile: 'https://github.com/KDlamini' },
+      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
     ],
     tasks: [
       { assignee: 'Simo Dlamini', task: 'Develop a Ruby CLI game using classes, JSON, and read/write to File functionality.' },
