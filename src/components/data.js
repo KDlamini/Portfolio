@@ -1,7 +1,7 @@
-import Boomstore from '../assets/Boomstore.png';
-import Boomstore1 from '../assets/Boomstore1.png';
-import Boomstore2 from '../assets/Boomstore2.png';
-import Boomstore3 from '../assets/Boomstore3.png';
+import Shopcart from '../assets/Boomstore.png';
+import Shopcart1 from '../assets/Boomstore1.png';
+import Shopcart2 from '../assets/Boomstore2.png';
+import Shopcart3 from '../assets/Boomstore3.png';
 import vacay1 from '../assets/Vacay-details.png';
 import vacay2 from '../assets/Vacay-Add-Listing.png';
 import vacay3 from '../assets/Vacay-Add-Reservation.png';
@@ -71,9 +71,9 @@ const languages = [
 
 export const projectsData = [
   {
-    image: `${Boomstore}`,
-    imageUrls: [`${Boomstore1}`, `${Boomstore2}`, `${Boomstore3}`, `${Boomstore}`],
-    name: 'BoomStore',
+    image: `${Shopcart}`,
+    imageUrls: [`${Shopcart1}`, `${Shopcart2}`, `${Shopcart3}`, `${Shopcart}`],
+    name: 'Shopcart',
     type: 'MERN-Stack',
     year: '2022',
     category: 'E-commerce',
@@ -97,14 +97,15 @@ export const projectsData = [
         'When the user selects a specific product, they can see the details page with its full description, and the user can add product to cart.',
         'On the cart, the user can see all wish products reserved for checkout, and can increment or decrement quantity, delete items, and checkout for payment using Stripe',
         'An admin panel with Content Management System (CMS) for managing products.',
+        'Customers reviews are displayed on the product details page. Users can comment, and add reviews to products.',
         'React UI is connected to MongoDB using NodeJS and Express urls.',
         'The application is responsive and mobile-friendly',
         'The README is documented in a professional way.',
       ],
     },
-    description: 'BoomStore is the perfect market for high quality products supplied worldwide. We provide a platform for buyers and sellers to connect and trade products and services.',
-    live: 'https://github.com/KDlamini/bamboo-client',
-    code: 'https://github.com/KDlamini/bamboo-server',
+    description: 'Shopcart is the perfect market for high quality products supplied worldwide. We provide a platform for buyers and sellers to connect and trade products and services.',
+    live: 'https://shopcart-v1.netlify.app/',
+    code: 'https://github.com/KDlamini/bamboo-client',
   },
 
   {
