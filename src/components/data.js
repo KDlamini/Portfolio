@@ -1,7 +1,7 @@
 import Boomstore from '../assets/Boomstore.png';
 import Boomstore1 from '../assets/Boomstore1.png';
 import Boomstore2 from '../assets/Boomstore2.png';
-import Boomstore3 from '../assets/Boomstore3.jpeg';
+import Boomstore3 from '../assets/Boomstore3.png';
 import vacay1 from '../assets/Vacay-details.png';
 import vacay2 from '../assets/Vacay-Add-Listing.png';
 import vacay3 from '../assets/Vacay-Add-Reservation.png';
@@ -71,8 +71,8 @@ const languages = [
 
 export const projectsData = [
   {
-    image: `${Boomstore3}`,
-    imageUrls: [`${Boomstore1}`, `${Boomstore2}`, `${Boomstore}`, `${Boomstore3}`],
+    image: `${Boomstore}`,
+    imageUrls: [`${Boomstore1}`, `${Boomstore2}`, `${Boomstore3}`, `${Boomstore}`],
     name: 'BoomStore',
     type: 'MERN-Stack',
     year: '2022',
@@ -88,13 +88,18 @@ export const projectsData = [
     requirements: {
       info: 'Develop a MERN-stack e-commerce application using React and NodeJS that allows users to view products, filter desired categories, register and sign to their account using JWT authentication, add items to cart, and process payments using Stripe, and track orders.',
       details: [
-        'The application is responsive and mobile-friendly',
-        'The application handles multiple users. Users can register and login with authentication using JWT.',
+        'Industry-standard best practices for JavaScript, React, and CSS are followed using Linter Checks and GitHub Actions',
+        'Correct use of Gitflow is practiced by using branches to introduce new features in development.',
+        'Search queries for searching products by department/category/brand/name/type',
+        'The application handles multiple user accounts. Users can register and login with authentication using JWT.',
         'In the navigation panel, the user can see links to "Login/Register", view "Orders", "My account", add view cart items.',
-        'On the main page, the user can see all products, and can filter items by category and price range',
+        'On the main page, the user can see all products, and can filter items by department, category, and promotions',
         'When the user selects a specific product, they can see the details page with its full description, and the user can add product to cart.',
         'On the cart, the user can see all wish products reserved for checkout, and can increment or decrement quantity, delete items, and checkout for payment using Stripe',
+        'An admin panel with Content Management System (CMS) for managing products.',
         'React UI is connected to MongoDB using NodeJS and Express urls.',
+        'The application is responsive and mobile-friendly',
+        'The README is documented in a professional way.',
       ],
     },
     description: 'BoomStore is the perfect market for high quality products supplied worldwide. We provide a platform for buyers and sellers to connect and trade products and services.',
