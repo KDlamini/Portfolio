@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import Shopcart from '../assets/Boomstore.png';
 import Shopcart1 from '../assets/Boomstore1.png';
 import Shopcart2 from '../assets/Boomstore2.png';
@@ -5,11 +6,11 @@ import Shopcart3 from '../assets/Boomstore3.png';
 import vacay1 from '../assets/Vacay-details.png';
 import vacay2 from '../assets/Vacay-Add-Listing.png';
 import vacay3 from '../assets/Vacay-Add-Reservation.png';
-import moviecon from '../assets/marvel-moviecon.png';
-import moviecon1 from '../assets/marvel-moviecon1.png';
-import moviecon2 from '../assets/marvel-moviecon2.png';
-import moviecon3 from '../assets/marvel-moviecon3.png';
-import coinvestbank from '../assets/coinvestbank2.png';
+// import moviecon from '../assets/marvel-moviecon.png';
+// import moviecon1 from '../assets/marvel-moviecon1.png';
+// import moviecon2 from '../assets/marvel-moviecon2.png';
+// import moviecon3 from '../assets/marvel-moviecon3.png';
+// import coinvestbank from '../assets/coinvestbank2.png';
 import spaceXhub from '../assets/spaceXhub.png';
 import spaceXhub1 from '../assets/spaceXhub1.png';
 import spaceXhub2 from '../assets/spaceXhub2.png';
@@ -18,10 +19,10 @@ import binger from '../assets/binger.png';
 import binger1 from '../assets/Binger-search.png';
 import binger2 from '../assets/Binger-Comments.png';
 import binger3 from '../assets/Binger3.png';
-import forexmatrics from '../assets/forexmatrics.png';
-import forexmatrics1 from '../assets/forexmatrics1.png';
-import forexmatrics2 from '../assets/forexmatrics2.png';
-import forexmatrics3 from '../assets/forexmatrics3.png';
+// import forexmatrics from '../assets/forexmatrics.png';
+// import forexmatrics1 from '../assets/forexmatrics1.png';
+// import forexmatrics2 from '../assets/forexmatrics2.png';
+// import forexmatrics3 from '../assets/forexmatrics3.png';
 import mathMagicians from '../assets/math-magicians.png';
 import mathMagicians1 from '../assets/math-magicians1.png';
 import mathMagicians2 from '../assets/math-magicians2.png';
@@ -33,10 +34,10 @@ import myportfolio3 from '../assets/contact.png';
 import hangman from '../assets/hangman.png';
 import mastermind from '../assets/mastermind.png';
 import tictactoe from '../assets/tic-tac-toe.png';
-import nikestore from '../assets/nikestore.png';
-import nikestore1 from '../assets/nikestore1.png';
-import nikestore2 from '../assets/nikestore2.png';
-import nikestore3 from '../assets/nikestore3.png';
+// import nikestore from '../assets/nikestore.png';
+// import nikestore1 from '../assets/nikestore1.png';
+// import nikestore2 from '../assets/nikestore2.png';
+// import nikestore3 from '../assets/nikestore3.png';
 import Mindly from '../assets/Mindly.png';
 import Mindly1 from '../assets/Mindly-wireframe.png';
 import Mindly2 from '../assets/Mindly-Posts.png';
@@ -45,7 +46,7 @@ import Recipes from '../assets/Recipes.png';
 import Recipes1 from '../assets/Recipes-Dishes.png';
 import Recipes2 from '../assets/Recipes-Details.png';
 import Recipes3 from '../assets/recipe_app_erd.png';
-import Budget from '../assets/Budget.png';
+// import Budget from '../assets/Budget.png';
 import comingSoon from '../assets/coming_soon.gif';
 
 const languages = [
@@ -143,7 +144,7 @@ export const projectsData = [
         'The API is fully documented, and uses Swagger to document the API.',
       ],
     },
-    description: 'VacayHome is place for the most luxurious listings. Book a vacation in one of our vocational houses and enjoy your stay in a comfortable and safe environment.',
+    description: 'VacayHome is a place for the most luxurious listings. Book a vacation in one of our vacation houses and enjoy your stay in a comfortable and safe environment.',
     live: 'https://vacay-home.netlify.app/',
     code: 'https://github.com/ShoiraTa/Vacayhome-front-end',
   },
@@ -262,72 +263,72 @@ export const projectsData = [
     code: 'https://github.com/KDlamini/mindly',
   },
 
-  {
-    image: `${moviecon}`,
-    imageUrls: [`${moviecon1}`, `${moviecon2}`, `${moviecon3}`, `${moviecon}`],
-    name: 'Marvel MovieCon',
-    type: 'Front-End',
-    year: '2021',
-    category: 'Web Application',
-    builtWith: ['Html', 'Css', 'JavaScript'],
-    tools: ['VScode', 'Linters', 'Github Actions'],
-    contributors: [
-      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
-    ],
-    tasks: [
-      { assignee: 'Simo Dlamini', task: 'Develop a Html, css, and JavaScript application from an existing design by Creatives Commons.' },
-    ],
-    requirements: {
-      info: '',
-      details: [
-        'A conference page inspired by an original design idea by Cindy Shin in Behance and uses the Creative Commons license of the design',
-        'The pages look almost identical to the original design following design specifications including Colors, Typography: font face, size and weight. Layout: composition and space between elements.',
-        'Each of these pages have versions for 2 different screen sizes. Mobile: up to 768px wide, and Desktop: 768px or wider.',
-        'The section "Featured speakers" is created dynamically in JavaScript using DOM manipulation.',
-        'Industry-standard best practices for HTML & CSS and JavaScript are followed using Linter Checks and GitHub Actions',
-        'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
-        'The README is documented in a professional way.',
-      ],
-    },
-    description: 'Marvel Studios MovieCon conference event where the studio\'s president Kevin Feige will discuss with fans new feature films for theatres and series to release on Disney+.',
-    live: 'https://kdlamini.github.io/marvel-moviecon-capstone1/',
-    code: 'https://github.com/KDlamini/marvel-moviecon-capstone1',
-  },
+  // {
+  //   image: `${moviecon}`,
+  //   imageUrls: [`${moviecon1}`, `${moviecon2}`, `${moviecon3}`, `${moviecon}`],
+  //   name: 'Marvel MovieCon',
+  //   type: 'Front-End',
+  //   year: '2021',
+  //   category: 'Web Application',
+  //   builtWith: ['Html', 'Css', 'JavaScript'],
+  //   tools: ['VScode', 'Linters', 'Github Actions'],
+  //   contributors: [
+  //     { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
+  //   ],
+  //   tasks: [
+  //     { assignee: 'Simo Dlamini', task: 'Develop a Html, css, and JavaScript application from an existing design by Creatives Commons.' },
+  //   ],
+  //   requirements: {
+  //     info: '',
+  //     details: [
+  //       'A conference page inspired by an original design idea by Cindy Shin in Behance and uses the Creative Commons license of the design',
+  //       'The pages look almost identical to the original design following design specifications including Colors, Typography: font face, size and weight. Layout: composition and space between elements.',
+  //       'Each of these pages have versions for 2 different screen sizes. Mobile: up to 768px wide, and Desktop: 768px or wider.',
+  //       'The section "Featured speakers" is created dynamically in JavaScript using DOM manipulation.',
+  //       'Industry-standard best practices for HTML & CSS and JavaScript are followed using Linter Checks and GitHub Actions',
+  //       'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
+  //       'The README is documented in a professional way.',
+  //     ],
+  //   },
+  //   description: 'Marvel Studios MovieCon conference event where the studio\'s president Kevin Feige will discuss with fans new feature films for theatres and series to release on Disney+.',
+  //   live: 'https://kdlamini.github.io/marvel-moviecon-capstone1/',
+  //   code: 'https://github.com/KDlamini/marvel-moviecon-capstone1',
+  // },
 
-  {
-    image: `${forexmatrics}`,
-    imageUrls: [`${forexmatrics1}`, `${forexmatrics2}`, `${forexmatrics3}`, `${forexmatrics}`],
-    name: 'Forex Metrics',
-    type: 'Front-End',
-    year: '2021',
-    category: 'Web Application',
-    builtWith: ['React', 'Redux', 'Financial Modeling Prep API', 'CSS'],
-    tools: ['VScode', 'Linters', 'Jest', 'Github Actions', 'Netlify'],
-    contributors: [
-      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
-    ],
-    tasks: [
-      { assignee: 'Simo Dlamini', task: 'Develop a front-end web application using React, Redux, React-Router, while consuming the Financial Modeling Prep API.' },
-    ],
-    requirements: {
-      info: '',
-      details: [
-        'Industry-standard best practices for JavaScript, React, and CSS are followed using Linter Checks and GitHub Actions',
-        'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
-        'The README is documented in a professional way.',
-        'Follows an original design idea by Nelson Sakwa on Behance using the Creative Commons license of the design.',
-        'Home page: When the page loads, the webapp shows the list of categories of the FOREX market i.e Majors, Crypto, Stocks, and Futures. When the user clicks (or taps) on a category item, the application navigates to the details page listing all current prices',
-        'Details page: the webapp retrieves data from the API to show detailed data in the category. When the user clicks on the "Back" button (<), the user navigates to the home page.',
-        'React Testing Library is used for integration tests for Redux pure functions. Mocks the access to the API and connection to the Redux Store.',
-        'The project is a single-page application (SPA) built with React and Redux. The data is retrieved from the API and stored in the Redux store. A Filter stateless component is used to filter the data retrieved from the API. React Routing is used to make sure that every page has a unique route within the SPA',
-        'The application is responsive and mobile-friendly',
-        'The application is deployed on Netlify',
-      ],
-    },
-    description: 'This mobile first app displays a list of popular stock market prices. Users can click on selected categories including forex, majors, cryptocurrencies, stocks, and ETFs. Each category lists the latest prices update for the pair.',
-    live: 'https://forex-metrics.netlify.app/',
-    code: 'https://github.com/KDlamini/forex-metrics',
-  },
+  // {
+  //   image: `${forexmatrics}`,
+  //   imageUrls: [`${forexmatrics1}`, `${forexmatrics2}`, `${forexmatrics3}`, `${forexmatrics}`],
+  //   name: 'Forex Metrics',
+  //   type: 'Front-End',
+  //   year: '2021',
+  //   category: 'Web Application',
+  //   builtWith: ['React', 'Redux', 'Financial Modeling Prep API', 'CSS'],
+  //   tools: ['VScode', 'Linters', 'Jest', 'Github Actions', 'Netlify'],
+  //   contributors: [
+  //     { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
+  //   ],
+  //   tasks: [
+  //     { assignee: 'Simo Dlamini', task: 'Develop a front-end web application using React, Redux, React-Router, while consuming the Financial Modeling Prep API.' },
+  //   ],
+  //   requirements: {
+  //     info: '',
+  //     details: [
+  //       'Industry-standard best practices for JavaScript, React, and CSS are followed using Linter Checks and GitHub Actions',
+  //       'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
+  //       'The README is documented in a professional way.',
+  //       'Follows an original design idea by Nelson Sakwa on Behance using the Creative Commons license of the design.',
+  //       'Home page: When the page loads, the webapp shows the list of categories of the FOREX market i.e Majors, Crypto, Stocks, and Futures. When the user clicks (or taps) on a category item, the application navigates to the details page listing all current prices',
+  //       'Details page: the webapp retrieves data from the API to show detailed data in the category. When the user clicks on the "Back" button (<), the user navigates to the home page.',
+  //       'React Testing Library is used for integration tests for Redux pure functions. Mocks the access to the API and connection to the Redux Store.',
+  //       'The project is a single-page application (SPA) built with React and Redux. The data is retrieved from the API and stored in the Redux store. A Filter stateless component is used to filter the data retrieved from the API. React Routing is used to make sure that every page has a unique route within the SPA',
+  //       'The application is responsive and mobile-friendly',
+  //       'The application is deployed on Netlify',
+  //     ],
+  //   },
+  //   description: 'This mobile first app displays a list of popular stock market prices. Users can click on selected categories including forex, majors, cryptocurrencies, stocks, and ETFs. Each category lists the latest prices update for the pair.',
+  //   live: 'https://forex-metrics.netlify.app/',
+  //   code: 'https://github.com/KDlamini/forex-metrics',
+  // },
 
   {
     image: `${spaceXhub}`,
@@ -366,29 +367,29 @@ export const projectsData = [
     code: 'https://github.com/KDlamini/space-travellers-hub',
   },
 
-  {
-    image: `${nikestore}`,
-    imageUrls: [`${nikestore1}`, `${nikestore2}`, `${nikestore3}`, `${nikestore}`],
-    name: 'Nike Store',
-    type: 'Front-End',
-    year: '2021',
-    category: 'Web Application',
-    builtWith: ['Html', 'Css', 'JavaScript'],
-    tools: ['VScode', 'Github'],
-    contributors: [
-      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
-    ],
-    tasks: [
-      { assignee: 'Simo Dlamini', task: 'Develop a front-end web application using Html, Css, and JavaScript that re-imagines the Nike store homepage.' },
-    ],
-    requirements: {
-      info: '',
-      details: [],
-    },
-    description: 'A recreation of Nike Store that allows users to shop, browse, get latest updates, and contact support. Change the theme color matching a product by clicking on any of the Nike products.',
-    live: 'https://kdlamini.github.io/nike-store/',
-    code: 'https://github.com/KDlamini/nike-store',
-  },
+  // {
+  //   image: `${nikestore}`,
+  //   imageUrls: [`${nikestore1}`, `${nikestore2}`, `${nikestore3}`, `${nikestore}`],
+  //   name: 'Nike Store',
+  //   type: 'Front-End',
+  //   year: '2021',
+  //   category: 'Web Application',
+  //   builtWith: ['Html', 'Css', 'JavaScript'],
+  //   tools: ['VScode', 'Github'],
+  //   contributors: [
+  //     { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
+  //   ],
+  //   tasks: [
+  //     { assignee: 'Simo Dlamini', task: 'Develop a front-end web application using Html, Css, and JavaScript that re-imagines the Nike store homepage.' },
+  //   ],
+  //   requirements: {
+  //     info: '',
+  //     details: [],
+  //   },
+  //   description: 'A recreation of Nike Store that allows users to shop, browse, get latest updates, and contact support. Change the theme color matching a product by clicking on any of the Nike products.',
+  //   live: 'https://kdlamini.github.io/nike-store/',
+  //   code: 'https://github.com/KDlamini/nike-store',
+  // },
 
   {
     image: `${mathMagicians}`,
@@ -452,61 +453,61 @@ export const projectsData = [
     code: 'https://github.com/KDlamini/Portfolio',
   },
 
-  {
-    image: `${Budget}`,
-    imageUrls: [`${comingSoon}`, `${comingSoon}`, `${comingSoon}`, `${Budget}`],
-    name: 'Go Save',
-    type: 'Full-Stack',
-    year: '2022',
-    category: 'Web Application',
-    builtWith: ['Ruby on Rails', 'PostgreSQL', 'Bootstrap'],
-    tools: ['VScode', 'Linters', 'Rspec', 'Github Actions', 'Heroku'],
-    contributors: [
-      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
-    ],
-    tasks: [
-      { assignee: 'Simo Dlamini', task: 'Develop a full-stack budget web application using Rails, Devise, Cancancan, Bootstrap, and PostgreSQL.' },
-    ],
-    requirements: {
-      info: 'Develop a Ruby on Rails application that allows the user to register and log in so that the data is private to them, introduce new transactions associated with a category, and see the money spent on each category. The design should be inspired by the original design idea by Gregoire Vella on Behance.',
-      details: [
-        'Industry-standard best practices for Ruby on Rails and CSS should be followed using Linter Checks and GitHub Actions',
-        'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
-        'The README is documented in a professional way.',
-        'The application should be responsive and mobile-friendly',
-        'Splash screen: a simple page with the name of the app, and links to the sign up and log in pages.',
-        'Users: The user should be able to register in the app with full name, email and password. The user can log into the app using email and password. The user can create a new account, and can create, view, update, and delete new categories and transactions. If the user is not logged in, they can\'t access pages that require the user to be logged in.',
-        'Home page: When the user logs in, they are presented with the categories page. For each category, the user can see their name, icon and the total amount of all the transactions that belongs to that category. When the user clicks (or taps) on a category item, the application navigates to the transactions page for that category. There is a button "add a new category" at the bottom that brings the user to the page to create a new category.',
-      ],
-    },
-    description: 'A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
-    live: 'https://young-falls-16975.herokuapp.com/',
-    code: 'https://github.com/KDlamini/Budget-app',
-  },
+  // {
+  //   image: `${Budget}`,
+  //   imageUrls: [`${comingSoon}`, `${comingSoon}`, `${comingSoon}`, `${Budget}`],
+  //   name: 'Go Save',
+  //   type: 'Full-Stack',
+  //   year: '2022',
+  //   category: 'Web Application',
+  //   builtWith: ['Ruby on Rails', 'PostgreSQL', 'Bootstrap'],
+  //   tools: ['VScode', 'Linters', 'Rspec', 'Github Actions', 'Heroku'],
+  //   contributors: [
+  //     { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
+  //   ],
+  //   tasks: [
+  //     { assignee: 'Simo Dlamini', task: 'Develop a full-stack budget web application using Rails, Devise, Cancancan, Bootstrap, and PostgreSQL.' },
+  //   ],
+  //   requirements: {
+  //     info: 'Develop a Ruby on Rails application that allows the user to register and log in so that the data is private to them, introduce new transactions associated with a category, and see the money spent on each category. The design should be inspired by the original design idea by Gregoire Vella on Behance.',
+  //     details: [
+  //       'Industry-standard best practices for Ruby on Rails and CSS should be followed using Linter Checks and GitHub Actions',
+  //       'Correct use of Gitflow is practiced by using branches to introduce new features in development. Code reviews are performed om each branch before merge.',
+  //       'The README is documented in a professional way.',
+  //       'The application should be responsive and mobile-friendly',
+  //       'Splash screen: a simple page with the name of the app, and links to the sign up and log in pages.',
+  //       'Users: The user should be able to register in the app with full name, email and password. The user can log into the app using email and password. The user can create a new account, and can create, view, update, and delete new categories and transactions. If the user is not logged in, they can\'t access pages that require the user to be logged in.',
+  //       'Home page: When the user logs in, they are presented with the categories page. For each category, the user can see their name, icon and the total amount of all the transactions that belongs to that category. When the user clicks (or taps) on a category item, the application navigates to the transactions page for that category. There is a button "add a new category" at the bottom that brings the user to the page to create a new category.',
+  //     ],
+  //   },
+  //   description: 'A mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+  //   live: 'https://young-falls-16975.herokuapp.com/',
+  //   code: 'https://github.com/KDlamini/Budget-app',
+  // },
 
-  {
-    image: `${coinvestbank}`,
-    imageUrls: [`${comingSoon}`, `${comingSoon}`, `${comingSoon}`, `${coinvestbank}`],
-    name: 'Coinvest Bank',
-    type: 'Front-End',
-    year: '2021',
-    category: 'Web Application',
-    builtWith: ['React', 'Hooks', 'Router', 'CSS'],
-    tools: ['VScode', 'Github Actions', 'Netlify'],
-    contributors: [
-      { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
-    ],
-    tasks: [
-      { assignee: 'Simo Dlamini', task: 'Develop a front-end web application using React, Redux, and React-Router.' },
-    ],
-    requirements: {
-      info: '',
-      details: [],
-    },
-    description: 'Coinvest Bank is a fictional bank resembling a real world bank design and functionality.',
-    live: 'https://coinvestbank.netlify.app/',
-    code: 'https://github.com/KDlamini/coinvest-bank',
-  },
+  // {
+  //   image: `${coinvestbank}`,
+  //   imageUrls: [`${comingSoon}`, `${comingSoon}`, `${comingSoon}`, `${coinvestbank}`],
+  //   name: 'Coinvest Bank',
+  //   type: 'Front-End',
+  //   year: '2021',
+  //   category: 'Web Application',
+  //   builtWith: ['React', 'Hooks', 'Router', 'CSS'],
+  //   tools: ['VScode', 'Github Actions', 'Netlify'],
+  //   contributors: [
+  //     { fullName: 'Simo Dlamini', profile: 'https://github.com/KDlamini' },
+  //   ],
+  //   tasks: [
+  //     { assignee: 'Simo Dlamini', task: 'Develop a front-end web application using React, Redux, and React-Router.' },
+  //   ],
+  //   requirements: {
+  //     info: '',
+  //     details: [],
+  //   },
+  //   description: 'Coinvest Bank is a fictional bank resembling a real world bank design and functionality.',
+  //   live: 'https://coinvestbank.netlify.app/',
+  //   code: 'https://github.com/KDlamini/coinvest-bank',
+  // },
 
   {
     image: `${mastermind}`,
