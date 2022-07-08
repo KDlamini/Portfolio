@@ -39,12 +39,13 @@ function About({ setIsOpen }) {
               exciting technologies.
             </p>
             <p>
-              At Microverse, I have gained the experience to work remotely and
-              collaboratively in teams through pair programming.
+              At Microverse, an international program for remote full-stack developers,
+              I gained experience working remotely and collaboratively in teams through
+              pair-programming using kanban tasks, Git and GitHub, pull requests, and code reviews.
               My soft skills include time management, handling expectations,
               great communication skills with fluency in English, critical thinking,
-              problem-solving skills, working under pressure, and adapting to
-              new technical skills in a short period of time.
+              working under pressure, and adapting to new technical skills in a short
+              period of time.
               <br />
               <br />
               I am very passionate about problem-solving, conceptualizing, analyzing,
