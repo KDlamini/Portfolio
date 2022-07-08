@@ -34,7 +34,7 @@ function ProjectCard({ props }) {
                 builtWith.map((tool) => (
                   <li key={tool}>
                     {tool}
-                    ,
+                    {builtWith[builtWith.length - 1] !== tool ? ', ' : ''}
                   </li>
                 ))
               }

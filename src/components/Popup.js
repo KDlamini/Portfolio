@@ -110,7 +110,7 @@ function Popup() {
                 builtWith.map((tool) => (
                   <li key={tool}>
                     {tool}
-                    ,
+                    {builtWith[builtWith.length - 1] !== tool ? ', ' : ''}
                   </li>
                 ))
               }
@@ -124,7 +124,7 @@ function Popup() {
                 tools.map((tool) => (
                   <li key={tool}>
                     {tool}
-                    ,
+                    {tools[tools.length - 1] !== tool ? ', ' : ''}
                   </li>
                 ))
               }
