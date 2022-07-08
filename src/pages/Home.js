@@ -9,7 +9,7 @@ function Home() {
       <div className="banner">
         <div className="banner-content">
           <div className="introduction">
-            <p>Hi there!,</p>
+            <p>Hi there!</p>
             <h1>
               I&apos;m
               {' '}

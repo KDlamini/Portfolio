@@ -23,7 +23,7 @@ function Experience() {
               {' '}
               <br />
               • Provided suggestions on maintaining app development best practices,
-              well documentation, high standards, and professionalism.
+              good documentation, high standards, and professionalism.
             </p>
           </div>
         </div>
@@ -66,7 +66,8 @@ function Experience() {
               • Created ReactJS, Express.js, NodeJS and MongoDB web applications.
               {' '}
               <br />
-              • Microsoft Suite and Google services like publishing, SEO, advertising and analytics.
+              • Utilized Microsoft Suite and Google services like publishing, SEO,
+              advertising and analytics.
               {' '}
               <br />
               • Designed flyers for DMH Salon, THE LOCAL BAR, and product designs for EDEN CHOICE
