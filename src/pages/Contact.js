@@ -31,7 +31,12 @@ function Contact() {
             </p>
           </div>
         </div>
-        <form name="contact" method="POST" data-netlify="true">
+        <form
+          name="contact-form"
+          method="post"
+          data-netlify="true"
+          onSubmit="submit"
+        >
           <div className="form-left">
             <h1 className="form-heading">
               <font style={{ borderBottom: '3px solid #1ED98B' }}>Writ</font>
