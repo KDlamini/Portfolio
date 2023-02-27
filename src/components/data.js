@@ -145,8 +145,8 @@ export const projectsData = [
       ],
     },
     description: 'VacayHome is a place for the most luxurious listings. Book a vacation in one of our vacation houses and enjoy your stay in a comfortable and safe environment.',
-    live: 'https://vacay-home.netlify.app/',
-    code: 'https://github.com/ShoiraTa/Vacayhome-front-end',
+    live: 'https://vacayhome-e49b49.netlify.app',
+    code: 'https://github.com/KDlamini/Vacayhome-front-end',
   },
 
   {
