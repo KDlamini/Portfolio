@@ -1,6 +1,6 @@
 import React from 'react';
-import profileImage from '../assets/profile.jpg';
-import cv from '../assets/Simo Wilson Dlamini - Dev Resume.pdf';
+import profileImage from '../assets/profile_home.jpg';
+// import cv from '../assets/Simo Wilson Dlamini - Dev Resume.pdf';
 import '../styles/homepage/Home.css';
 
 function Home() {
@@ -26,11 +26,13 @@ function Home() {
               don’t hesitate to contact me. I am very excited to work with you!
             </p>
           </div>
+          {/*
           <div className="banner-actions">
             <a href={cv} target="_blank" rel="noreferrer">
-              <button type="button" className="cv-btn">Download Cv</button>
+              <button type="button" className="cv-btn" disabled>Download Cv</button>
             </a>
           </div>
+          */}
         </div>
         <div className="profile">
           <div className="profile-image">

@@ -2,7 +2,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import aboutImg from '../assets/about-pic.jpg';
+import aboutImg from '../assets/profile_about.jpg';
 import '../styles/about/About.css';
 
 function About({ setIsOpen }) {
